@@ -1,0 +1,864 @@
+Tracing the flow of electricity 
+J.Bialek 
+Indexing terms: Power systems, Electricul distribution, Loss apportioning, Electricity tar ffs 
+Abstract: Continuing trend towards deregulation 
+and unbundling of transmission services has 
+resulted in the need to assess what the impact of a 
+particular generator or load is on the power 
+system. A new method of tracing the flow of 
+electricity in meshed electrical networks is 
+proposed which may be applied to both real and 
+reactive power flows. The method allows 
+assessment of how much of the real and reactive 
+power output from a particular station goes to a 
+particular load. It also allows the assessment of 
+contributions of individual generators (or load:;) 
+to individual line flows. A loss-apportioning 
+algorithm has also been introduced which allows 
+the break down of the total transmission loss into 
+components to be allocated to individual loads or 
+generators. The method can be useful in 
+providing additional insight into power system 
+operation and can be used to modify existing 
+tariffs of charging for transmission loss, reactive 
+power and transmission services. 
+1 Introduction 
+The mesh structure of high-voltage transmission ne1 - 
+works provides a large number of possible routes by 
+which electrical power can flow from the sources (gen- 
+erators) to the sinks (grid supply points, here referred 
+to as loads). Tracing the connections using the load 
+flow program is not possible as changing a demand or 
+generation at any node would result in a corresponding 
+change of generation coming from the marginal (swing) 
+plant. Hence, the conventional wisdom is that with an 
+integrated system it is not possible to trace electricity 
+from a particular generator to a particular supplier [Ill. 
+It is only possible to determine relation between the 
+generators (or loads) and the flows in transmission 
+lines by means of sensitivity analysis, that is by deter- 
+mining how a change in a nodal generatioddemand 
+influences the flow in a particular line [2, 31. The sensi- 
+tivity analysis, however, does not answer the question 
+where the power goes; it answers the question hovv 
+would line flows change following a change in the 
+nodal generationldemand. 
+Until very recently, the question of tracing electricity 
+0 IEE, 1996 
+IEE Proceedings online no. 19960461 
+Paper first received 15th September 1995 and in revised form 29th 
+February 1996 
+The author is with the University of Durham, School of Engineering, 
+Science Site, South Road, Durham DHl 3LE, UK 
+IEE Proc.-Gener. Transm. Distrih., Vol. 143, No 4, July 1996 was of a limited interest. The electrical supply industry 
+tended to be integrated vertically almost everywhere 
+and power exchanges between utilities were determined 
+by contracts. Since the 1980s, however, the increased 
+deregulation of the industry in almost every corner of 
+the world has posed many new questions to electrical 
+engineers. In the USA, the introduction of wholesale 
+‘wheeling’ has created a problem of pricing the trans- 
+mission services based conceptually on the distance the 
+wheeled power travels via the third-party utility [4]. In 
+many countries the transmission is seen as a separate 
+business of transporting electricity from any generator 
+to any area supplier. This concept led to the creation of 
+the National Grid Company in the UK. Also in the 
+USA, the federal regulation seems to be heading in the 
+same direction [5]. It is widely recognised that the 
+proper regulatory framework of the transmission is of a 
+vital importance as ‘the market power through control 
+of transmission is the single greatest impediment to 
+competition’ [5]. 
+In this context, the problem of tracing electricity 
+gains importance as its solution could enhance the 
+transparency in the operation of the transmission sys- 
+tem. Consider for example the Electricity Pool in the 
+UK. The concept of the Pool inherently assumes that 
+the electrical network is lossless. The transmission loss, 
+which accounts for about 2% of generation and which 
+in 1994/95 cost about E140m [6], is charged to the area 
+suppliers through a uniform pro-rutu charge. As this 
+arrangement provides little incentive on suppliers, and 
+none on generators, to take action to reduce losses, the 
+industry regulator has urged the Pool ‘to put forward 
+proposals to deal with this issue as a matter of urgency’ 
+[6]. An electricity tracing method would make it possi- 
+ble to charge the suppliers and/or generators for the 
+actual amount of losses caused and hence encourage 
+efficiency. Obviously there is a question of whether or 
+not a generator and/or supplier should be penalised for 
+its geographical position but this question is beside the 
+scope of this paper. 
+Recently a novel electricity tracing method has been 
+proposed [7, 81 which, under the assumption that nodal 
+inflows are shared proportionally between the nodal 
+outflows, allows one to trace the flow of electricity in a 
+meshed network. It is then possible to create a table, 
+resembling a road distance table, which shows what 
+amount of real and reactive power is supplied from a 
+particular generator to a particular load and what is 
+the share of each generator and load in each of the line 
+flows. A similar approach has been independently pro- 
+posed in 191. 
+In this paper the electricity tracing method is dis- 
+cussed in detail together with an algorithm of appor- 
+tioning the transmission loss to individual loads or 
+generators. This method is a generalisation of the loss 
+313 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+allocation method originally applied to radial distribu- 
+tion networks [ 101. This loss allocation methodology 
+can be seen as an alternative to the more traditional 
+marginal cost-based methodology which is preferred by 
+orthodox economic theory. The marginal pricing, how- 
+ever, is known to result in volatile, and therefore 
+unpredictable, charges [I 11 and may sometimes lead to 
+negative marginal cost of losses rewarding the con- 
+sumer for increasing his load [12]. The results of the 
+loss-apportioning method presented in this paper do 
+not depend on the choice of the marginal generator 
+and always result in positive charges. 
+2 Assumptions 
+The proposed electricity tracing method is topological 
+in nature, that is it deals with a general transportation 
+problem of how the flows are distributed in a meshed 
+network. The network is assumed to be connected and 
+described by a set of n nodes, m directed links (trans- 
+mission lines or transformers), 2m flows (at both ends 
+of each link) and a number of sources (generators) and 
+sinks (loads) connected to the nodes. Practically the 
+only requirement for the input data is that Kirchhoffs 
+Current Law must be satisfied for all the nodes in the 
+network. In this respect the method is equally applica- 
+ble to real and reactive power flows and direct cur- 
+rents. Neglecting the Kirchhoff s Voltage Law does not 
+introduce any further errors as the law has been 
+already used to obtain the flows. 
+jSrn k 30 I 
+Fig. 1 Proportional sharing principle 
+The main principle used to trace the flow of electric- 
+ity will be that of proportional sharing. This is illus- 
+trated in Fig. 1 where four lines are connected to node 
+i, two with inflows and two with outflows. The total 
+power flow through the node is Pi = 40 + 60 = 
+l00MW of which 40% is supplied by line j-i and 60% 
+by line k-i. As electricity is indistinguishable and each 
+of the outflows down the line from node i is dependent 
+only on the voltage gradient and impedance of the line, 
+it may be assumed that each MW leaving the node con- 
+tains the same proportion of the inflows as the total 
+nodal flow Pi. Hence the 70MW outflowing in line i-rn 
+consists of 70 401100 = 28MW supplied by line j-i and 
+70 601100 = 42MW supplied by line k-i. Similarly the 
+30MW outflowing in line i-1 consists of 30 401100 = 
+12MW supplied by line j-i and 30 601100 = 18MW 
+supplied by line k-i. 
+The proportional sharing principle basically amounts 
+to assuming that the network node is a perfect ‘mixer’ 
+of incoming flows so that it is impossible to tell which 
+particular inflowing electron goes into which particular 
+outgoing line. This seems to agree with common sense 
+and with the generally accepted view that electricity is 
+indistinguishable. 
+As it is impossible to ‘dye’ the incoming flows and 
+check the colour of the outflows, the proportional shar- 
+ing principle can be neither proved nor disproved. This, 
+314 however, is irrelevant as the principle will be applied 
+here for nontechnical calculations. In this respect, the 
+principle is fair as it treats all the incoming and out- 
+flowing flows in the same way. In other words, no par- 
+ticular generator or load is distinguished in any way. 
+3 Tracing electricity using average line flows 
+Tracing electricity can be seen as a transportation 
+problem of determining how the power injected by gen- 
+erators is distributed between the lines and loads of the 
+network. The algorithm proposed in this paper works 
+only on lossless flows when the flows at the beginning 
+and end of each line are the same. The simplest way of 
+obtaining lossless flows from the lossy ones is by 
+assuming that a line flow is an average over the send- 
+ing- and receiving-end flows and by adding half of the 
+line loss to the power injections at each terminal node 
+of the line. 
+Consider for example a simple system shown in 
+Fig. 2 with active and reactive power flows obtained 
+from AC load flow program. A number on top or to 
+the left of the line indicates a real power flow, while a 
+number below or to the right of the line indicates a 
+reactive power flow. A similar convention has been 
+used for the generators and the loads. The total trans- 
+mission loss in the network is equal to the sum of all 
+the line losses and equals (225 - 218) + (83 - 82) + (173 
+- 171) + (60 - 59) + (115 - 112) = 14MW. 
+Fig.2 ACpowerfIow in four-node network 
+59.5 I 
+Fig. 3 Lossless power flow 
+Fig. 3 shows a lossless real power flow obtained from 
+the lossy flow of Fig. 2. The algorithm for tracing the 
+flow of electricity will be now derived in two versions. 
+The downstream-looking algorithm will look at the 
+nodal balance of outflows while the dual, upstream- 
+looking algorithm, will look at the nodal balance of 
+inflows. 
+IEE ProccGener. Transm. Distrib., Vol. 143, No. 4, July 1996 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+3. I Upstream looking algorithm 
+The total flow Pi through node i (i.e. the sum of 
+inflows or outflows) may be be expressed, when look- 
+ing at the inflows, as 
+P, = IP,-~I +PG% fori = 1,2 ,..., n (1) 
+where a?) is the set of nodes supplying directly node i 
+(i.e. power must flow towards node i in the relevant 
+lines), Pi-j is the line flow into node i in linej-i, and Fci 
+is the generation at node i. As the losses have been 
+eliminated, lPj-,1 = lP,-,l. 
+The line flow /PY/ = IPj_il can be related to the nodal 
+flow at node j by substituting IPi-jl = cjiPj, where cji = 
+1Pj-JPj, to give .7 E 0:" 1 
+3 t a jtL' 
+which, on rearrangement, becomes 
+P, - c3ipj = PG~ or A,P = PG (3) 
+where A, is the (n x n) upstream distribution matrix, P 
+is the vector of nodal through-flows and P, is the vec- 
+tor of nodal generations. The (i, j) element of A, is 
+equal to JtCV!?') 
+for i = j 
+[~u]iJ = -cJz = -IP~-~I/P~ for j E aiU) ( (4) i: otherwise 
+Note that A, is sparse and nonsymmetric. If A,' exists 
+[Note 11 then P = A,'Pc and its ith element is 
+n 
+Pi = x[A,l]ikp~k for 2 = 1, 2,. . . , 'rZ (5) 
+This equation shows that the contribution of the kth 
+system generator to ith nodal power is equal to [A;l:Iik 
+PGk. Note that the same P, is equal to the sum of the 
+load demand, PLi and outflows in lines leaving node i. 
+A line outflow in line i-l from node i can be therefore 
+calculated, using the proportional sharing principle, as k=l 
+= D$,,PC:~ for all 1 E ajd) 
+k=l 
+where Dl;-l,k = l~,.~l[A;l],~/P, and at is the set of nodes 
+supplied directly from node i (that is power flows from 
+those nodes to node i in the relevant lines). This equa- 
+tion defines D,-l,k as the topological generation distribu- 
+tion factor that is a portion of generation owing to the 
+kth generator that flows in line i-Z. This definition is 
+similar to that used by Ng to define his generalised 
+generation distribution factors [2]. His method, how- 
+ever, was based on the superposition theorem applied 
+to the DC linearised system model so that his distribu- 
+tion factors represented the impact of a particular gen- 
+eration on the line flow which could well be negative. 
+On the other hand, the topological distribution factors 
+are based on topological analysis of network flows and 
+represent the share of a particular generation in the 
+total line flow. Consequently they are always positive. 
+Note 1 : The problem of existence of A, and introduced later Ad-' is 
+beyond the scope of this paper. 
+IEE Proc-Gener. liunsm. Dbtrih., Vol. 143, No. 4, July 1996 Similarly, the load demand PLi can be calculated 
+from P, as 
+.- 
+(7) 
+This equation shows that the contribution of the kth 
+generator to the ith load demand is equal to PLjP,k 
+[A,-'Iik/Pi and can be used to trace where the power of 
+a particular load comes from. 
+Apply this algorithm to the example system of Fig. 3. 
+Eqn. 3 takes the form 
+100 0 394.5 
+394.6 1 112.5 
+-113.6 -1 0 1 394.6 
+394.5 
+where PI = 394.5, P2 = 172, P, = 304 and P4 = 285.5. 
+Inverting the matrix gives 
+0.6882 0.289 1 0.289 
+0.4385 1 0 1 A;1 = 
+Eqn. 6 allows one to determine how the line flows are 
+supplied from individual generators. A flow in line, 
+say, 4-3 can be calculated as being supplied by (82.51 
+285.5) x 0.4385 x 394.5 = 49.99MW from G1 and by 
+(82.Y285.5) x 1 x 112.5 = 32.51MW from G2. 
+Table 1 shows how the demand in each of the loads 
+can be calculated, eqn. 7, as the sum of contributions 
+from individual generators. This Table resembles a 
+road distance table as an intersection between a row, 
+c0rrespondin.g to a load, and a column, corresponding 
+to a generator, gives the amount of power supplied by 
+a particular generator to a particular load. 
+Table 1: Distribution of power using upstream-looking 
+algorithm 
+Load Total Generation 
+GI G2 
+L3 0.6882 x 394.5 = 271.5 0.289 x 112.5 = 32.5 304 
+L4 (203/285.5) x 0.4385 (203/285.5) x 1 x 112.5 203 
+Total 394.5 112.5 507 x 394.5 = 123 = 80 
+Correctness of the results can be to some extent con- 
+firmed by inspection of flows in Fig. 3. For example, 
+L4 gets its power directly from G2 and in a combined 
+way from GI. The share obtained from G2 can be esti- 
+mated, using the proportional sharing principle, as 
+112.5 - 112.5(82.5/285.5) = 80. The share obtained 
+from GI is equal to (113.5 - 113.5Q32.51285.5)) + (59.5 
+- 59.5(82.5/285.5)) = 123. 
+3.2 Downstream-looking algorithm 
+Now consider the dual, downstream-looking, problem 
+when the nodal through-flow P, is expressed as the sum 
+of outflows 
+P,= 'j"-'l~i--lj+~,~= CC~,P~+PL~ fori=1,2, ..., n3 
+(8) l€Cp /€ay 
+where ai(4 is, as before, the set of nodes supplied 
+directly from node i and cli = IPI_,I/P,. This equation 
+315 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+can be rewritten as 
+P, - cl,fi = pL2 or A~P = pL (9) 
+1tCp 
+where A, is the (n x n) downstream distribution matrix 
+and P, is the vector of nodal demands. The (i, I) ele- 
+ment of A,, is equal to 
+id otherwise 
+Note that A, is also sparse and nonsymmetric. Adding 
+A, and Ad gives a symmetric matrix which has the same 
+structure as the nodal. admittance matrix. If Ay1 exists 
+then P = Ad-'P, and its ith element is equal to for i = 1 
+[AdIii = -cl, = -IELZl/Pl for I E a, (4 (10) 
+n Inverting the matrix gives 
+k=l 
+This equation shows how the nodal power P, distrib- 
+uted between all the loads in the system. On the other 
+hand, the same PI is equal to the sum of the generation 
+at node i and all the inflows in lines entering the node. 
+Hence the inflow to node i from line i-j can be calcu- 
+lated using the proportional sharing principle as 
+n VLl 
+k=l 
+where Df-j,k = /Pyl[Ad-']jk/Pi is the topological load dis- 
+tribution factor that is the portion of kth load demand 
+that flows in line i-j. This definition is again similar to 
+that of the generalised load distribution factor [3] based 
+on DC load-flow sensitivity analysis. However, the top- 
+ological factor represents the share (which is always 
+positive) of the load in a line flow while the generalised 
+factor determines the impact of the load on a line flow 
+and may be negative. 
+The generation at a node is also an inflow and can be 
+calculated using the proportional sharing principle as 
+(13) 
+This equation shows that the share of the output of the 
+ith generator used to supply the kth load demand is 
+equal to PG~PL~[A,~'],~/P, and can be used to trace 
+where the power of a particular generator goes to. 
+Comparing the shares in eqns. 7 and 13 gives 
+where i is any load node number and k is any generator 
+node number. Hence. assuming that there is ng genera- 
+tors and n1 loads in the system, it is necessary to deter- 
+mine ngnl elements of matrix A;' or A,i'. 
+Now apply this algorithm to the example system of 
+Fig. 3. Eqn. 9 takes the form 
+1 0 
+-825 1 203 304 r1 0.3459 0.8931 0.606 1 
+LO 0 0.2714 1 1 
+Eqn. 12 allows to determine how the line flows supply 
+individual loads. For example, the flow in line, say, 2-4 
+supplies load L3 with (172/285.5) x 0.2714 x 304 = 
+49.7MW and load L4 with (172/285.5) x 1 x 203 = 
+122.3 M W. 
+Table 2: Distribution of power using downstream-look- 
+ing algorithm 
+Load 
+L3 Generation Total 
+L4 
+GI 0.8931 x 304 = 271.5 0.606 x 203 = 123 394.5 
+G2 (112.51172) x 0.1635 (112.51172) x 0.6025 112.5 
+Total 304 203 507 x 304 = 32.5 x 203 = 80 
+Table 2 shows application of eqn. 13 to determine 
+how the generation is distributed between each of the 
+loads. This Table again resembles a road distance table. 
+As the network considered is lossless, Table 2 is a 
+transpose of Table 1. The following Section shows, 
+however, that when the transmission losses are 
+included, both algorithms give slightly different results. 
+4 Tracing electricity using gross flows 
+The lossless flow introduced in the previous Section 
+was obtained by averaging the line flows and modify- 
+ing power injections at both ends of the lines. An inter- 
+esting version of the electricity tracing method can be 
+obtained by assuming that the system is fed with the 
+actual generation and no power is lost in the network. 
+This will require then modifying the nodal demands 
+but will leave the nodal generations unchanged. 
+Consider for example line 2-4 which carries 173MW 
+at the sending end and 171MW at the receiving end. 
+The line loss of 2MW can be added to the receiving 
+end flow (to give a gross line flow of 173MW) so that 
+the modified flows at both ends are made the same. 
+This procedure can be repeated for all the lines of the 
+system. The result, however, will not be satisfactory as 
+the resultant power flows will not satisfy the Kirch- 
+hoffs Current Law. To understand this consider again 
+line 24. The 173MW at the sending end is not the 
+'true' gross flow as 1 MW out of power reaching node 2 
+has already been lost in line 1-2. Hence the true gross 
+flow in line 24 is not 173, but 173 + 1 = 174. 
+In the simple system shown in Fig. 3 it is possible to 
+find all the true gross flows by inspection. For more 
+complicated networks, inspection will not suffice and a 
+more formal method is necessary. Once the gross 
+power flows (satisfying Kirchhoff s Current Law) are 
+calculated, it is then straightforward to apply the elec- 
+tricity tracing method presented in Section 3. 
+Define an unknown gross nodal power Pi(gross) as a 
+total power flow through node i which satisfies the 
+Kirchhoffs Current Law and which would flow if the 
+network was fed with the actual generation and no 
+power was lost in the network. Similarly, let P,(5JuSs) be 
+IEE Proc.-Cener. Trmsm. DLytrih , Vol. 143, No. 4, Jdy 1996 316 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+an unknown gross flow in line i-j which would flow if 
+no power was lost. Obviously IP@;"sJ)l = IPiEy)l. Tak- 
+ing as an example the real power flow shown in Fig. 3, 
+one can find by inspection that Ppors) = 400 as there is 
+no line supplying node I, jP&'')j = jP&"")1 = 60, 
+PpP) = Pkrorr) 1-2 + P,, = 60 + 114 = 174, etc. 
+The gross nodal power, when looking at the inflows 
+(upstream-looking algorithm), can be expressed as 
+344 
+As IPf!;oss)l = /P@o,T,F)I, J-I the flow P&"Is) can be replaced 
+mally the transmission losses are small so that it can be 
+assumed that IPjp)l/Pb'o,Ys) I 21 lPj-#Pp where Pi_; is the 
+actual flow from nodej in line j-i and Pj is the actual 
+total flow through node j. This corresponds to assum- 
+ing that the distribution of gross flows at any node is 
+the same as the distribution of actual flows. This is the 
+only approximating assumption of the method. IJnder 
+this assumption eqn. 15 can be rewritten as by c .k"o~~s)P.k~oss) where ~.kros) = Ipjky)I/P.kF(JSS) . Nor- 
+/I J J1 
+where P,,,,, is the unknown vector of gross nodal flows 
+and A, is the upstream distribution matrix calculated 
+from the actual, not modified, flows. As A, and P, are 
+known, the solution of eqn. 16 will give the unknown 
+gross nodal flows. 
+Once the gross nodal flows have been determined, 
+the gross line flows and gross demands can also be 
+found using the proportional sharing principle. The 
+gross flow in line i-1 is 
+2 /i 7) 
+k=l 1. 
+while the gross demand at node i can be calculated as 
+This equation is especially important as it shows what 
+would be the load demand at a given node if a lossless 
+network was fed with the actual generation. Hence the 
+difference between the gross demand and the actual 
+demand 
+gives the loss which is attracted by power flowing from 
+all the generators to a particular load. In other words, 
+the upstream-looking algorithm not only allows to 
+determine participation of each generator in satisfying 
+a particular load demand, but also allows to apportion 
+the total transmission loss to individual loads in the 
+network. This is a very important conclusion as it 
+allows the charging of loads individually for the actual 
+amount of power lost. 
+IEE Pvoc.-Gener Trunsm. Distrib., Vol. 143, A'o. 4, July 1996 Now apply this algorithm to the real power flow 
+shown in Fig. 2. Eqn. 16 gives 
+Solving this equation gives the following values of 
+gross nodal powers: Pgrosu = [400 174 30976 289IT. This 
+result confirms the earlier calculated values of the gross 
+nodal powers. The gross load demands are L3(groJ\) = 
+(300/300) x 309.76 = 309.76 and L4(firoSs) = 289 x (2001 
+283) = 204.24. Hence the loss apportioned to L, is 
+equal to 9.76 while the loss apportioned to L4 is 4.24. 
+The share of the generation used to supply each of 
+the loads can be calculated in a similar way to that 
+described in the previous Section and is shown in 
+Table 3. 
+Table 3: Results of upstream-looking algorithm of 
+tracing gross flows 
+61 G2 Total Loss 
+L3 276.32 33.44 309.76 9.76 
+L4 123.68 80.56 204.24 4.24 
+Total 400 114 514 14 
+The sum of the elements in each of the generator col- 
+umns gives., as expected, the actual generation. The 
+sum of file elements in each of the load rows gives the 
+gross demand for each of the loads. The difference 
+between the. gross and actual demand gives the trans- 
+mission loss associated with supplying a particular load 
+and is shown in the last column of Table 3. Obviously 
+the result is the same as that obtained previously. 
+5 
+This version of the method traces the flow of electricity 
+in the network when transmission losses are completely 
+removed from the line flows. This will require modify- 
+ing the nodal generations while leaving the nodal 
+demands unchanged. Consider again line 2-4. Remov- 
+ing the line loss of 2MW from the sending-end flow 
+gives the net flow of 171 MW. However, this 171MW is 
+not the true net flow as it contains a component which 
+will be lost in line 4-3 down the network. To deal with 
+this problem introduce Pl(riel) as an unknown net nodal 
+power and P,(12J"t) as an unknown net flow in line 1-j, 
+both of which satisfy the Kirchhoff s Current Law and 
+which would flow if transmission losses were com- 
+pletely removed from all the line flows. Obviously 
+lP!!!;')l = 1P~~')I. Taking as an example the real power 
+flow shown in Fig. 2, by inspection Ppt) = 300 as there 
+is no outflow from node 3, IPt$')/ = lPJ!!S-"$')l = 82 and 
+p 4 (fie0 = p L4 + iP&')l .= 200 + 82 = 282. The net node 
+power balance equation can now be defined, when 
+looking at the outflows (downstream-looking algo- Tracing electricity using net flows 
+rithm), as c pZ(n"t) ~ 
+1ECp 
+fori= 1,2, ... 
+where CP) = (21) 'PI. As the transmission losses 
+317 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+are small, it can be assumed that IPppt)l/Pl(net) = lPl-iI/Pl 
+that eqn. 21 can be rewritten as 
+(22) 
+where P,,, is the unknown vector of net nodal flows 
+and Ad is the downstream distribution matrix. As Ad 
+and P, are known, the solution of eqn. 22 will give the 
+net nodal flows. 
+Now the net flow in line i-j can be calculated using 
+the proportional sharing principle as 
+for all j t 
+while the net generation at node i can be calculated as 
+(24) 
+This equation is especially important as it shows what 
+would be the generation at a given node necessary to 
+cover the system demand if the network was lossless. 
+Hence the difference between the actual and net gener- 
+ation 
+gives the loss attracted by power flowing from a given 
+generator to all the loads. In other words, the down- 
+stream-looking algorithm not only allows to determine 
+how the output of a given generator is shared between 
+all the loads, but also allows to apportion the total 
+transmission loss to individual generators in the net- 
+work. This is a very important conclusion as it allows 
+to charge the generators individually for their share of 
+the transmission loss. 
+Apply this algorithm to the real power flow shown in 
+Fig. 2. Eqn. 22 gives 
+Solving the equation gives the following vector of net 
+nodal flows P,,, = [387.72 170.4 300 282IT. This solu- 
+tion confirms the results obtained earlier by inspection. 
+The net generations are PGfner) = (4001400) x 387.72 
+= 387.72 and PGpf) = (114/173) x 170.4 = 112.28. 
+Hence the transmission losses apportioned to the gen- 
+erators are APGl = 400 - 387.72 = 12.28 and AP,, = 
+114 - 112.28 = 1.72. 
+The share of the generation used to supply each of 
+the loads obtained from eqn. 24 is shown in the 
+Table 4. 
+Table 4: Results of downstream-looking algorithm for 
+tracing net flows 
+L3 L4 Total Loss 
+GI 267.36 120.36 387.72 12.28 
+G2 32.64 79.64 112.28 1.72 
+Total 300 200 500 14 
+318 The sum of the elements in each of the load columns 
+gives, as expected, the actual demand. However, the 
+sum of the elements in the generation rows gives totals 
+equal to the net generations. The difference between 
+the actual and net generation is equal to the transmis- 
+sion loss associated with a particular generator and is 
+shown in the last row of the Table. 
+100 80 
+41 
+Fig. 4 Reactive power jlow with fictitious line nodes 
+6 Tracing reactive power flow 
+As the only requirement for the proposed method is 
+that Kirchhoff s Current Law must be obeyed, the 
+method is equally well applicable to trace reactive 
+power flows The main problem with reactive flows, 
+however, is that the reactive power loss of a line may 
+be quite considerable when compared with the flow 
+itself. This makes it difficult to use average line flows, 
+as in Section 3, and renders invalid assumptions used in 
+eqns. 16 and 22 that the distribution of gross (or net) 
+flows at any node is the same as the distribution of 
+actual flows. To deal with this problem additional, fic- 
+titious, nodes need to be added in the middle of each 
+line which will act as reactive power sources or sinks 
+responsible for line generationiconsumption. Fig. 4 
+shows the lossless reactive power flows obtained from 
+the lossy one shown in Fig. 2. The nodes numbered 
+from 5 to 9 are the fictitious line nodes. Nodes 5, 7, 
+and 9 act as the reactive power sources while nodes 6 
+and 8 act as the reactive power sinks. Applying the 
+downstream-looking algorithm expressed by eqn. 9 
+gives 
+. 1 0 0 0 0 0 0 -1-26 
+0 1 o o 11-1 II 0 0 44 
+0 0 1000000 
+0 0 0 loo-- :; O 
+-*-% 0 0 10 0 0 0 
+0 II 0 -&$a1 0 0 0 
+0 0-~000 100 
+0 0 -e 0 00 0 10 
+.U 0 11 -400 o o 1 104 
+Inverting the matrix and applying an algorithm similar 
+to that used to obtain Table 2 gives the distribution of 
+generated reactive power shown in Table 5. 
+Table 5 allows one to trace how reactive power flows 
+all over the network. This gives additional insight into 
+the system operation and may have a number of other 
+useful applications as for example in pricing the reac- 
+tive power. Obviously, application of the algorithm to 
+a large network would be cumbersome as a large 
+matrix, of the order (n + m), needs to be inverted. 
+However, as the matrix is highly sparse and not all ele- 
+ments of its inversion are needed, sparse inversion 
+IEE Proc.-Gener. Transm. Distrib., Vol. 143, No. 4, July I996 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+methods can be used. Moreover, reactive power tends 
+to flow locally so that it could be possible to split th.e 
+network into several parts and investigate them sepa- 
+rately. 
+Table 5: Distribution of reactive power 
+Sinks 
+3 4 6 8 Total Tota I 
+1 63.5 19.2 0 42.3 125 
+2 5.8 19.4 0.8 0 26 
+5 10.5 27.6 1.2 1.7 41 
+7 16 0 0 0 16 
+9 4.2 13.8 0 0 18 
+Total 100 80 2 44 226 
+7 Loss allocation algorithms 
+Another variation of the loss allocation method pre- 
+sented in Sections 4 and 5 can be developed which uses 
+explicitly line losses in its formulation and introduces a 
+concept of nodal losses. The resulting algorithm is a 
+generalisation of the loss allocation method applicable 
+only to radial distribution networks and proposed in 
+[lo]. The advantage of this approach is that it gives 
+additional insight into the electricity tracing algorithm 
+presented in Sections 4 and 5 and it allows to modify 
+the loss-sharing formulas. Due to lack of space this is 
+shown for the upstream-looking formulation only; the 
+downstream-looking expressions can be derived in a 
+similar way. 
+7. I Proportional sharing of losses 
+Consider again eqn. 15. The gross nodal power P{,rus,9) 
+is greater then Pi, that is 
+where AP,(U) is an unknown upstream nodal loss. Now 
+consider the flow P@'ss) (equal to Ppy)) in line j--i 
+supplying node i. The difference between P&"") and 
+PY is greater than the line loss because some of the 
+loss incurred in other lines supplying line j-i is passed 
+over to that line. This can be expressed as 
+where APl-, = llPJ-ll - 1Pl+J = APJ7, is the transmission 
+loss in line j-i and Ape) = AP;$ 1s an unknown accu- 
+mulated upstream line loss passed over from other lines 
+in the system. Now it is necessary to assume a principle 
+on which the nodal loss in the upstream node APF) 
+breaks down into components AP!!?, where i E aid), to 
+be passed down to all the lines leaving nodej. The only 
+requirement which must be met is that the sum of indi- 
+vidual components must give the nodal loss, that is 
+APJ(U) = &aJc~AP~!> + APL, where APLJ is the compo- 
+nent loss allocated to the jth load. The simplest distri- 
+bution is obtained by assuming that the passed down 
+components APJ!? and APLJ are carried by flows leav- 
+ing node j and therefore APP) is shared proportionally 
+to the values of the outflows. This can be expressed as 
+and (29) 
+Substituting the first of the above equations and 
+eqns. 27 and 28 into eqn. 15 gives (30) 
+As the actual nodal flow can be expressed as Pi = 
+Cj~a~c~)lP,~/ + PGi, eqn. 30 simplifies to 
+where A, is the previously defined upstream distribu- 
+tion matrix, AP$& = P,,,,, - P is the vector of 
+unknown upstream nodal losses and APki is a vector 
+which ith element is equal to the sum of losses in all the 
+lines supplying directly node i. Solving eqn. 31 gives 
+the unknown vector APitAe and the final allocation of 
+the total transmission loss to the individual loads is 
+obtained from the second of eqn. 28. 
+Now apply this algorithm to the test system shown in 
+Fig. 2. The A, matrix has already been calculated and 
+is given by eqn. 20. The APd;! vector is equal to 
+r 0 1 
+60 - 59 = 1 
+(225 - 218) + (83 - 82) = 8 
+L(115 - 112) + (173 - 171) = 51 
+Solving eqn. 31 gives the vector of nodal losses, AP$Je 
+= [0 1 9.76 6IT which matches the P,,,, vector obtained 
+in Section 4. The two loads, L3 and L4 are responsible 
+for a part of the nodal loss, proportional to the share 
+of the demand in the total nodal power, eqn. 29. Hence 
+the loss apportioned to load L3 is equal to (300/300) x 
+9.76 = 9.76 while the loss apportioned to load L, is 
+(200/283) x 6 = 4.24. As expected, the allocation of the 
+loss is the same as that shown in Table 3. 
+7.2 Nonproportional sharing of losses 
+Eqn. 29 shows that the loss allocation method pre- 
+sented so far is based on the implicit assumption that 
+the loss is shared proportionally between any node out- 
+flows or, in other words, that it is averaged between the 
+consumers (or generators) proportionally to their 
+demand (generation). As the transmission loss is pro- 
+portional to the current squared, this assumption of 
+direct proportionality may seem to be unfair. A modifi- 
+cation of the method may be therefore obtained by 
+assuming that the nodal loss is shared between the out- 
+flows proportionally to some power of the outflow, 
+that is by modifying eqn. 29 to 
+(33) 
+where PJ'Y) = (P$ + CkEaJ(d)(PJ-$ and y is an exponent 
+chosen for a given loss-sharing formula. Eqn. 31 is 
+then modified to 
+ap:u) - (pJ-z)'np~~) = apz-3 p(7) 
+3Eaj") 3 3Ecuj") (34) 
+or APIAP~L~ = AP!;~, 
+where the (i, j) element of matrix Air) is 
+IEE hoc.-Gener. Transm. Distrib., Vol. 143, No. 4, July 1996 319 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 
+(1 for a = i 
+lO otherwise 
+For y = 2, the nodal loss is shared proportionally to the 
+outflows squared while choosing y = 1 gives the pro- 
+portional sharing of the nodal loss. It is obviously pos- 
+sible to use a compromise value of the coefficient, e.g. y 
+= 1.5. 
+Now apply this algorithm to the test system shown in 
+Fig. 2 when y = 2. The equation to be solved is 
+roi 
+and the solution is APii& = [0 1 8.8815 6IT. The final 
+allocation of the transmission loss to individual loads is 
+90000 40000 AP,3 = ~ 8.88 = 8.88 and AP,, = __ 468896 = 5.12 90000 
+and the sum is obviously 14MW. In this particular case 
+the loss associated with L3 has decreased (despite 
+higher demand at this node) because most of the power 
+supplied to this load comes directly from generator G1 
+using line 1-3 which is used exclusively by L3. Only a 
+little part of the load demand comes via the rest of the 
+system. As load L4 uses the network more heavily, its 
+share of the total loss has increased. 
+8 Conclusions 
+Continuing trend towards deregulation and unbundling 
+of transmission services has resulted in the need to 
+assess what is the impact of a particular generator or 
+the load on the power system. In this paper a new 
+method of tracing the flow of electricity in meshed elec- 
+trical networks has been proposed which may be 
+applied to both real and reactive power flows. The 
+method is of a topological nature and works on the 
+results of a load flow program or a state estimation 
+program. The method results in a table, resembling a 
+road distance table, and allows one to assess how much 
+of the real and reactive power output from a particular 
+station goes to a particular load. It is also possible to 
+assess contributions of individual generators (or loads) 
+to individual line flows. 
+The electricity tracing method comes in two flavours. 
+The upstream-looking algorithm analyses nodal inflows 
+while its dual, downstream-looking algorithm, analyses 
+the nodal outflows. The lossless real power flow 
+required for the method can be obtained by one of 
+three possible ways. The simplest way is to average the 
+line flows over the sending and receiving-end values 
+and adjust correspondingly the nodal injections. The 
+second approach is to consider gross flows, that is 
+flows which would exist if no power was lost in the net- 
+work, while the third approach is to consider the net 
+flows when all the losses are removed from the net- 
+work. The upstream-looking algorithm applied to the 
+gross flows determines how the power output from 
+each of the generators would be distributed between 
+the loads. The downstream-looking algorithm applied 
+to the net flows determines how the demand of each of 
+the loads would be distributed between individual gen- 
+erators if the transmission losses were removed from 
+line flows. Application of the method to the reactive power flow 
+necessitates the use of additional, fictitious, nodes 
+responsible for the reactive power generation and con- 
+sumption in each of the lines. This allows one to assess 
+how the reactive power generation from all the sources 
+of reactive power, including lines, is distributed 
+between all the sinks of reactive power in the system. 
+This algorithm requires inverting a sparse matrix of the 
+rank equal to sum of the number of nodes and the 
+number of lines in the system. 
+One of the possible applications of the electricity 
+tracing method lies in the apportioning of the transmis- 
+sion loss to individual generators or loads in the net- 
+work. This can be done by accumulating the losses as 
+the power flows to individual loads (or from individual 
+generators). The nodal loss is assumed to be shared 
+between nodal outflows proportionally to the square 
+(or any other power) of the outflows. The loss alloca- 
+tion does not depend on the choice of the marginal 
+generator and always results in positive charges. This 
+algorithm requires solving a sparse linear equation of 
+the rank equal to the number of network nodes. 
+It is envisaged that the proposed method could have 
+wide applications in the deregulated electricity supply 
+industry. Apart from giving additional insight into how 
+power flows in the network, it can be used to set tariffs 
+for transmission services based on the shared, as 
+opposed to marginal, costs. This includes charging for 
+the transmission loss and for the actual usage of the 
+system by a particular generator or the load. The 
+method can also be used to assess the contribution of 
+individual sources of reactive power in satisfying indi- 
+vidual reactive power demands and therefore be used 
+as 
+9 
+1 
+2 
+3 
+4 
+5 
+6 
+I 
+8 
+9 
+10 
+11 
+12 a tool for reactive power pricing. 
+References 
+’An introduction to pool rules’. The Electricity Pool of England 
+and Wales, Prepared March 1991, updated Decmber 1991 and 
+April 1993, p. 3 
+NG. W.Y.: ‘Generalized generation distribution factors for power 
+system security evaluations’, IEEE Trans., 198 1, PAS-100, (3), 
+pp. 1001-1005 
+RUDNICK, H., PALMA, R., and FERNANDEZ, J.E.: ‘Mar- 
+ginal pricing and supplement cost allocation in transmission open 
+access’, IEEE Trans., 1995, PWRS-10, (2), pp. 1125-1142 
+SHIRMOHAMMADI, D., GIBRIK, P.R., LAW, E.T.K., 
+MALINOWSKI, J.H., and O’DONNEL, R.E.: ‘Evaluation of 
+transmission network capacity use for wheeling transactions’, 
+IEEE Trans., 1989, PWRS-4, (4), pp. 1405-1413 
+‘Promoting wholesale competition through open access non-dis- 
+criminatory transmission services by public utilities’. Federal 
+Energy Regulatory Commission, Notice of Proposed Rulemaking, 
+March 29, 1995 
+‘The transmission price control review of the National Grid Com- 
+pany’. Office of Electricity Regulation (OFFER), November 1995 
+BIALEK, J.: ‘Identification of source-sink connections in trans- 
+mission networks’. Proceedings of fourth IEE conference on 
+Power system control and management, London, April 1996 
+BIALEK, J., and TAM, D.B.: ‘Tracing the generators’ output’. 
+Proceedings of IEE international conference on Opportunities and 
+advances in int. electric power generation, Durham, UK, March 
+1996 
+KIRSCHEN, D., ALLAN, R., and STRBAC, G.: ‘Contributions 
+of individual generators to loads and flows’. Presented at the 1996 
+IEEE Power Engineering Society’s Winter Power Meeting, Paper 
+96 WM 173-5 
+MACQUEEN, C.N.: ‘Time-based load flow analysis and loss 
+costing in electrical distribution systems’. PhD thesis, University 
+of Durham, 1993 
+DUNNET, R.M., PLUMTRE, P.H., and CALVIOU, M.C.: 
+Charging for use of transmission system by marginal cost meth- 
+ods’. Proceedings of conference on Power system computation, 
+Avignon, 1993, pp. 385-391 
+MERRIL, H.M., and ERICKSON, B.W.: ‘Wheeling rates based 
+on marginal-cost theory’, IEEE Trans., 1989, PWRS4, (4), pp. 
+1445-1451 
+320 IEE ProccGener. Transm. Distrib.. Vol. 143, No. 4, July 1996 
+Authorized licensed use limited to: University of York. Downloaded on July 28, 2009 at 11:20 from IEEE Xplore.  Restrictions apply. 

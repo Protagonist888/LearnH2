@@ -1,0 +1,2671 @@
+Earth-Science Reviews 230 (2022) 104063
+Available online 28 May 2022
+0012-8252/© 2022 Elsevier B.V. All rights reserved.Molecular hydrogen in surface and subsurface natural gases: Abundance, 
+origins and ideas for deliberate exploration 
+Alexei V. Milkov 
+Colorado School of Mines, Golden, CO, USA   
+ARTICLE INFO  
+Keywords: 
+Hydrogen 
+Serpentinites 
+Natural gas 
+Isotopes ABSTRACT  
+Geologic molecular hydrogen (H2) occurs in the subsurface and vents and seeps at the surface. However, this 
+valuable natural resource is under-utilized in the economy because the distribution, abundance and origins of H2 
+are poorly understood. I studied a global dataset of 6246 natural gases with reported H2 concentrations from 16 
+different geological habitats. The average H2 concentration in all gas samples is 3.5%, but the median concen -
+tration is only 0.01%. Gases sampled in Mid-Ocean Ridges and in serpentinites have the highest average con-
+centrations of H2 (~24% and ~21%, respectively). More than 30 different processes may produce H2 observed in 
+natural gases. Hydrogen isotopic composition (expressed as δ2H-H 2 values) may indicate crustal (D-650‰) or 
+mantle and primordial (from -650‰ to -100‰) sources of H2, or may result from temperature-dependent 
+equilibration of H2 with water. Much of crustal H2 may be sourced by the reactions of serpentinization, while 
+the quantitative significance of other H2-generating processes such as radiolytic decomposition of water and 
+hydrocarbons, fracture-induced reduction of water, petroleum cracking and coal metamorphism remain specu -
+lative. Primordial H2 perhaps vents in some volcanic settings. Provided better understanding of H2 abundance 
+and origins in different geological settings should enable the purposeful exploration for geologic H2 and the 
+assessment of its economic resources.   
+1.Introduction 
+Hydrogen, the most abundant element in the Universe, was recog -
+nized in 1776 by Henry Cavendish, and its name was coined in 1783 by 
+Antoine Lavoisier (Brophy and Schimmelmann, 2017 ). Molecular 
+hydrogen (H2) is important in modern economy and industry. Currently, 
+it is used mostly in ammonia production and petroleum recovery and 
+refining (IEA, 2021 ). Hydrogen gas is an excellent clean fuel because it 
+contains more energy per unit weight than most other fuels, is carbon- 
+free, and its combustion in fuel cells emits only water (World Energy 
+Council, 2019 ; Truche and Bazarkina, 2019 ; Farias et al., 2022 ). 
+Therefore, H2 can play an important role in the energy transition away 
+from fossil fuels as either an energy vector or a zero-carbon source of 
+energy (Hanley et al., 2018 ; Murray et al., 2020 ). The vast majority of 
+the H2 currently utilized in the economy is produced using methods 
+collectively known as “thermal processes ”, and steam reforming of 
+methane and other light hydrocarbons is the most common industrial 
+process of H2 generation (Nuttall and Bakenne, 2020 ; Timmerberg et al., 
+2020 ). 
+Molecular H2 occurs in the subsurface and seeps and vents at the surface (Zgonnik, 2020 ; Etiope et al., 2011 ; Combaudon et al., 2022 ). 
+This geologic (natural, native, gold) H2 is already utilized as a source of 
+energy (electricity) in a village in Mali (Hydroma, 2022 ), and should be 
+used more widely around the globe if available, producible and 
+economically viable (Smith, 2002 ; Larin et al., 2015 ; Truche and 
+Bazarkina, 2019 ; Gordienko, 2019 ; Gaucher, 2020 ; Boreham et al., 
+2021a ; Lefeuvre et al., 2021 ; Yedinak, 2022 ). 
+Hydrogen and other reduced gases support unique ecosystems with 
+chemolithoautotrophic metabolic pathways on the modern deep sea-
+floor (Takai et al., 2004 ; Ohara et al., 2012 ), may provide energy for 
+long-term survival of microbial cells (Morita, 2000 ) and may have 
+contributed to the origin of life on Earth and perhaps other planets 
+(Nisbet and Sleep, 2001 ; Oze and Sharma, 2005, 2007 ; McCollom and 
+Seewald, 2013 ; Holm et al., 2015 ; Glein and Zolotov, 2020 ; McCollom 
+et al., 2022 ). Molecular H2 plays a significant role in the formation of 
+natural hydrocarbon gases via the processes of microbial hydrogeno -
+trophy (Wagner et al., 2018 ; Katz, 2011 ; Milkov, 2011, 2018 ) and 
+Fischer-Tropsch synthesis (Etiope and Whiticar, 2019 ), and may play a 
+role in the formation of liquid petroleum fluids (Pratt, 1934 ; Szatmari, 
+1989 ; Levshounova, 1991 ; Kenney et al., 2002 ; Wang et al., 2019 ). 
+E-mail address: amilkov@mines.edu .  
+Contents lists available at ScienceDirect 
+Earth-Science Reviews 
+u{�~zkw! s{yo|kro>! ÐÐÐ1ow�o�t o~1m{y2w{m k�o2ok~�mt~o�!
+https://doi.org/10.1016/j.earscirev.2022.104063 
+Received 29 January 2022; Received in revised form 16 May 2022; Accepted 22 May 2022   
+Earth-Science Reviews 230 (2022) 104063
+2Emissions of combustible and explosive H2-containing gases during the 
+mining of ore deposits represent a known hazard (Nivin, 2019 ) and need 
+to be predicted and mitigated. 
+In spite of the clear importance of geologic H2 as a clean fuel, a 
+source of energy for life and a geohazard, the current understanding of 
+geologic H2 occurrences is rather limited, and the in-place, recoverable 
+and economic resources of geologic H2 have not been adequately 
+quantified. The main reason for that is the lack of fundamental under -
+standing of the prevailing reaction mechanisms and rates associated 
+with geochemical processes of H2 formation, and how H2 migrates and 
+fractionates in the Earth. More than 30 different mechanisms and pro-
+cesses of H2 production in Earth have been proposed in the literature. 
+However, the relative importance of these processes and their contri -
+butions to global H2 budget remain unknown. This is partly due to the 
+fact that geochemical tools aimed at distinguishing these processes are 
+poorly developed. Further, various different processes that consume H2 
+in the subsurface and lithologies that can form effective seals for H2- 
+bearing reservoirs are not well understood. 
+Here, I use a large global dataset of natural gases to document the 
+abundance of molecular H2 in various geological settings. Then, I 
+investigate how to distinguish numerous proposed processes of H2 
+generation in the subsurface and which of them may be quantitatively 
+significant on Earth by using H2 isotopic composition and other asso-
+ciated geological and geochemical characteristics (including noble 
+gases) of H2-bearing gases. A better understanding of processes that 
+generate H2 will help constrain the rates of geologic hydrogen produc -
+tion in Earth, which may be significant (up to ~30% of global industrial 
+hydrogen production, Sherwood Lollar et al., 2014 ) but are highly un-
+certain (Zgonnik, 2020 ). It will also lay out the foundation for the 
+assessment of potentially recoverable resources of geologic H2 around 
+the world and help formulate exploration strategies for this valuable gas. 
+2.Current knowledge of hydrogen occurrences, origins and 
+sinks 
+2.1. Occurrences of molecular H2 on Earth 
+The H2 molecule has a small size, is extremely mobile and can be 
+rapidly consumed by redox reactions mediated by microbes and/or 
+mineral catalysts (Brophy and Schimmelmann, 2017 ; Truche et al., 
+2018 ). As a result, H2 does not accumulate easily in the crust, which led 
+to a misconception that it does not occur freely in the subsurface (Smith 
+et al., 2005 ). However, several recent reviews (Gregory et al., 2019 ; 
+Truche et al., 2020 ; Zgonnik, 2020 ; Rusakov, 2020 ) highlighted that 
+concentrations of molecular H2 can be very high (up to 99 vol.%) in 
+ophiolites and associated seeps (e.g., Neal and Stranger, 1983 ; Vacquand 
+et al., 2018 ) and in kimberlite pipes (e.g., Fridman, 1970 , also note that 
+H2 is a major gas released from diamonds, Melton and Giardini, 1974 ). 
+Other geologic settings with significant H2 occurrences include graphite 
+deposits, volcanic systems, geothermal systems, crystalline basement, 
+potash and evaporite deposits, cataclasites, and anoxic sediments 
+(Gregory et al., 2019 ; Zgonnik, 2020 ) as well as some conventional oil 
+and gas accumulations (Bohdanowicz, 1934 ; Headlee, 1962 ; Molcha -
+nov, 1981 ; Angino et al., 1984 ; Coveney Jr. et al., 1987 ; Perevozchikov, 
+2011 ; Zinger, 1962 ; Kraychuk, 1976 ; Prinzhofer et al., 2018 ). 
+2.2. Origins of molecular H2 in natural gases 
+There are numerous proposed origins and generation mechanisms of 
+H2 observed in the subsurface and in seeps/vents at the surface and the 
+ocean floor, as previously reviewed by Lin et al. (2005a, 2005b) , Truche 
+et al. (2020) , Klein et al. (2020) , Zgonnik (2020) and Boreham et al. 
+(2021a) . I identified 32 processes previously described in the literature 
+and list them below grouped as natural abiotic, natural biotic, and 
+anthropogenic processes. 2.2.1. Natural abiotic processes 
+Natural abiotic processes of H2 generation in Earth include water- 
+rock interactions involving iron, degassing from the mantle, radiolysis 
+and other abiotic processes in the geosphere: 
+1. Serpentinization (metamorphic hydration and oxidation) of ul-
+tramafic rocks such as peridotites, dunites and kimberlites composed 
+mostly of Mg and Fe2silicate minerals olivine and pyroxene (Fridman, 
+1970 ; Moody, 1976 ; Coveney Jr. et al., 1987 ; Sleep et al., 2004 ; Oze and 
+Sharma, 2005, 2007 ; Russell et al., 2010 ; Klein et al., 2013 ; Mayhew 
+et al., 2013 ; Holm et al., 2015 ; Miller et al., 2017 ; Preiner et al., 2018 ; 
+Huang et al., 2019 ; Truche et al., 2020 ; Worman et al., 2016, 2020 ; 
+Zgonnik, 2020 ; Albers et al., 2021 ). Serpentinites are water-rich rocks 
+that contain mostly serpentine-group minerals (chrysotile, lizardite and 
+antigorite) and varying amounts of brucite, magnetite, and/or FeNi al-
+loys (Sleep et al., 2004 ). They form from relatively low-temperature 
+(D300•C) hydration of mantle-derived ultramafic rocks, during which 
+Mg-rich olivine and orthopyroxene are altered to serpentine minerals 
+(Guillot and Hattori, 2013 ; Evans et al., 2013 ). 
+Modern serpentinites in oceans are present along the axis of slow and 
+very slow spreading ocean ridges where the mantle is too cool to form 
+significant basalt (Charlou et al., 2002 ; Dick et al., 2003 ; Worman et al., 
+2020 ), magma-poor transform margins (such as the Iberian Margin, 
+Skelton et al., 2005 ; Albers et al., 2021 ) and in the subduction zones 
+(some forearc environments, for example, in the serpentinite diapirs in 
+the Mariana forearc, Wang et al., 2009 ; Fryer, 2012 ). Ancient serpen -
+tinites on continents are exposed as ophiolites in suture zones associated 
+with closure of paleo-oceans. The largest (by area) examples include the 
+Semail ophiolites (~10,000 km2) in the Sultanate of Oman and the 
+United Arab Emirates (Barnes et al., 1978 ; Neal and Stranger, 1983 ; Fritz 
+et al., 1992 ; Kelemen and Matter, 2008 ) and the Massif du Sud (~6000 
+km2) in New Caledonia (Barnes et al., 1978 ; Deville and Prinzhofer, 
+2016 ; Monnin et al., 2021 ). Ophiolites with smaller areas are present in 
+New Zealand (Wood, 1972 ), Philippines (Thayer, 1966 ; Abrajano et al., 
+1988 ; Sturchio et al., 1989 ), Japan (Suda et al., 2014, 2017 ), China (Ye 
+et al., 2007 ), Turkey (Etiope et al., 2011 ; Yuce et al., 2014 ; D’Alessandro 
+et al., 2018 ), Bosnia and Herzegovina (Barnes et al., 1978 ; Etiope et al., 
+2017 ), Greece (Daskalopoulou et al., 2018 ; Li Vigni et al., 2021 ), Italy 
+(Boschetti et al., 2013 ), Spain (Etiope et al., 2016 ), Portugal (Etiope 
+et al., 2013 ; Marques et al., 2018 ), Norway (Daae et al., 2013 ), Mali 
+(Caby, 2014 ), Costa-Rica (Crespo-Medina et al., 2017 ), USA (Morrill 
+et al., 2013 ; Lazar and Cooperdock, 2021 ), Canada (Szponar et al., 2013 ) 
+and in other countries, on all continents, including Antarctica. Guillot 
+and Hattori (2013) estimated that F3% of the Earth ’s surface is made up 
+of serpentinites and serpentinized peridotite. 
+Serpentinization of peridotite is accompanied by the release of H2 
+and other reduced gases. Olivine is the main mineral of the upper 
+mantle. The general reaction that describes serpentinization of olivine is 
+(McCollom et al., 2022 ): 
+Olivine H2O → Serpentine ±Brucite ±Magnetite H2 
+Generation of H2 during serpentinization reactions has been 
+demonstrated in laboratory experiments (Miller et al., 2017 ; Huang 
+et al., 2019 ; Barbier et al., 2020 ; Song et al., 2021 ). Serpentinization is 
+thought to be the major process responsible for some of the highest 
+concentrations of H2 in natural gas seeps (Abrajano et al., 1988 ; Etiope 
+et al., 2013 ) and in subsurface gas reservoirs (Coveney Jr. et al., 1987 ; 
+Briere et al., 2017 ). Serpentinization of iron-rich olivine on Mars, icy 
+moons, and other planetary bodies may be a significant source of 
+hydrogen, which has a potential to support extra-terrestrial biological 
+communities (McCollom et al., 2022 ). 
+2. Release of H2 during volcanic activity and from hydrothermal 
+vents, when equilibrium reactions in the C-H-O-S system in magmas 
+favor H2, for example (Apps and van de Kamp, 1993 ; Holland, 2002 ): 
+CO H2O ↔ CO2 H2 
+H2S 2H2O ↔ SO2 H2 
+SO2 2H2O ↔ H2SO4 H2 
+3. Cooling and decompression in a hydrothermal CO2-CH 4-C fluid A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+3system (Tsunogae and Dubessy, 2009 ). 
+4. Late stage crystallization of basic magma where dissolved water 
+oxidizes ferrous iron Fe2(in Fe2-bearing minerals) to ferric iron Fe3
+(Stevens and McKinley, 1995 ; Schrenk et al., 2013 ; Sherwood Lollar 
+et al., 2014 ; Etiope and Whiticar, 2019 ; Nivin, 2019 ). An example re-
+action would be decomposition of fayalite without serpentinization 
+(Arrouvel and Prinzhofer, 2021 ): 
+3Fe2SiO4 (fayalite) 2H2O(l) → 2Fe3O4 (magnetite) 3SiO 2(-
+quartz) 2H2(g) 
+5. Degassing of primordial H2 that has been present in the Earth since 
+its formation (Chamberlin, 1909 ; Larin, 1993 ; Gilat and Vol, 2005, 
+2012 ; Larin et al., 2015 ; Yang et al., 2016 ). 
+6. Metasomatism of upper mantle and crustal rocks with the infil-
+tration of metal hydrides from the deeper mantle (Walshe, 2006 ). 
+7. Hydration of biotite in felsic rocks such as granite (Murray et al., 
+2020 ). 
+8. Hydrothermal hydration of siderite in sedimentary basins (e.g., in 
+the Solim ~oes basin in Brazil, Milesi et al., 2016 ) and metasedimentary 
+rocks according the following reaction (Seewald, 2001 ; Milesi et al., 
+2015 ): 
+3FeCO 3 (siderite) H2O (l) ↔ Fe3O4 (magnetite) 3CO 2 (g) H2 
+(g) 
+9. Oxidation of Fe2from magnetite to Fe3to crystallize hematite 
+(Arrouvel and Prinzhofer, 2021 ): 
+2Fe3O4 (magnetite) H2O(l) → 3Fe2O3 (hematite) H2 (g) 
+Geymond et al. (2022) suggested that weathering of banded iron 
+formations can result in significant H2 generation in iron mines in 
+Australia, Brazil and South Africa. 
+10. Reactions linked to pyritization. Under acidic conditions (such as 
+in some hydrothermal sites, fumaroles from volcanic activities), the 
+reactions are simulated with H2S (g) (Arrouvel and Prinzhofer, 2021 ): 
+Fe2O3 (hematite) 4H2S (g) → 2FeS 2 (pyrite) 3H2O (l) H2 (g) 
+Fe3O4 (magnetite) 6H2S (g) → 3FeS 2 (pyrite) 4H2O(l) 2H2(g) 
+Reactions may also be with siderite and with pyrrhotite, which may 
+also be mediated by microorganisms (Drobner et al., 1990 ; Hofstra and 
+Cline, 2000 ; Thiel et al., 2019 ). 
+11. Water hydrolysis accompanying Fe and Fe2oxidation (anaer -
+obic corrosion) most likely catalysed by metal hydroxides at low tem-
+perature, crustal weathering and by Ca produced from the radioactive 
+decay of 40K (Neal and Stranger, 1983 ; Gu˘elard et al., 2017 ; Worman 
+et al., 2020 ). 
+12. Radiolysis of water by alpha, beta and gamma radiation released 
+in the radioactive decay of U-, Th- and K-bearing minerals (Boyd et al., 
+1973 ; Vovk, 1987 ; Dubessy et al., 1988, 1989 ; Spinks and Woods, 1990 ; 
+Smith et al., 2005 ; Lin et al., 2005a, 2005b ; Blair et al., 2007 ; Dzaugis 
+et al., 2016 ; Bouquet et al., 2017 ; Parnell and Blamey, 2017b ; Truche 
+et al., 2018 ; Wang et al., 2019 ; Zgonnik, 2020 ; Sauvage et al., 2021 ). 
+When ionizing radiation passes through water, it leads to the formation 
+of ionic and excited states, which further decompose or recombine to 
+produce radical and molecular species according to the following 
+equations (Pastina and LaVerne, 2001 ; Wang et al., 2019 ): 
+H2O (ionizing radiation) → H⋅ OH⋅ HOH e 
+e → e 
+aq (hydration) 
+e 
+aq H→ H⋅ 
+e 
+aq e 
+aq 2H2O → H2 2OH 
+e 
+aq H⋅ H2O → H2 OH 
+H⋅ H2O → H2 OH⋅ 
+H⋅ H⋅ → H2 
+13. Radiolytic dehydrogenation of organic matter and kerogen, for 
+example, in shales, which generates gases dominated by H2 and CO2 
+(Lewan et al., 1991 ; Wang et al., 2022 ). The generation of H2 appears to 
+be due to C-H scission and double-bond formation (Yamazaki and Shida, 
+1960 ; Frolov et al., 1998 ). 
+14. Radiolytic dehydrogenation of crude oil molecules (Frolov et al., 
+1998 ; Larter et al., 2019 ; Silva et al., 2019 ). 
+15. Radiation-induced polymerization of methane into H2 and C2hydrocarbons (Boreham and Davies, 2020 ). 
+16. Fracture-induced reduction of water: cataclastics (cohesive 
+granular faulted rock) of silicates in the presence of water and in igneous 
+rocks and associated with upper crustal processes (e.g., earthquakes) 
+(Kita et al., 1982 ; Sugisaki et al., 1983 ; Apps and van de Kamp, 1993 ; Ito 
+et al., 1999 ; Freund et al., 2002 ; Saruwatari et al., 2004 ; Kameda et al., 
+2004 ; Hirose et al., 2011, 2012 ; Klein et al., 2020 ). The mechanism is 
+likely mechanoradical where 2(⊇Si⋅) 2H2O → 2(⊇SiOH) H2, with 
+the potential for subsequent redox conversion of hydroxyl (2(⊇Si–OH) 
+or 2(–OH)) to peroxy links (⊇SiOOSi⊇(or -OO-)) H2. 
+17. Mechanochemical reaction of phosphate to produce phosphine 
+(PH 3) and its subsequent hydrolysis to H2 (Hoeman, 1944 ; Glindermann 
+et al., 2005 ). 
+18. Natural release of H2 from fluid inclusions. This process appears 
+to be widespread in Precambrian basement rocks, particularly granites. 
+The eroded basement remnants in sedimentary basins may be a signif -
+icant H2 resource (Parnell and Blamey, 2017a ). 
+19. Decomposition of methane (CH 4) to form graphite and H2 at high 
+(F600•C) temperatures during metamorphism (Galimov et al., 1973 ; 
+Hahn-Weinheimer and Hirner, 1981 ; Apps and van de Kamp, 1993 ; 
+Holland, 2002 ; Smith et al., 2005 ; Dzaugis et al., 2016 ; Bouquet et al., 
+2017 ; Parnell and Blamey, 2017a, 2017b ; Truche et al., 2018 ; Boreham 
+and Davies, 2020 ; Zgonnik, 2020 ): 
+CH4 ↔ C(graphite) H2 
+That CH4 may be biotic or abiotic, but the formation of H2 is an 
+abiotic process. Hydrogen can also be generated from carbonaceous 
+material during graphitization (Suzuki et al., 2017 ). 
+20. Oxidative coupling of methane catalyzed by alkali metal and 
+lanthanide oxides. This process has been demonstrated in the laboratory 
+at high (F650•C) temperatures, and similar reactions may potentially 
+occur in the subsurface with the involvement of O2 from water radiolysis 
+(Lunsford, 1990 ; Lehmann and Baerns, 1992 ). 
+21. Mixing of waters with differing ionisation potentials, i.e. fresh 
+and saline groundwaters (Goebel et al., 1984 ). 
+22. Release from ammonium (NH 4)-bearing minerals oxidized by 
+reacting with sulfate at high temperatures (Dubessy et al., 1989 ; Li et al., 
+2009 ), which may happen in anhydrite-rich marine salt deposits 
+(Dubessy and Ramboz, 1986 ): 
+8NH 43SO 42- ↔ 4N2 3H2S 12H 2O 2H
+23. Dehydrogenation of clay minerals that are abundant in many 
+shale formations (Truche et al., 2018 ). 
+24. Liberation of H2 from H2O at high metamorphic temperatures 
+(Suzuki et al., 2017 ). 
+2.2.2. Natural biotic processes 
+Natural biotic processes (both biologically-mediated processes and 
+processes that may be abiotic but which act upon biogenic substrates) of 
+H2 generation include: 
+25. Formation during biological activity (Ginsburg-Karagitscheva, 
+1933 ; ZoBell, 1947 ; Bokova, 1953 ; Ekzercev, 1960 ; Nandi and Sengupta, 
+1998 ; Gregory et al., 2019 ) via fermentation of organic matter (Gest, 
+1954 ; Krichevsky et al., 1961 ; Adams and Stiefel, 1988 ; Boone et al., 
+1989 ; Adam and Perner, 2018 ; Hallenbeck and Benemann, 2002 ) by 
+certain anaerobic bacteria and cyanobacteria (Luo et al., 1991 ; Conrad, 
+1996 ; Morita, 2000 ; M˘enez, 2020 ), by heterotrophic hyperthermophiles 
+(Mermelstein and Zeikus, 1998 ), by nitrogen fixing bacteria (Morita, 
+2000 ; Conrad, 1996 ), and through anaerobic carbon monoxide oxida -
+tion and phosphate oxidation (Schwartz et al., 2013 ; Sipma et al., 2006 ). 
+During diagenesis, the polymerization of hydrocarbon C-H bonds results 
+in the formation of kerogen and release of H2. 
+26. Thermogenic liberation of H2 from cracking of C-H bonds by 
+aromatization, polycondensation or metathesis of hydrocarbons (Li 
+et al., 2015 ) during the generation of oil and gas (Bogomolov, 1976 ; 
+Gregory et al., 2019 , and references therein), in oil accumulations 
+(Zinger, 1962 ), during petroleum cracking (Briere et al., 2017 ) and 
+during coal metamorphism (Zgonnik, 2020 ). During metagenesis, the A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+4progressive aromatisation of the residual kerogen leads to production 
+predominantly of CH4 but also some H2 (Tissot and Welte, 1984 ; Hunt, 
+1996 ; Horsfield et al., 2022 ). Suzuki et al. (2017) found significant 
+concentrations of presumably organic H2 in gases released from pul-
+verized thermally mature shales and matapelites. Liberation of molec -
+ular H2 from shales and coals during laboratory pyrolysis experiments 
+was demonstrated in numerous studies (Jüntgen and van Heek, 1979 ; 
+Campbell et al., 1980 ; Li et al., 2015, 2017 ; Horsfield et al., 2022 ). 
+However, the specific mechanisms of H2 generation (cracking of hetero- 
+bonds, demethylation, aromatization, condensation) and the role of H2 
+in the transformation of organic matter into hydrocarbons are still 
+poorly constrained (Behar et al., 1997 ; Li et al., 2015, 2017 ). 
+27. Thermal decomposition of alkanes and carboxylic acids at tem-
+peratures F200•C and CH4 at temperatures F500•C, which results in the 
+release of H2 (Tissot and Welte, 1984 ; Seewald, 2001 ). 
+28. H2 release during sulfur incorporation into hydrocarbon com-
+pounds during thermochemical sulfate reduction (Ostertag-Henning and 
+Scheeder, 2009 ). 
+2.2.3. Anthropogenic processes 
+Anthropogenic processes in which H2 results from artificial processes 
+during drilling and metal corrosion include: 
+29. Drill bit metamorphism, bit burning and cracking of organic 
+matter by excessively hot drill bit (Halas et al., 2021 ). 
+30. The oxidation of steel drill pipes and well casings in the presence 
+of natural gas with a high CO2 content (“CO2 corrosion ”) (Meincke, 
+1967 ; Mørkved et al., 2009 ). 
+31. Corrosion of steel well casing from exposure to H2S (Lyon and 
+Hulston, 1984 ). 
+32. Corrosion reactions between acids either naturally present in 
+ground waters at low pH conditions (Zinger, 1962 ) or introduced during 
+wellbore cleaning operations (Feldbusch et al., 2018 ) and iron in well 
+casings, steel drilling shavings and lithic fragments (Bjornstad et al., 
+1994 ), for example: 
+2H3OFe → 2H2O H2 Fe2
+When nuclear waste is disposed, corrosion of steel canisters can 
+produce copious amounts of hydrogen (Truche et al., 2020 ). Other ref-
+erences describing these anthropogenic processes include Goebel et al. 
+(1984) , Merlivat et al. (1987) , Zimmer (1993) , Zimmer and Erzingeer 
+(1995) , Messer et al. (2008) , Wersin et al. (2008) , Erzinger et al. (2006) , 
+Wenger et al. (2009) , Thiessen et al. (2009) . 
+2.3. Sinks of H2 on Earth 
+Based on the available evidences, it appears that virtually all of the 
+H2 generated in the subsurface is converted to methane (and other hy-
+drocarbons) via biotic and abiotic processes (Conrad, 1995 ). Hydro -
+genotrophic microbes (Wagner et al., 2018 ; Adam and Perner, 2018 ) 
+utilize H2 and CO2 to produce primary microbial gas (mostly methane) 
+in marine sediments (e.g., Katz, 2011 ) and secondary microbial gas in 
+shallow cool petroleum reservoirs (Milkov, 2010, 2011, 2018 ). 
+Abiotic methane (Potter and Konnerup-Madsen, 2003 ; Etiope and 
+Sherwood Lollar, 2013 ; Etiope and Whiticar, 2019 ) forms from H2 via 
+Fischer-Tropsch Type reactions (FTT, Fischer and Tropsch, 1926 ). The 
+FTT chemical reactions have been widely studied and applied in in-
+dustrial catalysis for synthetic fuel and chemicals production and CO2 
+consumption (Anderson, 1984 ; Schulz, 1999 ; Wang et al., 2011 ). The 
+general form of the FTT reaction is: 
+(2n 1)H 2 nCO CnH2n2 nH2O 
+The highly exothermic hydrogenation of CO is a basic FTT reaction 
+(Rӧper, 1983 ; Szatmari, 1989 ). The Sabatier reaction of slightly endo-
+thermic CO2 hydrogenation is another form of FTT (Sabatier and 
+Senderens, 1902 ). In this process, CO is formed first, and is then hy-
+drogenated to hydrocarbons (Weatherbee and Bartholomew, 1984 ). 
+Etiope and Whiticar (2019) suggested that most abiotic methane forms 
+from CO2 hydrogenation (Sabatier reaction) in water-free (or unsaturated) rocks, at relatively low temperatures, in the presence of 
+minerals that can act as FTT catalysts (e.g., chromium and/or 
+ruthenium-based minerals in ophiolites). 
+There may be many inorganic sinks of H2 in the subsurface (reactions 
+with pyrite or other sulphides, oxidation to water and others). For 
+example, Suzuki et al. (2017) suggested that the dehydration of hydrous 
+minerals could be responsible for consumption of H2 during 
+metamorphism. 
+Some geologic H2 escapes into the atmosphere and the ocean, for 
+example, in areas where H2-rich gases seep at the surface (Etiope et al., 
+2011 ) and vent at the seafloor (Charlou et al., 2002 ). However, the 
+models and budgets of H2 in the atmosphere currently do not account for 
+the geologic H2 (Price et al., 2007 ; Ehhalt and Rohrer, 2009 ; Pieterse 
+et al., 2011 ). Although H2 is commonly considered as 
+environment-friendly gas (World Energy Council, 2019 ), its natural or 
+industrial combustion adds water vapor to the atmosphere, which is the 
+most abundant and powerful greenhouse gas (Sherwood et al., 2018 ). In 
+addition, leakage of H2 into the atmosphere reduces global levels of the 
+hydroxyl radical OH and therefore increases the lifetime and forcing of 
+the second most powerful greenhouse gas CH4 (Warwick et al., 2004 ). A 
+recent study estimated that, over a 100-year time period, one metric ton 
+of H2 in the atmosphere will warm the Earth some 11 (±5) times more 
+than one metric ton of CO2 (Warwick et al., 2022 ). An increase in the 
+atmospheric H2 also increases the concentration tropospheric ozone 
+(O3), important to both air quality and climate (Warwick et al., 2022 ). 
+3.Dataset 
+Compilation of a large global dataset of ~34,500 gas samples from 
+100 countries and territories across seven continents (~370 basins) was 
+done using data from ~1200 publications and public databases. Gas 
+samples were taken at depths ranging from the surface to 8600 m below 
+surface/seafloor. Gas samples came from 16 different geological habitats 
+listed below (note that the references cited below are not the sources of 
+all of the data from the given habitat but rather provide further details 
+about the gas type, collection method or source of the samples typical for 
+that habitat).  
+A. Conventional oil and gas reservoirs. These reservoirs do not 
+require stimulation such as fracking or heating to recover oil and 
+gas. The gases were sampled either from wellheads or separators 
+at the surface (Liu et al., 2013 ) or directly from producing for-
+mations (mostly with formation testers such as Modular Dynamic 
+Formation Tester, Milkov et al., 2007 ; Petersen et al., 2019 ).  
+B. Coals. These gases came from coal mines and coal seams (known 
+as coal bed methane (CBM) or coal seam gas (CSG)) (Milkov, 
+2021 ). They were sampled from producing wellheads (Bao et al., 
+2014 ) or from degassed coals placed in desorption canisters 
+(Bannerjee et al., 2021 ).  
+C. Shales. These gases came from geological formations with true 
+shale lithology such as the Marcellus Formation in the USA and 
+the Wufeng-Longmaxi Formation in China and from unconven -
+tional “tight ” reservoirs composed of very fine-grained sand-
+stone/siltstone (e.g., the Bakken Formation, USA) and some 
+mixed clastic/carbonate reservoirs (e.g., the Niobrara Formation, 
+USA) where gases were generated within these formations or in 
+immediately surrounding rocks (Milkov et al., 2020a ). The gases 
+were sampled during production at wellheads (Feng et al., 2017 ) 
+or after degassing from rocks placed in desorption jars and can-
+isters (Chatellier et al., 2013 ; Chen et al., 2020 ).  
+D. Hydrocarbon seeps and mud volcanoes. These gases were 
+sampled at the surface/mudline from actively or passively 
+degassing petroleum seeps and mud volcanoes in sedimentary 
+basins (Etiope et al., 2009 ).  
+E. Marine sediments. These gases were sampled in marine sediments 
+with no obvious indication of petroleum or volcanic/magmatic A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+5seeps or discharge from hydrothermal systems, and recovered by 
+piston coring (Bernard et al., 1977, 2013 ) or during ocean drilling 
+(Choi et al., 2016 ). Such gases are usually water-dissolved in the 
+subsurface, and were sampled after being released into gas voids 
+(Milkov et al., 2004 ) or into headspace (Luong et al., 2021 ). 
+F.Gas hydrates. These gases were sampled during the decomposi -
+tion of gas hydrates recovered from marine (Milkov, 2005 ) and 
+continental (Liu et al., 2020 ; Hachikubo et al., 2020 ) sediments.  
+G. Continental sediments (including lakes and swamps). These gases 
+were sampled in continental settings (Hendrix, 2009 ) in sedi-
+ments and rocks with no obvious indication of petroleum or 
+volcanic/magmatic seeps or discharge from hydrothermal sys-
+tems. They were recovered by shallow coring and drilling (Lecher 
+et al., 2017 ) or deep drilling (Wiersberg and Erzinger, 2008 ), and 
+were usually dissolved in water (Gruca-Rokosz and Koszelnik, 
+2018 ).  
+H. Aquifers/groundwater. These gases, typically dissolved in water, 
+were sampled from water wells drilled into underground layers of 
+water-bearing permeable rocks, rock fractures or unconsolidated 
+materials (Darrah et al., 2014 ; Goetz, 2021 ). This category ex-
+cludes gases from volcanic/magmatic hydrothermal systems, 
+sedimentary hydrothermal systems, and serpentinites (see 
+below).  
+I. Non-sedimentary hard rocks. These gases were sampled from 
+non-sedimentary igneous and metamorphic rocks (but not ser-
+pentinites, see below), typically in cratonic settings (Potter et al., 
+2013 ; Boreham et al., 2021b ). The gases were obtained during 
+crushing of the hard rocks (Potter et al., 2013 ) or came from 
+pores/cavities (Galimov and Petersil ’ye, 1967 ; Jeffrey and 
+Kaplan, 1988 ) and even as gas jets and seeps (Voytov, 1992 ). 
+J.Volcanic/magmatic seeps. These gases were sampled at the sur-
+face/mudline from actively (via eruptions) or passively (via fu-
+maroles) degassing onshore and offshore volcanoes (excluding 
+vents in Mid-Ocean Ridges, see below) associated with magmatic 
+processes (Bergfeld et al., 2014 ; Fischer and Chiodini, 2015 ; 
+Fiebig et al., 2019 ).  
+K. Volcanic/magmatic vents in Mid-Ocean Ridges (MORs). These 
+gases were sampled from vents in the Mid-Atlantic Ridge (Konn 
+et al., 2022 ), Mid-Cayman Rise (McDermott et al., 2018 ), East- 
+Pacific Rise (Proskurowski et al., 2008a, 2008b ), Juan de Fuca 
+Ridge (Lilley et al., 1993 ), and the Central Indian Ridge (Kawa -
+gucci et al., 2010 ).  
+L. Volcanic/magmatic hydrothermal systems. These gases sampled 
+below surface (in aquifers) were clearly related to volcano-hosted 
+hydrothermal systems in which the heat and volatiles are sup-
+plied from magma (Fischer and Chiodini, 2015 ; Fiebig et al., 
+2019 ). In the classification of Moeck (2014) , these are 
+convection-dominated volcanic type and plutonic type 
+geothermal plays exemplified, for example, by the Reykjanas 
+system in Iceland (Arnason, 1977 ; Byrne et al., 2021 ) and the 
+Larderello system in Italy (Leila et al., 2021 ).  
+M. Hot springs in sedimentary hydrothermal system. These gases 
+sampled at the surface/mudline were apparently associated with 
+deep hydrothermal systems in sedimentary rocks, with no 
+obvious relation to adjacent recent volcanic/magmatic activity. 
+Examples include hot springs in the Baikal rift zone (Kalmychkov 
+et al., 2020 ).  
+N. Sedimentary hydrothermal system. These gases came from hot 
+aquifers in sedimentary rocks that do not have clear association 
+with volcanic/magmatic systems. In the classification of Moeck 
+(2014) , these are conduction-dominated geothermal plays in 
+intracratonic basins (e.g., North German basin, Feldbusch et al., 
+2018 ), orogenic belts and basements. The extensional domain 
+plays with no obvious recent volcanic/magmatic activity such as 
+in the Western Turkey (Tut Haklıdır et al., 2021 ) are also included 
+in this category.  O. Springs. These gases were sampled at the surface/mudline from 
+some degassing features that do not have obvious known asso-
+ciation with either hydrocarbon seeps (and underlying petroleum 
+systems) or with degassing volcanoes associated with magmatic 
+processes (and having obvious thermal anomalies). Examples 
+include springs along the Dead Sea Fault system (Gasperini et al., 
+2020 ). Many of the springs from the database of Mariner et al. 
+(2006) were included in this category simply because there was 
+no clear geological information to classify them as either volca -
+nic/magmatic seeps or hot springs in sedimentary hydrothermal 
+system.  
+P. Serpentinites. These gases came from springs, seeps/vents and 
+aquifers, located both onshore and offshore, that clearly associate 
+with serpentinites (Etiope et al., 2017 ; Nothaft et al., 2021 ). Some 
+gases in volatiles released from crushed ultramafic rocks appar -
+ently affected by serpentinization (Zhang et al., 2017 ) are also 
+included in this category. 
+There are some overlaps and uncertainties in the definitions of these 
+geological habitats. For example, gas hydrates occur in marine (Milkov, 
+2010 ) and in continental (Lu et al., 2011 ), including lake (Hachikubo 
+et al., 2020 ), sediments. However, gas hydrates contain concentrated 
+gases (Milkov, 2005 ), which are potentially important resources (Mil-
+kov, 2004 ), and the process of gas hydrate formation fractionates gases 
+(Sassen et al., 2000 ; Milkov et al., 2004 ). Therefore, I differentiate gas 
+hydrates as a separate geological habitat. Similarly, and highly impor -
+tant for this study, I differentiate serpentinites as a separate habitat. 
+Even though gases in that category are sampled both at the surface/ -
+mudline (seeps, springs) and in the shallow fractured aquifers, I differ -
+entiate that habitat strictly based on the mineralogy of the hosting rocks, 
+due to the unique H2-enriched gases generated in that setting. Serpen -
+tinization process can contribute to gases sampled from other habitats 
+such as aquifers (Sherwood Lollar et al., 2007 ), volcanic/magmatic 
+seeps and vents in MORs (Charlou et al., 2000 ), sedimentary hydro -
+thermal systems (Hao et al., 2020 ), conventional reservoirs (Coveney Jr. 
+et al., 1987 ; Briere et al., 2017 ), and non-sedimentary hard rocks (Kelley 
+and Früh-Green, 1999 ). However, unless the sampled gases directly 
+emanate from serpentinites, they have been labelled as corresponding to 
+other geological habitats. Gases from springs and hydrothermal systems 
+may also be difficult to assign to one of the defined habitats. For 
+example, I classified Bazman thermal springs in the southeast Iran 
+(Deshaee et al., 2020 ) as “hot springs in sedimentary hydrothermal 
+systems ” even though there are nearby volcanoes with recent activities 
+because it appears that these volcanoes contributed heat but not vola-
+tiles to the thermal springs. In spite of the listed limitations, the 
+assignment of gases to specific geological habitats enables the holistic 
+geological and geochemical interpretation of natural gases. 
+The data for gas samples include information on location, sampling, 
+depth, temperature, formation, fluid type and molecular and isotopic 
+compositions. Gas concentrations are recorded as vol.% on water-free 
+basis. Parts of this dataset were previously described and studied by 
+Milkov and Etiope (2018) , Milkov et al. (2020a, 2020b) , Snodgrass and 
+Milkov (2020) and Milkov (2021) . 
+A total of 34,290 samples in the dataset have identified geological 
+habitats (one of the 16 habitats discussed above, Fig. 1A). 6246 of these 
+samples have reported H2 concentrations (Fig. 1B). The concentration 
+data come from published papers, reports and publicly available gov-
+ernment databases, and the validity of specific measurements is 
+impossible to check. Gases with reported H2 concentrations occur in 50 
+countries and territories and in MORs (Fig. 2). Most gases come from the 
+USA (n 2481) and China (n 816). A fraction of samples (n 484) 
+have measured δ2H-H 2 values. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+6
+Fig. 1.Pie charts showing the number and proportions of gases from different geological habitats in the entire dataset of gas samples with known geological habitats 
+(A) and in the subset of gas samples with measured H2 concentrations (B). A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+74.Results 
+4.1. Distribution of H2 in various geological habitats and depths 
+Concentrations of H2 in natural gases, when measured and reported 
+(n 6246), range from 0% to 100% (Fig. 3), with average ~3.5% and 
+median ~0.01%. There are 4770 gas samples with H2F0%, and this 
+subset includes 1890 samples with H2F0.1%, 1012 samples with 
+H2F1%, and 621 samples with H2F5% (Fig. 3). 
+The distributions of H2 concentrations in gases from 16 geological 
+settings described above are presented as box plots in Fig. 4. Gases 
+sampled in MORs and in serpentinites have the highest average con-
+centrations of H2 (~24% and ~21%, respectively). Other six settings 
+that contain less, but still appreciable amounts of H2, include non- 
+sedimentary hard rocks (average ~11%), volcanic/magmatic hydro -
+thermal systems (~7%), sedimentary hydrothermal systems (~4%), volcanic/magmatic seeps (~4%), aquifers (~3%), and conventional 
+petroleum reservoirs (~1%). The remaining eight geological settings 
+(marine sediments, shales, coals, hot springs in sedimentary hydro -
+thermal systems, continental sediments, hydrocarbon seeps and mud 
+volcanoes, and springs) have either very low average concentrations of 
+H2 or/and small number of available gas samples, and I exclude them 
+from further consideration in this study. 
+Most gas samples with significant (F10%) H2 (also referred to as H2- 
+rich by Coveney Jr. et al., 1987 ) occur at the surface (as seeps and vents) 
+or in shallow (D2000 m) subsurface (Fig. 5). Among 1186 surface gas 
+samples with H2 measurements, the average concentration is ~10%. The 
+highest concentrations (F90%) are measured in gases seeping from 
+serpentinites (Neal and Stranger, 1983 ; Szponar et al., 2013 ) and vent-
+ing from MORs (Proskurowski et al., 2008a, 2008b ; Konn et al., 2022 ). 
+The average H2 in serpentinite seeps is ~23% (n 239), and in MOR 
+vents it is ~24% (n 131). In contrast, volcanic/magmatic seeps have 
+Fig. 2.Distribution of samples with reported H2 concentrations across countries and territories (A) and across continents, including Mid-Ocean Ridges (B).  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+8significantly lower average H2 concentration of ~4% (n 798). 
+At depth from F0 to 2000 m below the surface, the average H2 is 
+~2.8% (n1296 samples). The highest concentrations F90% are 
+measured in gases dissolved in water held by serpentinites (Sader et al., 
+2021 ; Nothaft et al., 2021 ), in conventional gas reservoirs (Prinzhofer 
+et al., 2018 ; Pudovskis, 1959 ) and in aquifers (Gu˘elard et al., 2017 ). The 
+average H2 in volcanic/magmatic hydrothermal systems is ~18.4% (n 
+22, with highest concentrations up to 58.6% in wells from the Cerro 
+Prieto geothermal field, Welhan, 1981 ), in serpentinites ~15.5% (n 
+65), in non-sedimentary hard rocks ~14.4% (n 11), in aquifers ~6.6% 
+(n 95), in sedimentary hydrothermal systems ~1.9% (n 27), and in 
+conventional reservoirs ~1.2% (n 997). Samples from depth F2000 m are predominantly from conventional 
+reservoirs (Fig. 5). The average H2 concentration is ~1% (n 666), but 
+that value is significantly affected by few gases from deep aquifers and 
+non-sedimentary rocks relatively enriched in H2. 
+It appears from the above statistics and displays in Fig. 5 that the 
+average concentration of H2 is greatest at the surface and decreases with 
+increasing depth. However, that observation results from a smaller 
+number of samples at great depths, which come predominantly from 
+conventional reservoirs. There are no clear trends of H2 increase or 
+decrease with increasing subsurface depth in studied geological settings. 
+Fig. 3.Distributions of H2 concentrations in gas samples with reported H2 concentrations. Panel A shows all available samples with bin size 0.1% and demonstrates 
+that the vast majority of samples has H2 concentrations D0.1%. Panel B shows all available samples with bin size 5% and also zooms into samples with H2 con-
+centrations F5% (panel C) to demonstrate a relatively small number of such samples in the dataset. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+9
+Fig. 4.Concentrations of molecular H2 in natural gas samples (n6246) from 16 geologic habitats (sorted by decreasing average values, letter labels are consistent 
+with text in section 3): K - Mid-Ocean Ridges; P – Serpentinites, I – Non-sedimentary hard rocks; L – Volcanic/magmatic hydrothermal systems; N – Sedimentary 
+hydrothermal systems; J – Volcanic/magmatic seeps; H – Aquifers/groundwaters; O – Springs; A – Conventional reservoirs; G – Continental sediments; E – Marine 
+sediments; F – Gas hydrates; C – Shales; B – Coals; M – Hot springs in sedimentary hydrothermal systems; D – Hydrocarbon seeps/mud volcanoes. The data are 
+displayed using a box plot, which shows distribution of values as histogram, average (mean) values as black stars (and 95% confidence level as black bars), median 
+values as dotted line, first quartile (Q1), third quartile (Q3), lower adjacent value (LAV), upper adjacent value (UAV), and outliers. The first quartile (Q1) is the 
+median of the lower half of the data set. This means that about 25% of the numbers in the data set lie below Q1 and about 75% lie above Q1. The third quartile (Q3) is 
+the median of the upper half of the data set. This means that about 75% of the numbers in the data set lie below Q3 and about 25% lie above Q3. The lower adjacent 
+value is the smallest observation that is greater than or equal to the lower inner fence, which is the first quartile minus 1.5×IQR, where IQR stands for the inter-
+quartile range. The upper adjacent value is the largest observation that is less than or equal to the upper inner fence, which is the third quartile plus 1.5×IQR. Most 
+values are located in the lower part of the distributions, and displayed statistical boundaries are poorly distinguished on these box plots. 
+Fig. 5.Concentration of H2 (A – simple linear scale, B – logarithmic scale) at the surface and at subsurface depths in various geological habitats.  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+104.2. Associations of H2 with other natural gases 
+Hydrogen is the focus of this study, but it is, on average, not the most 
+abundant gas even in geological habitats where it is present in relatively 
+high concentrations (Table 1). Other gases typically dominate, as, for 
+example, N2 in serpentinites, CH4 in conventional reservoirs and in non- 
+sedimentary hard rocks, and CO2 in volcanic/magmatic seeps and hy-
+drothermal systems. Hydrogen is the second most abundant gas in MORs 
+and in volcanic/magmatic hydrothermal systems. Helium is, on average, 
+less abundant than H2 in all these settings. 
+Fig. 6 compares concentration of H2 with the concentrations of other 
+major gases CH4, CO2 and N2 in different geological settings. Gases in 
+conventional reservoirs are clearly dominated by CH4, and volcanic/ 
+magmatic gases are clearly dominated by CO2, and these observations 
+are consistent with the main statistics in Table 1. There are no obvious 
+correlations between concentrations of H2 and concentrations of these 
+major gases in the studied geological settings. However, there is a weak 
+positive correlation between concentrations of H2 and He for all 
+considered gases (Fig. 7). Gases from MORs and volcanic/magmatic 
+gases are more enriched in H2 and depleted in He (also see Table 1) than 
+gases from crustal settings. This may be because significant additional He is generated in the crustal settings from the decay of radioactive 
+elements (Byrne et al., 2018 ), but crustal H2 either is limited at the 
+source or is largely consumed. On the other hand, a weak positive cor-
+relation between H2 and He in gases from conventional reservoirs 
+potentially suggests that they are generated, migrate and/or become 
+preserved in similar ways. 
+4.3. Isotopic compositions of H2 and associated He 
+Stable isotopes are a standard tool to evaluate the origin of hydro -
+carbon gases, CO2, N2 and noble gases at the surface (seeps) and in the 
+subsurface (Milkov and Etiope, 2018 ; Lavrushin et al., 2020 ; Byrne et al., 
+2018 ). Various tools ranging from two-dimensional genetic diagrams 
+(Milkov and Etiope, 2018 ; Milkov, 2021 ) to a web-based machine 
+learning tool (Snodgrass and Milkov, 2020 ) have been developed to 
+interpret the origins of these gases based on large datasets of tens of 
+thousands gas samples. 
+Geologic H2 contains two stable isotopes, 1H (protium, isotopic 
+abundance ~99.972% of all hydrogen on modern Earth) and 2H 
+(deuterium). Isotopic composition of H2 is expressed as δ2H-H 2 values in 
+parts per thousand (per mil, ‰) referenced to Vienna Standard Mean 
+Ocean Water, or VSMOW (Schimmelmann and Sauer, 2017 ). Although 
+δ2H-H 2 can be indicative of H2 origin (Boreham et al., 2021a, 2021b ; 
+Schimmelmann and Sauer, 2017 ), the number of available δ2H-H 2 
+measurements in natural gases is relatively small, there is a significant 
+overlap in δ2H-H 2 values of H2 with different origins (Boreham et al., 
+2021a, 2021b ) and there is no comprehensive interpretation scheme to 
+determine the origin of H2 based on its isotopic composition. 
+Comparison of H2 concentrations with the isotopic composition of H2 
+suggests that there is no correlation between them for the entire set of 
+gases (Fig. 8). However, there is a good separation between H2 in gases 
+from MORs, volcanic/geothermal seeps and hydrothermal systems and 
+gases from serpentinites, conventional reservoirs and aquifers/ground -
+waters, non-sedimentary hard rocks and sedimentary hydrothermal 
+system based on δ2H-H 2 of -650‰. 
+The distribution of δ2H-H 2 values across various geological settings is 
+broadly trimodal (Fig. 9). Molecular H2 from serpentinites (Fig. 9b), 
+conventional petroleum reservoirs, aquifers, non-sedimentary hard 
+rocks and sedimentary hydrothermal systems has δ2H-H 2 values gener -
+ally more negative than -650‰ (mode around -730‰). Not included in 
+Fig. 9 are gases extracted from shales and metapelites with δ2H-H 2 
+values from -810 to -629‰ (Suzuki et al., 2017 ). In contrast, molecular 
+H2 from volcanic/magmatic seeps and hydrothermal systems is rela-
+tively enriched in 2H with δ2H-H 2 values generally exceeding -650‰ 
+(Fig. 9c), with apparent two modes around -530‰ and -370‰. Gases 
+sampled from vents in MORs are generally even more enriched in 2H 
+with δ2H-H 2 values with a mode about -370‰ (Fig. 9d). 
+These observations suggest that δ2H-H 2 values may be indicative of 
+H2 origin: hydrogen with δ2H-H 2 of D-650‰ has crustal origin, while 
+hydrogen with δ2H-H 2 of F-650‰ has mantle/primordial origin. Pri-
+mordial H2 was delivered by meteorites during accretion of the Earth 
+and preserved in the mantle and the core (Larin, 1993, 1995 ). The 
+separation of crust-sourced and mantle-sourced gases based on δ2H-H 2 
+of -650‰ is supported by the well-established source fingerprinting 
+based on He isotopes as shown in Fig. 10 (3He/4He ratios are typically 
+reported relative to the atmospheric ratio Ra and expressed as R/R a). 
+Helium from the mantle is relatively enriched in 3He, which is a pri-
+mordial isotope made in the Big Bang and incorporated into Earth 
+during its initial accretion (Byrne et al., 2018 ). The association of 2H- 
+enriched H2 with 3He-enriched He suggests that 2H-enriched H2 
+observed in volcanic/magmatic natural gases has mantle and/or pri-
+mordial origin. Gas samples from the crustal geological settings are 
+relatively depleted in 3He and in 2H (Fig. 10). Specific sources of He and 
+H2 in each gas sample from crustal settings can be different (e.g., He can 
+come from the decay of radioactive elements and from the air, while H2 
+is sourced by the reactions of serpentinization, Vacquand et al., 2018 ) or Table 1 
+Range, average and median concentrations of major gases (CH 4, N2, CO2), H2 
+and He in the six geological habitats with highest average H2 concentrations. 
+Other gases that are present in smaller concentrations (e.g., ethane-pentane and 
+H2S) are not shown. The n indicates the number of samples with available 
+concentration measurements.  
+Geological 
+habitat CH4 N2 CO2 H2 He Gas 
+type 
+Mid-Ocean 
+Ridges 0-73.3 
+Av. 6.7 
+Med. 1.9 
+(n 
+137) 0-88.8 
+Av. 21.6 
+Med. 6.8 
+(n 74) 0-99.9 
+Av. 50.6 
+Med. 
+47.6 
+(n 
+112) 0-97.1 
+Av. 
+23.8 
+Med. 
+4.1 
+(n 
+137) 0.01- 
+0.05 
+Av. 
+0.04 
+Med. 
+0.04 
+(n 
+12) CO2- 
+H2- 
+N2 
+Serpentinites 0-95.1 
+Av. 26.5 
+Med. 9.7 
+(n 
+428) 0-99.5 
+Av. 36.1 
+Med. 
+25.0 (n 
+390) 0-99.9 
+Av. 16.8 
+Med. 
+0.05 (n 
+266) 0-100 
+Av. 
+21.2 
+Med. 
+4.8 
+(n 
+397) 0-0.01 
+Av. 
+0.65 
+Med. 
+0.01 
+(n 
+248) N2- 
+CH4- 
+H2 
+Non- 
+sedimentary 
+hard rocks 0.1-92.9 
+Av. 48.1 
+Med. 
+52.0 
+(n 86) 0-99.7 
+Av. 36.8 
+Med. 
+32.4 
+(n 83) 0-92.8 
+Av. 3.5 
+Med. 0.2 
+(n 70) 0-63.3 
+Av. 
+8.1 
+Med. 
+3.0 (n 
+77) 0-19.1 
+Av. 
+3.0 
+Med. 
+1.1 
+(n 
+80) CH4- 
+N2- 
+H2 
+Volcanic/ 
+magmatic 
+hydrothermal 
+systems 0-74.3 
+Av. 5.9 
+Med. 0.9 
+(n 
+156) 0-97.6 
+Av. 6.7 
+Med. 0.9 
+(n 
+151) 0-99.6 
+Av. 79.9 
+Med. 
+84.1 (n 
+137) 0-64.7 
+Av. 
+6.8 
+Med. 
+1.6 (n 
+
+149) 0-19.9 
+Av. 
+0.9 
+Med. 
+0.0 
+(n 
+74) CO2- 
+H2- 
+N2 
+Volcanic/ 
+magmatic 
+seeps 0-96.1 
+Av. 2.1 
+Med. 0.2 
+(n 
+848) 0-99.0 
+Av. 10.5 
+Med. 1.6 
+(n 
+817) 0-99.9 
+Av. 81.4 
+Med. 
+91.8 (n 
+803) 0-80 
+Av. 
+2.6 
+Med. 
+0.2 (n 
+
+767) 0-33.3 
+Av. 
+0.02 
+Med. 
+0.00 
+(n 
+640) CO2- 
+N2- 
+H2 
+Conventional 
+reservoirs 0-100 
+Av. 81.6 
+Med. 
+87.1 (n 
+
+14,660) 0-97.8 
+Av. 5.3 
+Med. 1.7 
+(n 
+10,251) 0-100 
+Av. 4.7 
+Med. 1.0 
+(n 
+12,366) 0-97.4 
+Av. 
+0.9 
+Med. 
+0.0 (n 
+
+2150) 0-9.0 
+Av. 
+0.15 
+Med. 
+0.02 
+(n 
+2688) CH4- 
+N2- 
+CO2  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+11the same (Naumenko-D ˘ezes et al., 2022 ). 
+Gases venting at MORs have a wide range of δ2H-H 2 values from -823 
+to -231‰ (n 52). Three samples from the East Pacific Rise extremely 
+depleted in 2H (δ2H-H 2 values around -800‰, Fig. 9d) are likely sam-
+pling artifacts (Merlivat et al., 1987 ). Ten samples with δ2H-H 2 values 
+between around -700 and -600‰ come mostly from the Lost City, where 
+the process of serpentinization is very well documented (Lang and 
+Brazelton, 2020 ). The vast majority of MOR samples have δ2H-H 2 values 
+between -500‰ and -230‰ (Fig. 9d), suggesting mostly mantle/pri -
+mordial origin. 
+The isotopic composition of molecular H2 in volcanic and magmatic 
+settings is distinct, with δ2H-H 2 values generally greater than -700‰ and as high as -110‰. This H2 is associated with mantle/primordial He, and 
+may have mantle/primordial origin. Among these samples, δ2H-H 2 
+values closer to -700‰ may indicate H2 of mixed mantle/crustal origin, 
+for example in some samples from the Yellowstone (Welhan, 1981 ). δ2H- 
+H2 values closer to -400‰ (as in MOR samples, Fig. 9) and to -100‰ (as 
+in the Mid-Icelandic volcanic belt, Sigvaldson and Elisson, 1968 ; Arna-
+son and Sigurgeirsson, 1968 ) may indicate H2 from processes in the 
+mantle, and perhaps some H2 of primordial origin. Such interpretation is 
+consistent with δ2H-H 2 values mostly between -95‰ and -35‰ in min-
+erals and fluid inclusions in mantle-derived rocks (Kyser and O’Neil, 
+1984 ; Deloule et al., 1991 ; Kingsley et al., 2002 ; Loewen et al., 2019 ), 
+the suggestion that primordial H2 has δ2H-H 2 of about -75‰ (Craig and 
+Fig. 6.Concentration of H2 versus concentrations of CH4, CO2 and N2 in natural gases from various geological habitats. See Fig. 5 for symbol legend.  
+Fig. 7.Concentration of H2 versus concentrations of He in natural gases from various geological habitats. See Fig. 5 for symbol legend. Samples that contain one gas 
+(for example, H2), but not the other (respectively, He), as, for example, some gases emanating from serpentinites in Oman (Zgonnik et al., 2019 ) are not displayed on 
+this log-log plot. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+12Lupton, 1976 ; Taylor et al., 1983 ; Larin, 1995 ) and even greater 2H 
+enrichment in asteroids and comets (Dauphas et al., 2000 ). 
+The variations of δ2H-H 2 in geological habitats are interpreted above 
+in terms of different sources and origins of H2 (also complicated by the 
+fact that the geological habitats do not exactly correspond to specific 
+sources of hydrogen). Variations in source water isotope composition 
+(δ2H-H 2O) and temperature-dependent equilibrium isotopic fraction -
+ation and kinetic 2H-1H exchanges between H2 and water (Pester et al., 
+2018 ; Ricci et al., 2022 ; Loffler et al., 2022 ) provide additional reasons 
+for these variations or an alternative explanation of such variations. The 
+fractionation factor at equilibrium (αH2O-H2(eq) ) is sensitive to tempera -
+ture (Richet et al., 1977 ; Horibe and Craig, 1995 ). In general, H2 
+sampled at high temperatures and/or sourced by high-temperature 
+fluids should be more enriched in 2H (i.e., should have more positive 
+δ2H-H 2 values) than H2 sampled at low temperatures. Data from natural 
+gases generally follow this trend (see Fig. 1 in Pester et al., 2018 ), but 
+there are many deviations from the equilibrium curve, which can be 
+explained by previous higher temperatures of the solutions. There is a 
+weak positive correlation between δ2H-H 2 values and sampling tem-
+perature in our dataset (Fig. 11), which is broadly consistent with 
+temperature-dependent isotopic fractionation between H2 and water. 
+4.4. Origins of H2-containing gases 
+Molecular H2 is commonly a relatively minor compound in natural 
+gases dominated by hydrocarbons (predominantly CH4), CO2 and N2 
+(Table 1). The origins of these major gases can be inferred from stable 
+isotopes (Milkov and Etiope, 2018 ; Snodgrass and Milkov, 2020 ; Milkov, 
+2021 ; Lavrushin et al., 2020 ). Figs. 12 and 13 show commonly used genetic diagrams with plotted gases that contain ≽1% of H2. It appears 
+that hydrocarbons and CO2 sampled from conventional reservoirs have 
+mostly thermogenic origin. Hydrocarbons and CO2 sampled from other 
+geological settings, especially volcanic gases, gases from serpentinites 
+and gases from non-sedimentary hard rocks have mostly abiotic origin. 
+However, it is important to note that the construction of gas genetic 
+fields on these diagrams was grounded in both geochemical and 
+geological arguments (Milkov and Etiope, 2018 ), so the conclusions 
+above are based on circular reasoning. In addition, many natural gases 
+are mixtures. Almost no gases that contain ≽1% of H2 have hydrocar -
+bons and CO2 of microbial origin, which may be explained by the close 
+association of H2 producers and consumers in shallow cool marine 
+sediments and oil pools where microbial gases typically form. 
+The concentration of H2 has a weak correlation with the values of 
+δ13C-CH 4 (Fig. 14). Methane in gas samples (all geological settings) with 
+F10% H2 has average δ13C value -21.8‰ (n 172), while methane in 
+gas samples with H2 content F0% and ≼10% has average δ13C value 
+-38.0‰ (n 1509). The presence of very high H2 concentrations 
+together with 13C-enriched methane likely indicates common abiotic 
+processes in which these gases are co-generated (Etiope and Sherwood 
+Lollar, 2013 ; Etiope and Schoell, 2014 ; Etiope and Whiticar, 2019 ). 
+Comparison of δ2H-H 2 values with carbon and hydrogen isotopes of 
+co-existing CH4 suggests that crustal and mantle CH4 can be distin -
+guished based on δ2H-CH 4, with a separation at about -200‰ (Fig. 15). 
+While carbon isotopes of CH4 help distinguish between biotic and 
+abiotic processes, the plot of δ2H-H 2 versus δ13C-CH 4 highlights that 
+gases from crustal geological settings can have biotic or abiotic origins, 
+while mantle/primordial gases have abiotic origin. 
+Fig. 8.Concentration of H2 versus δ2H-H 2 in various geological habitats. See Fig. 5 for symbol legend. The value of δ2H-H 2 -650‰ may separate crustal and mantle/ 
+primordial H2 (see text for discussion). A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+134.5. H2 in conventional reservoirs 
+Conventional reservoirs with reported H2 concentrations are the 
+most represented geological settings with the largest number of H2 
+measurements in the studied dataset (n 2237). The average concen -
+tration of H2 in gases from conventional reservoirs is ~0.8%, while the 
+median concentration is only 0.01% (Fig. 4). I note that these statistics 
+are for all samples in the dataset, and they are not weighted for gas 
+resources in conventional reservoirs. The average concentration value is 
+likely to be significantly pushed upwards due to 38 samples with F10% 
+of H2 from several poorly understood gas accumulations in Australia and 
+better studied accumulations in Kansas and in Mali. 
+High concentrations of H2 in conventional reservoirs in Australia 
+(Fig. 5) have been reported long time ago, for example 51-84% in the 
+Adelaide area within the Gawler Craton (Ward, 1933 ) and up to 95.3% 
+in the Meda field in the Canning Basin (Pudovskis, 1959 ). These high H2 
+concentrations were highlighted in the recent review by Boreham et al. 
+(2021a) , but they should be validated with modern measurements 
+(including isotopes) to be better understood. 
+High concentrations of H2 were observed in the Heins and Scott wells 
+in Kansas (Fig. 5) where 31 gas samples have H2 concentrations ranging 
+from 1.4 to 70% (average ~32%), the remainder being N2 and traces of 
+hydrocarbons (McCarthy Jr. et al., 1986 ; Goebel et al., 1984 ; Coveney 
+Jr. et al., 1987 ; Gu˘elard et al., 2017 ). The Sue Duroche #2 water well 
+drilled in the same area also contains high concentrations of H2 (Gu˘elard 
+et al., 2017 ). These wells are near a major rift system with mafic rocks 
+and known kimberlites, which led to the initial interpretation that H2 
+originated from the reactions of serpentinization (Coveney Jr. et al., 
+1987 ), although the later study presented a more complex interpretation 
+of both deep and shallow H2 origins (Gu˘elard et al., 2017 ). The average δ2H-H 2 value in the Heins and Scott gases is -753‰ (n 11), which is 
+close to isotopic composition of H2 sourced by serpentinites (Fig. 9b). 
+Gas with high (98%) concentration of H2 (Fig. 5) was serendipitously 
+discovered in the Bourakebougou area (Mali) by a water well (Briere 
+et al., 2017 ; Prinzhofer et al., 2018 ). The initial study speculated that 
+serpentinization of ultramafic rocks is one of the most likely mechanisms 
+of H2 generation in the area (Briere et al., 2017 ). The later, more detailed 
+integrated geological/geochemical study suggested that H2 (it has δ2H- 
+H2 value -702‰) comes from the basement, without specifying the 
+process of H2 generation (Prinzhofer et al., 2018 ). Serpentinized mantle 
+peridotites are present in the NE Mali (the Tim˘etrine massif, Caby, 2014 ) 
+but the presence of serpentinites in the proximity of the Bourakebougou 
+area located within the West African craton in SE Mali is not apparent 
+from the literature review. 
+Curiously, very high concentration of H2 of 88.5% (with δ2H-H 2 
+-742‰) was reported in an oil-associated gas from the Brent field (211/ 
+29-B17) in the North Sea (UK OGA, 2021 ). That gas was unusual because 
+most gases from the Brent field do not contain H2. The high H2 was likely 
+formed via artificial processes such as metal corrosion. Apparently 
+artificial gases with high H2 (up to 90%) found in a well annuli on Troll A 
+platform offshore Norway have δ2H-H 2 values about -750 to -725‰ 
+(Thiessen et al., 2009 ). The δ2H-H 2 values of artificial H2 may overlap 
+with the δ2H-H 2 values of H2 from serpentinization (Fig. 9b), making 
+separation of these processes based on H2 isotopes alone rather 
+challenging. 
+Plotting of δ2H-H 2 values versus concentrations of H2 in conventional 
+reservoirs (Fig. 16) reveals that: 1) there is a wide range of δ2H-H 2 values 
+from -996‰ to -370‰ (n 74), but most samples (n 69) have δ2H-H 2 
+values from -850‰ to -600‰; 2) there is essentially no correlation of 
+δ2H-H 2 values and concentrations of H2. Three samples more depleted in 
+Fig. 9.Histograms showing distributions of δ2H-H 2 values in gas samples from eight geological settings (A), and separately from serpentinites (B), volcanic/ 
+magmatic settings (C) and MORs (D). The bin size is 20‰. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+142H (δ2H-H 2 D-850‰) than most other samples are from the West 
+Moonfish, Marlin and Basket wells in the Gippsland basin offshore 
+Australia (Boreham et al., 2021a ). Such δ2H-H 2 values are highly un-
+usual in the studied dataset (Fig. 9a). There are two samples more 
+enriched in 2H (δ2H-H 2 F-600‰) than most other samples (Fig. 16), 
+including one sample from Australia (the Katandra well in the Bonaparte 
+basin). Boreham et al. (2021a) suspected that artifacts accompanying 
+gas production, collection or storage caused unusual δ2H-H 2 values in 
+these gases from Australia. The fifth unusual sample is from the Heins 
+well in Kansas, but that single value δ2H-H 2 F-520‰ reported by 
+McCarthy Jr. et al. (1986) is outside of the range of the other 16 mea-
+surements from -670‰ to -836‰ (average -779‰) in the Heins and 
+Scott wells (Goebel et al., 1984 ; Coveney Jr. et al., 1987 ; Gu˘elard et al., 
+2017 ), making that value suspicious. 
+Samples with a significant 2H enrichment may be contaminated with 
+H2 from corrosion of steel (Levshounova, 1991 ) or may contain abiotic 
+mantle-derived H2 from some undelaying deep-seated rocks (Smith 
+et al., 2005 ; Truche and Bazarkina, 2019 ). Still, gases in conventional 
+reservoirs have δ2H-H 2 values mostly from -850‰ to -600‰ (Fig. 16), 
+suggesting that these processes may be not important in conventional 
+reservoirs. 
+Similarity of δ2H-H 2 values between conventional reservoirs and 
+serpentinites (Figs. 9 and 16) suggests that reactions of serpentinization 
+may be responsible for the origin of H2 in some conventional reservoirs. 
+This is likely the case for the H2-rich gas in the Heins and Scott wells in 
+Kansas. Interestingly, methane in these wells has δ2H values from -477 to 
+-419‰ (n 5) and plot on the genetic diagram of δ13C-CH 4 versus δ2H- 
+CH4 in the area of abiotic gas near many samples from serpentinites 
+(Fig. 12). This methane may have formed via FTT reactions from the H2 
+that originated from serpentinization of mafic rocks and kimberlites 
+documented in the area (Coveney Jr. et al., 1987 ). Other gases with δ2H values from -850 to -600‰ displayed in Fig. 16 
+come from fields (e.g., Brent field in the North Sea) and basins (Bohai 
+Bay in China, Taoudeni in Mali, and Gippsland, Bonaparte, Canning and 
+Bass basins in Australia) that do not have known nearby occurrences of 
+serpentinites. Other crustal sources and H2 generation mechanisms may 
+be responsible for the presence of H2 in these gases. δ2H-H 2 values in 
+conventional reservoirs are similar to δ2H-H 2 values (from -810 to 
+-629‰) in H2 released from pulverized shales and metapelites and 
+supposedly liberated from the organic matter (Suzuki et al., 2017 ). This 
+suggests that H2 in conventional reservoirs may come from the organic 
+matter (Horsfield et al., 2022 ) and perhaps from the same source rocks 
+that supplied the major gases such as hydrocarbons and CO2. However, 
+it is not clear at this stage if other most often mentioned natural pro-
+cesses (e.g., radiolysis or water or fracture-induced reduction of water) 
+or some other processes listed in Section 2.2. contribute H2 to conven -
+tional reservoirs. A much larger dataset of δ2H-H 2 values integrated with 
+the geological settings of the conventional wells is needed to answer this 
+question. 
+5.Discussion 
+5.1. The value and use of δ2H measurements in the interpretation of H2 
+origins 
+Although δ2H-H 2 can be indicative of H2 origin (Schimmelmann and 
+Sauer, 2017 ; Boreham et al., 2021a, 2021b ), previous studies evaluated 
+relatively small datasets of available δ2H-H 2 measurements in natural 
+gases with significant overlaps in δ2H-H 2 values of H2 with different 
+origins (Hao et al., 2020 ; Boreham et al., 2021a, 2021b ) and did not 
+propose a comprehensive interpretation scheme to determine the origin 
+of H2 based on its isotopic composition. 
+Fig. 10.Isotopic composition of He (expressed as R/ 
+Ra, see Byrne et al., 2018 ) versus isotopic composi -
+tion of H2 (δ2H-H 2) in gas samples from eight 
+geological settings. Three sets of samples (labeled) 
+are displayed but excluded from interpretation: 
+samples from 13N East Pacific Rise (Merlivat et al., 
+1987 ) and from Groß Schonebeck (Feldbusch et al., 
+2018 ) were interpreted as artifacts in the original 
+studies, and one sample from the Semail ophiolite 
+(Sano et al., 1993) is an outlier from other samples 
+taken in the same area. The other samples are inter-
+preted as groups of mantle and primordial He and H2 
+and as crustal He and H2. Still, δ2H-H 2 values may 
+reflect temperature-dependent equilibrium isotopic 
+fractionation and kinetic exchanges between H2 and 
+water (see the text for that discussion).   A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+15The results of this study suggest that crustal and mantle/primordial 
+molecular H2 have distinctive δ2H-H 2 values: crustal H2 is relatively 
+more depleted in 2H (δ2H-H 2D-650‰) and mantle/primordial H2 is 
+relatively more enriched in 2H (δ2H-H 2F-650‰). Further identification 
+of specific sources of H2 based on δ2H may be possible as discussed 
+below. Still, I caution that this discussion should be considered as pre-
+liminary and subject to significant future revisions because the number 
+of currently available δ2H-H 2 measurements is relatively small. Another 
+important consideration that should be integrated into the interpreta -
+tion of δ2H-H 2 values in natural gases is the variations in source water 
+isotope composition (δ2H-H 2O) and temperature-dependent equilibrium isotopic fractionation and kinetic isotope exchanges between H2 and 
+water (Horibe and Craig, 1995 ; Kawagucci et al., 2010 ; Simon et al., 
+2011 ; Pester et al., 2018 ; Ricci et al., 2022 ). Many δ2H-H 2 values in 
+natural gases plotted against temperature generally follow the theoret -
+ical trend calculated for temperature-dependent hydrogen isotopic 
+equilibrium (exchange) between H2 and H2O (Fig. 11). Most δ2H-H 2 
+values that deviate from that trend may be explained by fluid cooling 
+and the subsequent isotope equilibrium reaction (Kawagucci et al., 
+2010 ) and the variations in source water isotope composition (δ2H- 
+H2O). It is possible that isotope exchange (equilibrium) reaction is a 
+dominant process that controls δ2H-H 2 values in natural gases. The 
+Fig. 11.Sampling temperature versus δ2H-H 2 values in natural gases from different geological settings. See Fig. 5 for symbol legend. The dashed line represents 
+calculated δ2H-H 2 values assuming δ2H-H 2O0‰ for equation α[H2O-H2] 1.0473201036/T2 2.060×109/T4 0.180×1015/T6, which describes temperature- 
+dependent (temperature is in Kelvin) hydrogen isotopic equilibrium (exchange) between H2 and H2O (Horibe and Craig, 1995 ; Kawagucci et al., 2010 ). 
+Fig. 12.Gas genetic diagrams (from Milkov and Etiope, 2018 ) with displayed gas samples that contain H2 concentrations ≽1%. See Fig. 5 for symbol legend. The 
+ratio of C1/(C2C3) is the ration of methane to the the sum of ethane and propane, also known as “dryness ” of the gas. Abbreviations: CR – CO2 reduction, F – methyl- 
+type fermentation, SM – secondary microbial, EMT – early mature thermogenic gas, OA – oil-associated (mid0mature) thermogenic gas, LMT – late mature ther-
+mogenic gas. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+16broad correlation of δ2H-H 2 values with temperature (Fig. 11) does not 
+directly contradict the variation of δ2H-H 2 values due to origins from 
+different geological settings. High-temperature geological settings such 
+as volcanoes may emit H2 that is relatively enriched in 2H because it has 
+primordial/mantle origin or/and because it is at equilibrium with water 
+vapor at that high temperature. 
+Molecular H2 most enriched in 2H (δ2H-H 2F-350‰) perhaps is 
+mostly primordial. Degassing of primordial H2 at the Earth surface (along with He and Ne) has been proposed a long time ago (Chamberlin, 
+1909 ; Craig and Lupton, 1976 ). The mantle/primordial H2 is docu-
+mented by measurements in volcanic and magmatic gases (Fischer and 
+Chiodini, 2015 ), is theoretically feasible, and may be quantitatively very 
+significant (Gilat and Vol, 2005, 2012 ; Yang et al., 2016 ; Mao et al., 
+2017 ; Komabayashi, 2021 ). The contribution of mantle-sourced H2 to 
+shallow gas accumulations has been previously discussed (Meng et al., 
+2015 ). The amount of H2 in the Earth is debatable, but some studies 
+suggest that the interior of the Earth is enriched in H2 (Larin, 1993 ; 
+Walshe, 2006 ; Ikuta et al., 2019 ; He et al., 2022 ). Larin (1993) and 
+Toulhoat and Zgonnik (2022) estimated that the early Earth contained 4 
+wt.% initial H2. This H2 stored in hydrides could progressively decom -
+pose and degass from the surface over geological time (Larin, 1993 ). The 
+H2 degassing was more significant for early Earth. It was proposed that 
+an Archean atmosphere contained up to 30% H2 (Wordsworth and 
+Pierrehumbert, 2013 ) and that gases in Archean igneous rocks contain 
+significantly more H2 than gases from more recent igneous rocks 
+(Chamberlin, 1909 ). Still, the importance of mantle and primordial H2 in 
+natural gases remains speculative (Zgonnik, 2020 ) and this origin 
+received no serious consideration in recent studies and reviews of H2 
+origins on Earth (Klein et al., 2020 ). Our results suggest that primordial 
+H2 may vent at the surface of the Earth in MORs and in some volcanic 
+settings (Sigvaldson and Elisson, 1968 ; Kiyosu, 1983 ; Lyon and Hulston, 
+1984 ). Primordial H2 may support unique ecosystems with chemo -
+lithoautotrophic metabolic pathways on the modern deep seafloor 
+(Takai et al., 2004 ; Ohara et al., 2012 ), provide energy for long-term 
+survival of microbial cells (Morita, 2000 ) and contribute to the origin 
+of life on Earth and perhaps other planets (Nisbet and Sleep, 2001 ; 
+McCollom and Seewald, 2013 ; Holm et al., 2015 ; Glein and Zolotov, 
+2020 ). 
+Molecular H2 from volcanic/magmatic settings has a bimodal 
+Fig. 13.Gas genetic diagram (from Milkov, 2021 ) with displayed gas samples 
+that contain H2 concentrations ≽1%. See Fig. 5 for symbol legend. 
+Fig. 14.Concentration of H2 versus δ13C-CH 4 in various geological habitats. See Fig. 5 for symbol legend.  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+17
+Fig. 15. δ2H-H 2versus δ13C-CH 4 (A) and δ2H-H 2 versus δ2H-CH 4 (B) in various geological habitats. Broadly defined fields of “crustal ” and “mantle/primordial ” gases 
+are outlined. See Fig. 5 for symbol legend. 
+Fig. 16.Concentration of H2 versus δ2H-H 2 values in conventional petroleum accumulations and in serpentinites.  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+18distribution of δ2H values, with one mode around -380‰ (similar to the 
+MORs) and the second mode around -520‰ (Fig. 9c). This may indicate 
+that some volcanoes emit mostly primordial 2H-enriched H2, maybe 
+from the deeper mantle and from the core, for example, in the Mid- 
+Icelandic volcanic belt (Sigvaldson and Elisson, 1968 ; Arnason and 
+Sigurgeirsson, 1968 ). Other volcanoes emit relatively more 2H-depleted 
+H2 generated in the upper mantle or mixed with some crustal-generated 
+H2 (Welhan, 1981 ). 
+Serpentinization is one of the main processes that can result in high 
+H2 concentration in crustal geological settings (Coveney Jr. et al., 1987 ; 
+Etiope et al., 2011 ), and our results support this view. Gases sampled 
+from serpentinites contain molecular H2 with δ2H values around -715‰ 
+(Fig. 9b). Such 2H-depleted H2 may be due to specific serpentinization 
+reactions or just a function of relatively low temperatures at which H2 
+equilibrates with water in serpentinite settings (Fig. 11). 
+Suzuki et al. (2017) report that H2 released from pulverized shales 
+and metapelites sampled in one well and in outcrops in Japan has δ2H 
+values from -810 to -629‰ (n 15, average -696‰). They interpreted 
+that this H2 was liberated from the organic matter (kerogen) during 
+thermal maturation. These δ2H values are similar to δ2H values in gases 
+sampled from conventional reservoirs (n 72, average -722‰, Fig. 9). 
+Although significant amounts of H2 were obtained during laboratory 
+pyrolysis of shale and coals (e.g., Li et al., 2015, 2017 ; Horsfield et al., 
+2022 ), there are no isotope measurements on pyrolysis-derived H2 (to 
+our knowledge). 
+Radiolysis of water by alpha, beta and gamma radiation released in 
+the radioactive decay of U-, Th- and K-bearing minerals (Boyd et al., 
+1973 ; Lin et al., 2005a, 2005b ; Sauvage et al., 2021 ) and radiolytic 
+dehydrogenation of kerogen and hydrocarbon molecules (Frolov et al., 
+1998 ; Larter et al., 2019 ; Wang et al., 2022 ) are among other commonly 
+discussed process that can explain the presence of H2 in the crustal gases 
+(Leila et al., 2022 ). Laboratory experiments indicate that gamma ray 
+irradiation of water results in δ2H-H 2 values from -348 to -539‰ (Lin 
+et al., 2005a, 2005b ) and gamma ray radiolysis of methane results in 
+δ2H-H 2 values around -400‰ (Boreham and Davies, 2020 ). Molecular 
+H2 with such δ2H values is not present in crustal gas samples investi -
+gated in this study. This may be because of relatively rapid (on 
+geological timescales) isotopic exchange between H2 and groundwater 
+(Lin et al., 2005a, 2005b ; Ricci et al., 2022 ). Alternatively, radiolysis of 
+water and hydrocarbons is not a quantitatively significant process of H2 
+generation in the crust. Experimental data from Wang et al. (2020) show 
+that H2 generated from irradiated kerogen (δ2H-H 2 value -170‰) has 
+δ2H-H 2 values from -710‰ to -450‰. That range of δ2H-H 2 value 
+partially overlaps with δ2H-H 2 values in gases from conventional res-
+ervoirs (Fig. 9). This suggests that radiolysis of kerogen may produce at 
+least some H2 observed in conventional reservoirs. 
+Reaction between groundwater and Si-O or Si- radicals that appear 
+on the fresh surfaces of fractured rocks in fault zones is another often- 
+implied mechanism of H2 generation in the subsurface (mechanor -
+adical H2, Kita et al., 1982 ). Elevated concentrations of H2 often 
+observed in soil gases sampled along fault zones support this hypothesis 
+(Wakita et al., 1980 ; Sugisaki et al., 1983 ). Soil gases sampled from sites 
+along the Yamasaki fault (Japan) displayed molecular H2 concentrations 
+in the 0.7% to 3% range with δ2H-H 2 values -770‰, -590‰, -510‰ and 
+-470‰ (Kita et al., 1980 ). Sugisaki et al. (1983) reported δ2H-H 2 value 
+-675‰ in soil gas in the area of the Atera fault (Japan). High concen -
+trations of H2 (up to 25%) were observed in gases extracted from a drill 
+core taken in the fracture zone in the Nojima Fault Zone in Japan (Arai 
+et al., 2001 ), but there were no isotope measurements. High concen -
+trations of H2 (up to 6%) with δ2H-H 2 values from -708‰ to -618‰ were 
+observed in drill-mud gases sampled in fractured zones around the San 
+Andreas Fault core penetrated by the SAFOD well in California (Wiers -
+berg and Erzinger, 2008 ). The authors found that high H2 is consistent 
+with interaction of water with fresh silica mineral surfaces in the fault, 
+but noted that serpentinites were observed in drill-cuttings (Wiersberg 
+and Erzinger, 2008 ), and reactions of serpentinization could cause high H2 concentrations in the SAFOD well. In one experiment of simulated 
+faulting of a basalt specimen dampened with water with δ2H -40‰, the 
+δ2H-H 2 value was -222‰ (Hirose et al., 2011 ). Mechanoradical H2 from 
+the single lab-simulating faulting experiment is significantly enriched in 
+2H relative to the geologic H2 in fault settings. There may be many 
+reasons for that, including mixing of H2 with different origins in the 
+subsurface (e.g., H2 from serpentinites, from the mantle, or from other 
+subsurface processes may mix with H2 generated at surfaces of fractured 
+rocks), isotopic fractionation of mechanoradical H2 by H2-metabolizing 
+organisms around natural fault zones, and laboratory experiments 
+poorly imitating natural conditions. The quantitative significance of the 
+reaction between groundwater and Si-O or Si- radicals in the generation 
+of subsurface H2 remains unclear and more field and laboratory mea-
+surements of H2 concentrations and δ2H-H 2 values are needed to 
+constrain it. 
+The molecular H2 generated by microbes through hydrogenase re-
+action in laboratory conditions has δ2H-H 2 values between -814‰ and 
+-763‰ (Krichevsky et al., 1961 ). However, H2-enriched natural gases 
+usually do not have microbial origin (Fig. 12). This may be because in 
+geological settings favorable for the generation of microbial gases (e.g., 
+shallow cool marine sediments), the H2 is rapidly consumed and 
+metabolized into hydrocarbons, mostly methane (Wagner et al., 2018 ; 
+Katz, 2011 ; Milkov, 2011 ). 
+Artificial H2 present in some sampled natural gases may complicate 
+the use of δ2H measurements in the interpretation of H2 origin. Artificial 
+H2 may be generated in the subsurface during drilling operations via 
+reactions between acids introduced into the wellbore or naturally pre-
+sent in groundwaters and the iron in well casings, steel drilling shavings 
+and lithic fragments (Zinger, 1962 ; Bjornstad et al., 1994 ; Feldbusch 
+et al., 2018 ; Halas et al., 2021 ), as experimentally reproduced by 
+Bjornstad et al. (1994) . The corrosion process have been invoked to 
+explain unusually high concentrations of H2 in several wells. For 
+example, Lyon and Hulston (1984) interpreted H2 in one geothermal gas 
+sample with anomalous δ2H-H 2 values around -600‰ (compared to δ2H- 
+H2 values of F-525‰ measured for the rest of the samples in their study) 
+to result from many minor effects such as H2S reduction to H2 by reac-
+tion with the steel well casing. Unusually high H2 (9.2%) with δ2H value 
+-277‰ in a gas sample from geothermal reservoir Groß Schonebeck 
+(North German Basin) was judged to result from corrosion during a long 
+exposure of steel well casing at pH 2 (Feldbusch et al., 2018 ). 
+Merlivat et al. (1987) observed unusual δ2H-H 2 values from -823‰ to 
+-759‰ in H2-rich samples taken above hydrothermal vents in the East 
+Pacific Rise and interpreted such H2 as a result of a reaction between the 
+titanium sample bottles and the hot and acid hydrothermal solutions. 
+Such δ2H-H 2 values are indeed anomalous among the larger dataset of 
+samples from MORs, where H2 commonly has δ2H values F-500‰ 
+(Fig. 9d). 
+The δ2H-H 2 values of samples with high (up to 90%) and apparently 
+artificial (due to CO2 corrosion) H2 in well annuli on Troll A platform 
+(North Sea, Norway) were mostly about -750 to -725‰ (Thiessen et al., 
+2009 ; Mørkved et al., 2009 ). Using the H2O(LIQ)-H 2 geo-thermometer 
+the predicted equilibrium temperatures were, with some exemptions, 
+in the temperature range of the Troll A well heads (15-50•C), where the 
+H2 likely formed. A sample with likely artificial H2 concentration 88.5% 
+from the Brent B platform has δ2H-H 2 value -742‰ (UK OGA, 2021 ). 
+The preferential leakage of light isotope 1H during long-term 
+(months and years) storage of gas samples in steel cylinders may lead 
+to erroneously high δ2H-H 2 values. This was noted, for example, for 
+some of the first samples collected at Heins and Scott H2-rich wells in 
+Kansas that had δ2H-H 2 values from -510‰ to -340‰ after being stored 
+for F2 months (Goebel et al., 1984 ). These samples were significantly 
+more enriched in 2H than the H2 sampled in later studies and converted 
+to water right in the field (Coveney Jr. et al., 1987 ). Boreham et al. 
+(2021a) suspected that extreme enrichment of 2H (relative to other 
+gasses) in two gases in their dataset (from well Pinelands 3 (Surat Basin) 
+with δ2H-H 2 value -389% and from well Katandra 1 (Bonaparte Basin) A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+19with δ2H-H 2 value -370%, Fig. 8) point to the artifact accompanying gas 
+production, collection or storage. 
+The δ2H-H 2 values of artificial H2 (from -823‰ to -277‰, based on 
+the above references) and of leaked gas samples (significantly 2H- 
+enriched) may overlap with the δ2H values of H2 in samples where these 
+issues are not suspected. This indicates a significant challenge for the 
+interpretation of δ2H-H 2 values and highlights the need for careful 
+sampling procedures and a holistic approach to the interpretation of H2 
+origin when some geochemical anomalies or unusual gas sampling 
+conditions are present. 
+5.2. H2 in petroleum fluids 
+There are some petroleum (mostly natural gas) accumulations where 
+H2 is reportedly present in relatively large concentrations exceeding 
+10% (Bohdanowicz, 1934 ; Headlee, 1962 ; Molchanov, 1981 ; Angino 
+et al., 1984 ; Perevozchikov, 2011 ; Leila et al., 2022 ). Large concentra -
+tions (up to 43%) of H2 were found in many water samples taken below 
+oil accumulations in Lower Volga region in Russia (Zinger, 1962 ). A well 
+targeting a petroleum prospect in Kazakhstan encountered a free water 
+flow with 90-98% of molecular H2 in dissolved gas (Kraychuk, 1976 ). 
+More recently, Prinzhofer et al. (2018) reported a unique serendipitous 
+discovery of a large free gas accumulation that contains 98% H2, 1% N2 
+and 1% of thermogenic hydrocarbon gases (mostly methane) in Prote -
+rozoic sedimentary rocks in Mali. Some researchers compared that dis-
+covery to the pioneering Drake ’s well that set off the first oil rush in 
+1859 pointing out that the well in Mali can start the rush for H2 
+exploration (Gaucher, 2020 ). However, the fundamental understanding 
+of a connection between oil and gas and molecular H2 is lacking (Lev-
+shounova, 1991 ; Smith et al., 2005 ). 
+Near-surface fermentation by microorganisms is the only biotic 
+process that is considered among main sources of H2 in the Earth ’s crust 
+(Truche et al., 2020 ). Virtually all of that H2 is converted to methane and 
+the rest escapes into the atmosphere (Conrad, 1995 ). In deeper sedi-
+ments, hydrogenotrophic microbes (Wagner et al., 2018 ) utilize H2 and 
+CO2 to produce primary microbial (e.g., Katz, 2011 ) and secondary 
+microbial (Milkov, 2011 ) gases (mostly methane), which together ac-
+count for 8-15% of the global endowment of recoverable gas in con-
+ventional petroleum reservoirs (Milkov, 2018 ). Levshounova (1991) 
+used observations from shallow sediments to propose that H2 can hy-
+drate olefins (ethylene, propylene and buthylenes) resulting in the for-
+mation of normal alkanes (ethane, propane, butanes) but that 
+hypothesis has not been sufficiently tested yet. 
+While the role of molecular H2 in making natural microbial gases (i. 
+e., hydrogenotrophic methanogenesis) is well recognized by petroleum/ 
+organic geochemists, the role of H2 in making oils is highly debatable. 
+Theories of abiotic (abiogenic) origin of oil rely on the availability of 
+molecular H2 in the deep subsurface (e.g., Szatmari, 1989 ; Kenney et al., 
+2002 ; Kutcherov and Krayushkin, 2010 ). However, the vast majority of 
+petroleum geoscientists and geochemists do not support theories of 
+abiotic origin of large natural accumulations of petroleum (Peters et al., 
+2005 ; Glasby, 2006 ). 
+Based on our results (Figs. 9 and 15-16 ), H2 in conventional reser-
+voirs is mostly crustal-sourced. Meng et al. (2015) interpreted small 
+(D0.1%) concentrations of H2 in conventional oil and gas reservoirs in 
+the Bohai Bay Basin as mantle-derived, but our analysis in the contexts 
+of a large global dataset from various geological habitats suggests that 
+H2 there is sourced from the crust. 
+There are some ideas and hypotheses about how molecular H2 can 
+contribute to formation and destruction of oils that originated from 
+organic-rich petroleum source rocks (Zhu et al., 2017 ). For example, a 
+prominent petroleum geologist of the first half of the 20th century, 
+Wallace E. Pratt, proposed a model in which early-expelled relatively 
+heavy (i.e., low API gravity) oils rich in “unsaturated ” hydrocarbons 
+turn into lighter oils more rich in “saturated ” compounds via hydroge -
+nation in the reservoirs (Pratt, 1934 ). This model was not generally accepted because W.E. Pratt “could not point to a quantitatively 
+adequate natural source of free hydrogen to account for the [hydroge -
+nation] process ” (Hawkes, 1972 , p. 2268). Hawkes (1972) listed some 
+natural occurrences with high concentrations of molecular H2 that 
+became known since Pratt ’s publication, but admitted that reports of H2 
+in the subsurface are subject to review due to extreme difficulties with 
+the reliable collection, transportation and analysis of gas samples with 
+significant H2. 
+The conventional theory of hydrocarbon formation in the subsurface 
+implies that organic matter in the source rocks supplies hydrogen to 
+form hydrocarbons (Tissot and Welte, 1984 ; Hunt, 1996 ), while the 
+influence of exogenous H2 on hydrocarbon generation is given little 
+consideration (Wang et al., 2018 ). It appears from this review that there 
+are various sources of H2 in sedimentary basins and petroleum systems. 
+Laboratory studies suggest that large amounts of H2 can be released from 
+the radiolysis of waters and from irradiation of organic matter in 
+uranium-rich shales (and other rocks). That H2, if indeed generated in 
+the subsurface in significant amounts, can react with undersaturated, 
+long-chain hydrocarbons as well as sulfur and nitrogen compounds to 
+produce saturated and short-chain hydrocarbons per following reactions 
+(Wang et al., 2019 ): 
+R’CH CH2 H2 (catalyst) → R’CH2CH3 
+RCH 2CH2CH2R’ H2 → RCH 2CH3 R’CH3 
+R-SH H2 → RH H2S 
+Results from a laboratory experiment by Wang et al. (2006) sug-
+gested that water provided exogenous H2 for hydrocarbon generation 
+from lignite. Wang et al. (2018) discussed a significant possibility that 
+uranium abundant in the Chang 7 Member source rock in the Ordos 
+Basin (China) radiated formation water and produced H2 for hydrocar -
+bon generation by that source rock. 
+Szatmari (1989) proposed that petroleum liquids can form by 
+Fischer-Tropsch synthesis on magnetite and hematite catalysts when 
+CO2 from metamorphic/igneous decarbonation of carbonates reacts 
+with H2 derived from serpentinization of shallow-mantle lithosphere 
+and ophiolite thrust sheets. The Fischer-Tropsch synthesis of natural 
+gases is supported by field observations and geochemical studied in 
+areas with serpentinites (Etiope et al., 2011, 2016 ; Etiope and Whiticar, 
+2019 ). Mostly gaseous hydrocarbons were produced during abiotic 
+synthesis under hydrothermal conditions in laboratory experiments 
+(McCollom and Seewald, 2006 ). Natural hydrocarbon gases clearly are 
+generated via the Fischer-Tropsch reactions in serpentinites settings, but 
+the proportion of such gases in the global endowment of hydrocarbon 
+gases (Milkov, 2018 ) is likely very small. Further, the existence of liquid 
+petroleum from Fischer-Tropsch synthesis in natural oil accumulations 
+remains unproven. 
+It has been hypothesized that H2 can originate from the thermal 
+decay of organic matter in oil accumulations and then accumulate in 
+underlying water legs (Zinger, 1962 ). Some laboratory experiments 
+indicate generation of H2 during thermal decay of kerogen (Bogomolov, 
+1976 ; Li et al., 2015, 2017 ). There are examples of high concentration 
+(F10%) of free H2 in coal basins (see Table 25 in Zgonnik, 2020 ), pre-
+sumably from coal metamorphism. Alternatively, this H2 could be 
+generated at the early stages of organic matter maturation and remained 
+trapped or adsorbed within the micropores of coals (Truche and 
+Bazarkina, 2019 ). Hydrogen can also originate from dehydrogenation of 
+clay minerals that are abundant in many shale formations (Truche et al., 
+2018 ). Such shale formations, when enriched in organic matter and 
+exposed to sufficiently high thermal stress (Pepper and Corvi, 1995 ), 
+serve as petroleum source rocks. Carbonate minerals may preserve H2 in 
+their crystalline structure (Levshounova, 1991 ) and release it during the 
+maturation and expulsion of petroleum from carbonate source rocks. 
+When some of the reservoir or source rocks contain evaporite/potash 
+deposits, radiolysis of water by the radioactive decay of potassium may 
+contribute H2 to petroleum fluids (Smith et al., 2005 ; Gregory et al., 
+2019 ). On the other hand, free H2 can result from the destruction of 
+petroleum fluids, for example, it can be produced via radiolytic A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+20dehydrogenation of crude oil molecules (Frolov et al., 1998 ; Larter et al., 
+2019 ). Free H2 likely plays a role in oil biodegradation and biological 
+aromatization of oil (Roling et al., 2003 ). 
+5.3. Exploration for geologic H2 
+At present, geologic H2 is produced and used as a source of energy 
+(electricity) only in the village of Bourak ˘ebougou in Mali (Hydroma, 
+2022 ). The discovery of a H2-rich gas accumulation there was seren -
+dipitous because the exploration well targeted water and not H2 (Briere 
+et al., 2017 ; Prinzhofer et al., 2018 ). Serendipity also plays a role in the 
+discovery of petroleum accumulations (Milkov and Navidi, 2020 ), He- 
+rich accumulations and geothermal fields (Dobson, 2016 ). However, I 
+propose that specific exploration programs may be designed and carried 
+out in order to deliberately search for accumulations of natural H2-rich 
+gases. 
+Areas where H2-rich gases seep at the surface may be attractive for 
+initial H2 exploration. This concept is the same as seep-guided petroleum 
+exploration in 1800s – early 1900s (Link, 1952 ). First commercial nat-
+ural gas production in the USA (Fredonia, NY) from the naturally frac-
+tured shale reservoir (Devonian Dunkirk Shale) in 1825 resulted from 
+the observations of nearby gas seeps (Lash and Lash, 2014 ). 
+Onshore seeps of H2-rich gases occur in areas of serpentinites (Neal 
+and Stranger, 1983 ; Etiope et al., 2011 ), which make these areas a 
+possible target for dedicated H2 exploration. Natural gases sampled from 
+serpentinites contain not only H2, but also valuable CH4 (Table 1). It is 
+possible to directly capture H2-rich gases from serpentinite seeps and 
+vents, as a H2 production mechanism. The concept is comparable to steel 
+pyramids/tents above seafloor seeps near Platform Holly in the Coal Oil 
+Point field offshore California (Hornafius et al., 1999 ). H2-rich gases also 
+can be recovered during degassing of water produced from wells drilled 
+into fractured serpentinites (Boulart et al., 2013 ; Suda et al., 2014 ). 
+Surface H2 surveys may help find areas with potential sub-surface H2 
+accumulations (Prinzhofer et al., 2019 ; Frery et al., 2021 ). Shallow 
+aquifers and maybe even free gas accumulations in fractured serpen -
+tinite reservoirs potentially can be identified with geophysical technol -
+ogies, for example, by searching for magnetic anomalies (magnetite is a 
+product of serpentinization). The technology of hydraulic fracturing that 
+revolutionized petroleum industry at the beginning of the 21st century 
+(King, 2012 ) may potentially be utilized in serpentinite reservoirs. 
+Projects of H2 production from serpentinites may be further enhanced by 
+CO2 sequestration in serpentinite aquifers through formation of car-
+bonate minerals (Power et al., 2013 ). Oman has well-documented sur-
+face (Fritz et al., 1992 ) and subsurface (Boulart et al., 2013 ) occurrences 
+of H2-rich gases in the Semail ophiolites and well-developed petroleum 
+exploration and development infrastructure, which make this country a 
+potential candidate for favorable H2 exploration. Japan is another 
+country where H2 may be recovered from shallow aquifers within ser-
+pentinized rocks. Degassing of H2-rich gas from water wells sourcing a 
+commercial spa may be already happening in the Hakuba Happo hot 
+springs areas, as is illustrated by Suda et al. (2014) in their Fig. 2. 
+Extraction from waters producing geothermal energy may be 
+another viable option for economic production of geologic H2. Subsur -
+face volcanic/magmatic hydrothermal systems produce gases with sig-
+nificant H2 (average ~7%, on water-free basis). Examples of systems 
+where H2 can be recovered during production of geothermal energy 
+include such H2-rich geothermal fields as Salton Sea (Welhan, 1981 ) in 
+the USA, Cerro Prieto in Mexico (Welhan, 1981 ), and Namafjall (Sano 
+et al., 1985 ), Nesjavellir (Marty et al., 1991 ) and Hellisheidi (Combau -
+don et al., 2022 ) in Iceland. Subsurface sedimentary hydrothermal sys-
+tems produce gases with relatively less H2 (average ~4%, on water-free 
+basis), and may be less attractive targets for H2 exploration. 
+Petroleum companies may be more comfortable with the idea of 
+exploring for H2-rich gases in conventional reservoirs. There are known 
+accumulations of H2-rich gas in conventional reservoirs (as reviewed by 
+Zgonnik, 2020 ), but only three such gas pools have been described in the literature in some details: two in Kansas (Coveney Jr. et al., 1987 ) and 
+one in Mali (Prinzhofer et al., 2018 ). The concept of “hydrogen system ” 
+(Prinzhofer et al., 2018 ; Rezaee, 2021 ) can be formulated similarly to 
+the concept of “petroleum system ” (Magoon and Dow, 1994 ), and as it 
+was done for “helium system ” (McDowell et al., 2017 ; Danabalan et al., 
+2022 ). This study addresses the origins of molecular H2, and it appears 
+that sources of hydrocarbons and H2 in the subsurface are very different. 
+Further, mechanisms and efficiency of migration, accumulation and 
+preservation of molecular H2 (much smaller, mobile, and less soluble in 
+water than hydrocarbon gases) may be significantly different from those 
+for hydrocarbon gases. 
+6.Conclusions 
+Geologic molecular H2 is most abundant in natural gases sampled 
+from volcanic/magmatic vents at MORs and in serpentinites. Hydrogen 
+isotope data may be used to distinguish broadly defined crustal (δ2H-H 2 
+values D-650‰), mantle and primordial (δ2H-H 2 values F-650‰) H2 in 
+natural gases, and integration with geological data and isotope data on 
+other associated gases such as He and CH4 improves reliability of such 
+interpretations. Identification of more specific mechanisms of H2 gen-
+eration based on isotopic composition data remains problematic because 
+the empirical dataset of δ2H-H 2 values is relatively small and there is 
+much overlap of values resulting from different generation processes. 
+Further complications arise from variations in source water isotope 
+composition and temperature-dependent equilibrium isotopic fraction -
+ation and kinetic exchanges between H2 and water. It appears that H2 
+from serpentinization reactions has δ2H-H 2 values around -715‰, and 
+H2 supplied by the deep Earth (perhaps directly from the deep mantle 
+and core) has δ2H-H 2 values around -350‰. However, these δ2H-H 2 
+values may also result from the temperature-dependent isotopic frac-
+tionation between H2 and water. More field and experimental data is 
+needed to constrain δ2H-H 2 values typical for specific potentially 
+important processes of H2 generation in the subsurface such as radiolysis 
+and fracture-induced reduction of water and thermogenic liberation of 
+H2 during petroleum cracking and coal metamorphism. This review 
+highlights the possibility of purposeful exploration for geologic H2, 
+which is a valuable natural resource. Onshore serpentinites with known 
+surface and subsurface occurrences of H2-rich gases are viable settings 
+for such exploration programs. 
+CRediT authorship contribution statement 
+Alexei V. Milkov : Conceptualization, Data curation, Formal anal-
+ysis, Investigation, Methodology, Writing – review & editing. 
+Declaration of Competing Interest 
+The author declares that he has no known competing financial in-
+terests or personal relationships that could have appeared to influence 
+the work reported in this paper. 
+Acknowledgments 
+The author would like to thank Antonio Martín-Monge, Geoffrey 
+Ellis, Chris Boreham and an anonymous reviewer for providing useful 
+comments on the manuscript. 
+References 
+Abrajano, T.A., Sturchio, N.C., Bohlke, J.K., Lyon, G.L., Poreda, R.J., Stevens, C.M., 1988. 
+Methane-hydrogen gas seeps, Zambales Ophiolite, Philippines: deep or shallow 
+origin? Chem. Geol. 71, 211–222. 
+Adam, N., Perner, M., 2018. Microbially mediated hydrogen cycling in deep-sea 
+hydrothermal vents. Front. Microbiol. 9, 2873. https://doi.org/10.3389/ 
+fmicb.2018.02873 . A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+21Adams, M.W.W., Stiefel, E.I., 1988. Biological hydrogen production: not so elementary. 
+Science 282, 1842 –1843. https://doi.org/10.1126/science.282.5395.1842 . 
+Albers, E., Bach, W., P˘erez-Gussiny ˘e, M., McCammon, C., Frederichs, T., 2021. 
+Serpentinization-driven H2 production from continental break-up to Mid-Ocean 
+Ridge spreading: unexpected high rates at the West Iberia Margin. Front. Earth Sci. 
+9, 673063 https://doi.org/10.3389/feart.2021.673063 . 
+Anderson, R.B., 1984. The Fischer-Tropsch synthesis. Academic Press, New York.  
+Angino, E.E., Coveney, R.M.J., Goebel, E.D., Zeller, E.J., Dreschhoff, G.A.M., 1984. 
+Hydrogen and nitrogen – origin, distribution, and abundance, a followup. Oil Gas J. 
+82, 142–146. 
+Apps, J.A., van de Kamp, P.C., 1993. Energy gases of abiogenic origin in the Earth ’s crust. 
+In: Howell, D.G. (Ed.), The Future of Energy Gases. United States Geological Survey 
+Professional Paper 1570, Washington, pp. 81–130. 
+Arai, T., Okusawa, T., Tsukahara, H., 2001. Behavior of gases in the Nojima Fault Zone 
+revealed from the chemical composition and carbon isotope ratio of gases extracted 
+from DPRI 1800 m drill core. Island Arc 10, 430–438. https://doi.org/10.1111/ 
+j.1440-1738.2001.00341.x . 
+Arnason, B., 1977. The hydrogen-water isotope thermometer applied to geothermal areas 
+in Iceland. Geotherm. 5, 75–80. 
+Arnason, B., Sigurgeirsson, T., 1968. Deuterium content of water vapour and hydrogen in 
+volcanic gas at Surtsey, Iceland. Geochim. Cosmochim. Acta 32, 807–813. 
+Arrouvel, C., Prinzhofer, A., 2021. Genesis of natural hydrogen: new insights from 
+thermodynamic simulations. Int. J. Hydrog. Energy 46, 18780 –18794. https://doi. 
+org/10.1016/j.ijhydene.2021.03.057 . 
+Bannerjee, M., Mendhe, V.A., Kamble, A.D., Varma, A.K., Singh, B.D., Kumar, S., 2021. 
+Facets of coalbed methane reservoir in East Bokaro Basin, India. J. Petr. Sci. Eng. 
+109255 https://doi.org/10.1016/j.petrol.2021.109255 . 
+Bao, Y., Wei, C., Wang, C., Wang, G., Li, Q., 2014. Geochemical characteristics and 
+generation process of mixed biogenic and thermogenic coalbed methane in Luling 
+Coalfield, China. Energy Fuel 28, 4392 –4401 . 
+Barbier, S., Huang, F., Andreani, M., Tao, R., Hao, J., Eleish, A., Prabhu, A., Minhas, O., 
+Fontaine, K., Fox, P., Daniel, I., 2020. A review of H2, CH4, and hydrocarbon 
+formation in experimental serpentinization using network analysis. Front. Earth Sci. 
+8, 209. https://doi.org/10.3389/feart.2020.00209 . 
+Barnes, I., O’Neil, J.R., Trescases, J.J., 1978. Present day serpentinization in New 
+Caledonia, Oman and Yugoslavia. Geochim. Cosmochim. Acta 42, 144–145. 
+Behar, F., Vandenbroucke, M., Tang, Y., Marquis, F., Espitali ˘e, J., 1997. Thermal 
+cracking of kerogen in open and closed systems: determination of kinetic parameters 
+and stoichiometric coefficients for oil and gas generation. Org. Geochem. 26, 
+321–339. 
+Bergfeld, D., Lowenstern, J.B., Hunt, A.G., Shanks III, W.C.P., Evans, W.C., 2014. Gas and 
+isotope chemistry of thermal features in Yellowstone National Park, Wyoming (ver. 
+1.1, September 2014). In: US Geol. Surv. Scient. Investig. Rep. 2011-5012, 28 p. and 
+data files. https://doi.org/10.3133/sir20115012 . 
+Bernard, B., Brooks, J.M., Sackett, W.M., 1977. A geochemical model for characterization 
+of hydrocarbon gas sources in marine sediments. In: 9th Annual Offshore Technology 
+Conference, 435-438. OTC 2934 . 
+Bernard, B.B., Brooks, J.M., Orange, D.L., Decker, J., 2013. Interstitial light hydrocarbon 
+gases in jumbo piston cores offshore Indonesia: thermogenic or biogenic?. In: Paper 
+Presented at the Offshore Technology Conference, Houston, Texas, USA, May 2013. 
+OTC 24228 https://doi.org/10.4043/24228-MS . 
+Bjornstad, B.N., McKinley, J.P., Stevens, T.O., Rawson, S.A., Fredrickson, J.K., Long, P.E., 
+1994. Generation of hydrogen gas as a result of drilling within the saturated zone. 
+Groundw. Monit. Remed. 14, 140–147. https://doi.org/10.1111/j.1745-6592.1994. 
+tb00492.x . 
+Blair, C.C., D’Hondt, S., Spivack, A.J., Kingsley, R.H., 2007. Radiolytic hydrogen and 
+microbial respiration in subsurface sediments. Astrobiology 7, 951–970. 
+Bogomolov, A., 1976. Organic matter of sedimentary rocks as a source of hydrogen in 
+natural gases. In: Studies of Organic Matter in Modern and Ancient Sediments. 
+Nauka, Moscow, pp. 79–80. 
+Bohdanowicz, C., 1934. Natural gas occurrences in Russia (USSR). AAPG Bull. 18, 
+750–760. 
+Bokova, E.N., 1953. Formation of methane during microbial degradation of oil. Polev. 
+Promysl. Geochim. 2, 25–27 (in Russian) .  
+Boone, D.R., Johnson, R.L., Liu, Y., 1989. Diffusion of the interspecies electron carriers 
+H2 and formate in methanogenic ecosystems and its implications in the measurement 
+of Km for H2 or formate uptake. Appl. Environ. Microbiol. 55, 1735 –1741. https:// 
+doi.org/10.1128/AEM.55.7.1735-1741.1989 . 
+Boreham, C.J., Davies, J.B., 2020. Carbon and hydrogen isotopes of the wet gases 
+produced by gamma-ray-induced polymerisation of methane: insights into 
+radiogenic mechanism and natural gas formation. Radiat. Phys. Chem. 168, 108546 
+https://doi.org/10.1016/j.radphyschem.2019.108546 . 
+Boreham, C.J., Edwards, D.S., Czado, K., Rollet, N., Wang, L., van der Wielen, S., 
+Champion, D., Blewett, R., Feitz, A., Henson, P.A., 2021a. Hydrogen in Australian 
+natural gas: occurrences, sources and resources. The APPEA J. 61, 163–191. https:// 
+doi.org/10.1071/AJ20044 . 
+Boreham, C.J., Sohn, J.H., Cox, N., Williams, J., Hong, Z., Kendrick, M.A., 2021b. 
+Hydrogen and hydrocarbons associated with the Neoarchean Frog ’s Leg Gold Camp, 
+Yilgarn Craton, Western Australia. Chem. Geol. 120098 https://doi.org/10.1016/j. 
+chemgeo.2021.120098 . 
+Boschetti, T., Etiope, G., Toscani, L., 2013. Abiotic methane in the hyperalkaline springs 
+of Genova, Italy. Proc. Earth Planet. Sci. 7, 248–251. 
+Boulart, C., Chavagnac, V., Monnin, C., Delacour, A., Ceuleneer, G., Hoareau, G., 2013. 
+Differences in gas venting from ultramafic-hosted warm springs: The example of 
+Oman and Voltri ophiolites. Ofioliti 38, 142–156. https://doi.org/10.4454/ofioliti. 
+v38i2.423 . Bouquet, A., Glein, C.R., Wyrick, D., Waite, J.H., 2017. Alternative energy: production of 
+H2 by radiolysis of water in the rocky cores of icy bodies. The Astrophys. J. Lett. 840, 
+L8. https://doi.org/10.3847/2041-8213/aa6d56 . 
+Boyd, A.W., Willis, C., Miller, O.A., 1973. The radiolysis of water vapor at very high dose 
+rates. I. Hydrogen yields from H2O, H2O-HCl, and H2O-HBr mixtures. Can. J. Chem. 
+51, 4048 –4055. https://doi.org/10.1139/v73-603 . 
+Briere, D., Jerzykiewicz, T., Sliwinski, W., 2017. On generating a geological model for 
+hydrogen gas in the southern Taoudeni Megabasin (Bourakebougou area, Mali). In: 
+Search and Discovery Article #42041. Available online at. https://www.searcha 
+nddiscovery.com/pdfz/documents/2017/42041jerzykiewicz/ndx_jerzykiewicz.pdf. 
+html. 
+Brophy, J.G., Schimmelmann, A., 2017. Hydrogen. In: White, W.M. (Ed.), Encyclopedia 
+of Geochemistry. Springer. https://doi.org/10.1007/978-3-319-39193-9_325-1 . 
+Online ISBN 978-3-319-39193-9.  
+Byrne, D.J., Barry, P.H., Lawson, M., Ballentine, C.J., 2018. Noble gases in conventional 
+and unconventional petroleum systems. Geol. Soc. Lond. Spec. Publ. 468 (1), 
+127–149. 
+Byrne, D.J., Broadley, M.W., Halld ˘orsson, S.A., Ranta, E., Ricci, A., Tyne, R.L., 
+Stef˘ansson, A., Ballentine, C.J., Barry, P.H., 2021. The use of noble gas isotopes to 
+trace subsurface boiling temperatures in Icelandic geothermal systems. Earth Planet. 
+Sci. Lett. 560, 116805 https://doi.org/10.1016/j.epsl.2021.116805 . 
+Caby, R., 2014. Nature and evolution of Neoproterozoic ocean-continent transition: 
+evidence from the passive margin of the West African craton in NE Mali. J. Afr. Earth 
+Sci. 91, 1–11. https://doi.org/10.1016/j.jafrearsci.2013.11.004 . 
+Campbell, J.H., Koskinas, G.J., Gallegos, G., Gregg, M., 1980. Gas evolution during oil 
+shale pyrolysis. 1. Nonisothermal rate measurements. Fuel 59, 718–725. 
+Chamberlin, R.T., 1909. The gases in rocks. The J. Geol. 17, 534–568. 
+Charlou, J.L., Donval, J.P., Douville, E., Jean-Baptiste, P., Radford-Knoery, J., 
+Fouquet, Y., Dapoigny, A., Stievenard, M., 2000. Compared geochemical signatures 
+and the evolution of Menez Gwen (37•50∕N) and Lucky Strike (37•17∕N) 
+hydrothermal fluids, south of the Azores Triple Junction on the Mid-Atlantic Ridge. 
+Chem. Geol. 171, 49–75. https://doi.org/10.1016/S0009-2541(00)00244-8 . 
+Charlou, J.L., Donval, J.P., Fouquet, Y., Jean-Baptiste, P., Holm, N., 2002. Geochemistry 
+of high H2 and CH4 vent fluids issuing from ultramafic rocks at the Rainbow 
+hydrothermal field (36 14 N, MAR). Chem. Geol. 191, 345–359. 
+Chatellier, J.Y., Ferworn, K., Lazreg Larsen, N., Ko, S., Flek, P., Molgat, M., Anderson, I., 
+2013. Overpressure in shale gas: when geochemistry and reservoir engineering data 
+meet and agree. In: Chatellier, J., Jarvie, D. (Eds.), Critical Assessment of Shale 
+Resource Plays, AAPG Memoir, 103, pp. 45–69. 
+Chen, Z., Chen, L., Wang, G., Zou, C., Jiang, S., Si, Z., Gao, W., 2020. Applying isotopic 
+geochemical proxy for gas content prediction of Longmaxi shale in the Sichuan 
+Basin, China. Mar. Pet. Geol. 116, 104329 https://doi.org/10.1016/j. 
+marpetgeo.2020.104329 . 
+Choi, J., Kim, J.-H., Kim, G.-Y., Chang, S.-W., 2016. Data report: gas isotope and 
+conversion ratio of headspace and void gas, IODP Expedition 344. In: Harris, R.N., 
+Sakaguchi, A., Petronotis, K., the Expedition 344 Scientists (Eds.), Proceedings of the 
+Integrated Ocean Drilling Program, 344: College Station, TX (Integrated Ocean 
+Drilling Program). https://doi.org/10.2204/iodp.proc.344.203.2016 . 
+Combaudon, V., Moretti, I., Kleine, B.I., Stef˘ansson, A., 2022. Hydrogen emissions from 
+hydrothermal fields in Iceland and comparison with the Mid-Atlantic Ridge. Intern. 
+J. Hydrog. Ener. 47, 10217 –10227. https://doi.org/10.1016/j. 
+ijhydene.2022.01.101 . 
+Conrad, R., 1995. Soil microbial processes involved in production and consumption of 
+atmospheric trace gases. Adv. Microb. Ecol. 14, 207–250. 
+Conrad, R., 1996. Soil microorganisms as controllers of atmospheric trace gases (H2, CO, 
+CH4, OCS, N2O, and NO). Microbiol. Rev. 60, 609–640. 
+Coveney Jr., R.M., Goebel, E.D., Zeller, E.J., Dreschhoff, G.A.M., Angino, E.E., 1987. 
+Serpentinization and the origin of hydrogen gas in Kansas. AAPG Bull. 71, 39–48. 
+https://doi.org/10.1306/94886D3F-1704-11D7-8645000102C1865D . 
+Craig, H., Lupton, J.E., 1976. Primordial neon, helium, and hydrogen in oceanic basalts. 
+Earth Planet. Sci. Lett. 31, 369–385. 
+Crespo-Medina, M., Twing, K., S˘anchez, R., Brazelton, W.J., McCollom, T.M., Screnk, M. 
+O., 2017. Methane dynamics in a tropical serpentinizing environment: the Santa 
+Elena Ophiolite, Costa-Rica. Front. Microbiol. 9, 916. https://doi.org/10.3389/ 
+fmicb.2017.00916 . 
+Daae, F.L., Økland, I., Dahle, H., Jørgensen, S.L., Thorseth, I.H., Pedersen, R.B., 2013. 
+Microbial life associated with low-temperature alteration of ultramafic rocks in the 
+Leka ophiolite complex. Geobiology 11, 318–339. https://doi.org/10.1111/ 
+gbi.12035 . 
+D’Alessandro, W., Yüce, G., Italiano, F., Bellomo, S., Gülbay, A.H., Yasin, D.U., 
+Gagliano, A.L., 2018. Large compositional differences in the gases released from the 
+Kizildag ophiolitic body (Turkey): evidences of prevailingly abiogenic origin. Mar. 
+Pet. Geol. 89, 174–184. https://doi.org/10.1016/j.marpetgeo.2016.12.017 . 
+Danabalan, D., Gluyas, J.G., Macpherson, C.G., Abraham-James, T.H., Bluett, J.J., 
+Barry, P.H., Ballentine, C.J., 2022. The principles of helium exploration. Pet. Geosci. 
+28 https://doi.org/10.1144/petgeo2021-029 petgeo2021 –029.  
+Darrah, T.H., Vengosh, A., Jackson, R.B., Warner, N.R., Poreda, R.J., 2014. Noble gases 
+identify the mechanisms of fugitive gas contamination in drinking-water wells 
+overlying the Marcellus and Barnett shales. Proc. Natl. Acad. Sci. 111, 
+14,076 –14,081. https://doi.org/10.1073/pnas.1322107111 . 
+Daskalopoulou, K., Calabrese, S., Grassa, F., Kyriakopoulos, K., Parello, F., Tassi, F., 
+D’Alessandro, W., 2018. Origin of methane and light hydrocarbons in natural fluid 
+emissions: a key study from Greece. Chem. Geol. 479, 286–301. 
+Dauphas, N., Robert, F., Marty, B., 2000. The late asteroidal and cometary bombardment 
+of Earth as recorded in water deuterium to protium ratio. Icarus 148, 508–512. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+22Deloule, E., Albarede, F., Sheppard, S.M.F., 1991. Hydrogen isotope heterogeneities in 
+the mantle from ion probe analysis of amphiboles from ultramafic rocks. Earth 
+Planet. Sci. Lett. 105, 543–553. 
+Deshaee, A., Shakeria, A., Taran, Y., Mehrabi, B., Farhadian, M., Zelenski, M., 
+Chaplygin, I., Tassi, F., 2020. Geochemistry of Bazman thermal springs, southeast 
+Iran. J. Volcanol. Geotherm. Res. 390, 106676 https://doi.org/10.1016/j. 
+jvolgeores.2019.106676 . 
+Deville, E., Prinzhofer, A., 2016. The origin of N2-H2-CH 4-rich natural gas seepages in 
+ophiolitic context: a major and noble gases study of fluid seepages in New Caledonia. 
+Chem. Geol. 440, 139–147. https://doi.org/10.1016/j.chemgeo.2016.06.011 . 
+Dick, H., Lin, J., Schouten, H., 2003. An ultraslow-spreading class of ocean ridge. Nature 
+426, 405–412. https://doi.org/10.1038/nature02128 . 
+Dobson, P.F., 2016. A review of exploration methods for discovering hidden geothermal 
+systems. GRC Transact. 40, 695–706. 
+Drobner, E., Huber, H., Wachtersch auser, G., Rose, D., Stetter, K.O., 1990. Pyrite 
+formation linked with hydrogen evolution under anaerobic conditions. Nature 346, 
+742–744. https://doi.org/10.1038/346742a0 . 
+Dubessy, J., Ramboz, C., 1986. The history of organic nitrogen from early diagenesis to 
+amphibolite facies: mineralogical, chemical, mechanical and isotopic consequences. 
+In: Vth International Symposium on Water-Rock Interaction. Reykjavik, Iceland, 
+pp. 171–174. Extended abstracts .  
+Dubessy, J., Pagel, M., Beny, J.M., Christensen, H., Hickel, B., Kosztolanyi, C., Poty, B., 
+1988. Radiolysis evidenced by H2-O2 and H2-bearing fluid inclusions in three 
+uranium deposits. Geochem. Cosmochim. Acta 52, 1155 –1167 . 
+Dubessy, J., Poty, B., Ramboz, C., 1989. Advances in C-O-H-N-S fluid geochemistry based 
+on micro-Raman spectrometric analysis of fluid inclusions. Eur. J. Mineral. 1, 
+517–534. https://doi.org/10.1127/ejm/1/4/0517 . 
+Dzaugis, M.E., Spivack, A.J., Dunlea, A.G., Murray, R.W., D’Hondt, S., 2016. Radiolytic 
+hydrogen production in the subseafloor basaltic aquifer. Front. Microbiol. 7, 76. 
+https://doi.org/10.3389/fmicb.2016.00076 . 
+Ehhalt, D.H., Rohrer, F., 2009. The tropospheric cycle of H2: a critical review. Tellus Ser. 
+B Chem. Phys. Meteorol. 61, 500–535. https://doi.org/10.1111/j.1600- 
+0889.2009.00416.x . 
+Ekzercev, V.A., 1960. Formation of methane by microorganisms in oil fields. Geokhimiya 
+1, 362–370 (in Russian) .  
+Erzinger, J., Wiersberg, T., Zimmer, M., 2006. Real-time mud gas logging and sampling 
+during drilling. Geofluids 6, 225–233. https://doi.org/10.1111/j.1468- 
+8123.2006.00152.x . 
+Etiope, G., Schoell, M., 2014. Abiotic gas: atypical but not rare. Elements 10, 291–296. 
+Etiope, G., Sherwood Lollar, B., 2013. Abiotic methane on Earth. Rev. Geophys. 51, 
+276–299, 2012RG000428. 8755-1209/13/10.1002/rog.20011 . 
+Etiope, G., Whiticar, M.J., 2019. Abiotic methane in continental ultramafic rock systems: 
+towards a genetic model. Appl. Geochem. 102, 139–152. https://doi.org/10.1016/j. 
+apgeochem.2019.01.012 . 
+Etiope, G., Feyzullayev, A., Milkov, A.V., Waseda, A., Mizobe, K., Sun, C.H., 2009. 
+Evidence of subsurface anaerobic biodegradation of hydrocarbons and potential 
+secondary methanogenesis in terrestrial mud volcanoes. Mar. Pet. Geol. 26, 
+1692 –1703 . 
+Etiope, G., Schoell, M., Hosg ormez, H., 2011. Abiotic methane flux from the Chimaera 
+seep and Tekirova ophiolites (Turkey): understanding gas exhalation from low 
+temperature serpentinization and implications for Mars. Earth Planet. Sci. Lett. 310, 
+96–104. https://doi.org/10.1016/j.epsl.2011.08.001 . 
+Etiope, G., Vance, S., Christensen, L.E., Marques, J.M., Ribeiro da Costa, I., 2013. 
+Methane in serpentinized ultramafic rocks in mainland Portugal. Mar. Pet. Geol. 45, 
+12–16. https://doi.org/10.1016/j.marpetgeo.2013.04.009 . 
+Etiope, G., Vadillo, I., Whiticar, M.J., Marques, J.M., Carreira, P.M., Tiago, I., 
+Benavente, J., Jim˘enez, P., Urresti, B., 2016. Abiotic methane seepage in the Ronda 
+peridotite massif, southern Spain. Appl. Geochem. 66, 101–113. https://doi.org/ 
+10.1016/j.apgeochem.2015.12.001 . 
+Etiope, G., Samardzic, N., Grassa, F., Hrvatovic, H., Miosic, N., Skopljak, F., 2017. 
+Methane and hydrogen in hyperalkaline groundwaters of the serpentinized Dinaride 
+ophiolite belt, Bosnia and Herzegovina. Appl. Geochem. 84, 286–296. 
+Evans, B.W., Hattori, K., Baronnet, A., 2013. Serpentinite: what, why, where? Elements 
+9, 99–106. https://doi.org/10.2113/gselements.9.2.99 . 
+Farias, C.B.B., Barreiros, R.C.S., da Silva, M.F., Casazza, A.A., Converti, A., Sarubbo, L.A., 
+2022. Use of hydrogen as fuel: a trend of the 21st century. Energies 15, 311. https:// 
+doi.org/10.3390/en15010311 . 
+Feldbusch, E., Wiersberg, T., Zimmer, M., Regenspurg, S., 2018. Origin of gases from the 
+geothermal reservoir Groß Schӧnebeck (North German Basin). Geothermics 71, 
+357–368. https://doi.org/10.1016/j.geothermics.2017.09.007 . 
+Feng, Z., Huang, S., Wu, W., Xie, C., Peng, W., Cai, Y., 2017. Longmaxi shale gas 
+geochemistry in Changning and Fuling gas fields, the Sichuan Basin. Energy Explor. 
+Exploit. 35, 259–278. 
+Fiebig, J., Stef˘ansson, A., Ricci, A., Tassi, F., Viveiros, F., Silva, C., Lopez, T.M., 
+Schreiber, C., Hofmann, S., Mountain, B.W., 2019. Abiogenesis not required to 
+explain the origin of volcanic-hydrothermal hydrocarbons. Geochem. Persp. Let. 11, 
+23–27. 
+Fischer, T.P., Chiodini, G., 2015. Volcanic, magmatic and hydrothermal gases. In: 
+Sigurdsson, H. (Ed.), The Encyclopedia of Volcanoes (Second Edition). Academic 
+Press, pp. 779–797. https://doi.org/10.1016/B978-0-12-385938-9.00045-6 . 
+Fischer, F., Tropsch, H., 1926. The synthesis of petroleum at atmospheric pressures from 
+gasification products of coal. Brennstoff-Chemie 7, 97–104. 
+Frery, E., Langhi, L., Maison, M., Moretti, I., 2021. Natural hydrogen seeps identified in 
+the North Perth Basin, Western Australia. Int. J. Hydrog. Energy 46, 31158 –31173. 
+https://doi.org/10.1016/j.ijhydene.2021.07.023 . Freund, F., Dickinson, J.T., Cash, M., 2002. Hydrogen in rocks: an energy source for deep 
+microbial communities. Astrobiology 2, 83–92. https://doi.org/10.1089/ 
+153110702753621367 . 
+Fridman, A., 1970. Natural gases of ore fields. Nedra, Moscow (in Russian) .  
+Fritz, P., Clark, I.D., Fontes, J.C., Whiticar, M.J., Faber, E., 1992. Deuterium and 13C 
+evidence for low temperature production of hydrogen and methane in a highly 
+alkaline groundwater environment in Oman. In: Kharaka, Y., Maest, A.S. (Eds.), 
+Proceedings of the 7th International Symposium on Water-Rock Interaction. 
+Rotterdam Balkama, pp. 792–796. 
+Frolov, E.B., Smirnov, M.B., Melikhov, V.A., Vanyukova, N.A., 1998. Olefins of 
+radiogenic origin in crude oils. Org. Geochem. 29, 409–420. 
+Fryer, P., 2012. Serpentinite mud volcanism: observations, processes, and implications. 
+Annu. Rev. Mar. Sci. 4, 345–373. 
+Galimov, E.M., Petersil ’ye, I.A., 1967. Isotopic composition of carbon from hydrocarbon 
+gases and CO2 held in alkalic igneous rocks of the Khibiny, Lovozero and Ilímaussak 
+plutons. Dokl. Akad. Nauk SSSR 176, 200–203. 
+Galimov, E.M., Prokhorov, V.S., Fedoseyev, D.V., Varnin, V.P., 1973. Heterogenous 
+carbon isotope effects in synthesis of diamond and graphite from gas. Geokhimiya 3, 
+416–424. 
+Gasperini, L., Lazar, M., Mazzini, A., Lupi, M., Haddad, A., Hensen, C., Schmidt, M., 
+Caracausi, A., Ligi, M., Polonia, A., 2020. Neotectonics of the Sea of Galilee 
+(northeast Israel): implication for geodynamics and seismicity along the Dead Sea 
+Fault system. Sci. Rep. 10, 11932. https://doi.org/10.1038/s41598-020-67930-6 . 
+Gaucher, E.C., 2020. New perspectives in the industrial exploration of native hydrogen. 
+Elements 16, 8–9. 
+Gest, H., 1954. Oxidation and evolution of molecular hydrogen by microorganisms. 
+Bacteriol. Rev. 18, 43–73. 
+Geymond, U., Ramanaidou, E., L˘evy, D., Ouaya, A., Moretti, I., 2022. Can weathering of 
+banded iron formations generate natural hydrogen? Evidence from Australia, Brazil 
+and South Africa. Minerals 12, 163. https://doi.org/10.3390/min12020163 . 
+Gilat, A.L., Vol, A., 2005. Primordial hydrogen-helium degassing, an overlooked major 
+energy source for internal terrestrial processes. HAIT J. Sci. Eng. B 2, 125–167. 
+Gilat, A.L., Vol, A., 2012. Degassing of primordial hydrogen and helium as the major 
+energy source for internal terrestrial processes. Geosci. Front. 3, 911–921. 
+Ginsburg-Karagitscheva, T.L., 1933. Microflora of oil waters and oil-bearing formations 
+and biochemical processes caused by it. AAPG Bull. 17, 52–65. 
+Glasby, G.P., 2006. Abiogenic origin of hydrocarbons: an historical overview. Resour. 
+Geol. 56, 83–96. 
+Glein, C.R., Zolotov, M.Yu., 2020. Hydrogen, hydrocarbons, and habitability across the 
+solar system. Elements 16, 47–52. 
+Glindermann, D., Edwards, M., Morgenstern, P., 2005. Phosphine from rocks: 
+mechanically driven phosphate reduction? Environ. Sci. Technol. 39, 7671 –7675. 
+https://doi.org/10.1021/es050682w . 
+Goebel, E.D., Coveney Jr., R.M., Angino, E.E., Zeller, E.J., Dreschhoff, G.A.M., 1984. 
+Geology, composition, isotopes of naturally occurring H2/N2 rich gas from wells near 
+Junction City. Kansas. Oil Gas J. 82, 215–222. 
+Goetz, A.M., 2021. Regional Groundwater Conditions in Northeast BC: Results from a 
+Monitoring Well Network in an Area of Historical and Ongoing Unconventional 
+Natural Gas Development. MSc Thesis. The University of British Colombia, p. 145. 
+Gordienko, V., 2019. On hydrogen degassing in the areas of recent activation of Ukraine. 
+Geofiz. Zhurn. 41, 115–127 (in Russian). 10.24028/gzh.0203-3100.v41i5.2019.1 
+83617 . 
+Gregory, S.P., Barnett, M.J., Field, L.P., Milodowski, A.E., 2019. Subsurface microbial 
+hydrogen cycling: natural occurrence and implications for industry. Microorganisms 
+7, 53. https://doi.org/10.3390/microorganisms7020053 . 
+Gruca-Rokosz, R., Koszelnik, P., 2018. Production pathways for CH4 and CO2 in 
+sediments of two freshwater ecosystems in south-eastern Poland. PLoS One 13, 
+e0199755. https://doi.org/10.1371/journal.pone.0199755 . 
+Gu˘elard, J., Beaumont, V., Rouchon, V., Guyot, F., Pillot, D., Jezequel, D., Ader, M., 
+Newell, K.D., Deville, E., 2017. Natural H2 in Kansas: deep or shallow origin? 
+Geochem. Geophys. Geosyst. 18, 1841 –1865. https://doi.org/10.1002/ 
+2016GC006544 . 
+Guillot, S., Hattori, K., 2013. Serpentinites: essential roles in geodynamics, arc 
+volcanism, sustainable development, and the origin of life. Elements 9, 95–98. 
+Hachikubo, A., Minami, H., Yamashita, S., Khabuev, A., Krylov, A., Kalmychkov, G., 
+Poort, J., De Batist, M., Chenskiy, A., Manakov, A., Khlystov, O., 2020. 
+Characteristics of hydrate-bound gas retrieved at the Kedr mud volcano (southern 
+Lake Baikal). Sci. Rep. 10, 14747 . 
+Hahn-Weinheimer, P., Hirner, A., 1981. Isotopic evidence for the origin of graphite. 
+Geochem. J. 15, 9–15. 
+Halas, P., Dupuy, A., Franceschi, M., Boardmann, V., Fleury, J.-M., 2021. Hydrogen gas 
+in circular depressions in South Gironde, France: flux, stock, or artefact? Appl. 
+Geochem. 127, 104928 https://doi.org/10.1016/j.apgeochem.2021.104928 . 
+Hallenbeck, P.C., Benemann, J.R., 2002. Biological hydrogen production; fundamentals 
+and limiting processes. Int. J. Hydrog. Energy 27, 1185 –1193. https://doi.org/ 
+10.1016/S0360-3199(02)00131-3 . 
+Hanley, E.S., Deane, J.P., Gallach ˘oir, B.P.˘O., 2018. The role of hydrogen in low carbon 
+energy futures - a review of existing perspectives. Renew. Sust. Energ. Rev. 82, 
+3027 –3045 . 
+Hao, Y., Pang, Z., Tian, J., Wang, Y., Li, Z., Li, L., 2020. Origin and evolution of 
+hydrogen-rich gas discharges from a hot spring in the eastern coastal area of China. 
+Chem. Geol. 538, 119477 https://doi.org/10.1016/j.chemgeo.2020.119477 . 
+Hawkes, H.E., 1972. Free hydrogen in genesis of petroleum. AAPG Bull. 56, 2268 –2277 . 
+He, Y., Sun, S., Kim, D.Y., Jang, B.G., Li, H., Mao, H., 2022. Superionic iron alloys and 
+their seismic velocities in Earth ’s inner core. Nature 602, 258–262. https://doi.org/ 
+10.1038/s41586-021-04361-x . A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+23Headlee, A.J.W., 1962. Hydrogen sulfide, free hydrogen are vital exploration clues. 
+World Oil, November, pp. 78–83. 
+Hendrix, M.S., 2009. Continental sediments. In: Gornitz, V. (Ed.), Encyclopedia of 
+Paleoclimatology and Ancient Environments. Encyclopedia of Earth Sciences Series. 
+Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-4411-3_47 .  
+Hirose, T., Kawagucci, S., Suzuki, K., 2011. Mechanoradical H2 generation during 
+simulated faulting: implications for an earthquake-driven subsurface biosphere. 
+Geophys. Res. Lett. 39, L23304. https://doi.org/10.1029/2012GL054539 . 
+Hirose, T., Kawagucci, S., Suzuki, K., 2012. Correction to Mechanoradical H2 generation 
+during simulated faulting: implications for an earthquake-driven subsurface 
+biosphere. Geophys. Res. Lett. 39, L054539. https://doi.org/10.1029/ 
+2012GL054539 . 
+Hoeman, E.C., 1944. The Combustion of Phosphorus. PhD Thesis. Missouri University of 
+Science and Technology, USA. Available at. https://scholarsmine.mst.edu/profe 
+ssional_theses/284/ (accessed 15 December 2021).  
+Hofstra, A.H., Cline, J.S., 2000. Characteristics and models for Carlin-type gold deposits. 
+Rev. Econ. Geol. 13, 163–220. 
+Holland, H.D., 2002. Volcanic gases, black smokers, and the great oxidation event. 
+Geochim. Cosmochim. Acta 66, 3811 –3826. https://doi.org/10.1016/S0016-7037 
+(02)00950-X . 
+Holm, N.G., Oze, C., Mousis, O., Waite, J.H., Guilbert-Lepoutreet, A., 2015. 
+Serpentinization and the formation of H2 and CH4 on celestial bodies (planets, 
+moons, comets). Astrobiology 15, 587–600. 
+Horibe, Y., Craig, H., 1995. D/H fractionation in the system methane-hydrogen-water. 
+Geochim. Cosmochim. Acta 59, 5209 –5217 . 
+Hornafius, J.S., Quigley, D., Luyendyk, B.P., 1999. The world ’s most spectacular marine 
+hydrocarbon seeps (Coal Oil Point, Santa Barbara Channel, California): 
+quantification of emissions. J. Geophys. Res. 104, 20703 –20711. https://doi.org/ 
+10.1029/1999JC900148 . 
+Horsfield, B., Mahlstedt, N., Weniger, P., Misch, D., Vranjes-Wessely, S., Han, S., 
+Wang, C., 2022. Molecular hydrogen from organic sources in the deep Songliao 
+Basin, P.R China. Int. J. Hydrog. Energy 47, 16750 –16774. https://doi.org/10.1016/ 
+j.ijhydene.2022.02.208 . 
+Huang, F., Barbier, S., Tao, R., Hao, J., del Real, P.G., Peuble, S., Merdith, A., 
+Leichnig, V., Perrillat, J.-P., Fontaine, K., Fox, P., Andreani, M., Daniel, I., 2019. 
+Dataset for H2, CH4 and organic compounds formation during experimental 
+serpentinization. Geosc. Data J. 8, 90–100. https://doi.org/10.1002/gdj3.105 . 
+Hunt, J.M., 1996. Petroleum Geochemistry and Geology. W.H. Freeman and Co., New 
+York.  
+Hydroma, 2022. https://hydroma.ca/en/natural-hydrogen/ . 
+IEA, 2021. Global Hydrogen Review 2021. Available online at. https://www.iea.org/re 
+ports/global-hydrogen-review-2021 . 
+Ikuta, D., Ohtani, E., Sano-Furukawa, A., Shibazaki, Y., Terasaki, H., Yuan, L., Hattori, T., 
+2019. Interstitial hydrogen atoms in face-centered cubic iron in the Earth ’s core. Sci. 
+Rep. 9, 7108. https://doi.org/10.1038/s41598-019-43601-z . 
+Ito, T., Nagamine, K., Yamamoto, K., Adachi, M., Kawabe, I., 1999. Preseismic hydrogen 
+gas anomalies caused by stress-corrosion process preceding earthquakes. Geophys. 
+Res. Lett. 26, 2009 –2012 . 
+Jeffrey, A.W.A., Kaplan, I.R., 1988. Hydrocarbons and inorganic gases in the Gravberg-I 
+well, Siljan Ring, Sweden. In: Schoell, M. (Ed.), Origins of Methane in the Earth, 
+Chem. Geol., 71, pp. 237–255. 
+Jüntgen, H., van Heek, K.H., 1979. An update of German non-isothermal coal pyrolysis 
+work. Fuel Process. Technol. 2, 261–293. 
+Kalmychkov, G.V., Hachikubo, A., Pokrovsky, B.G., Minami, H., Yamashita, S., 
+Khlystov, O.M., 2020. Methane with abnormally high δ13C and δD values from the 
+coastal hot springs in Lake Baikal. Lithol. Miner. Resour. 55, 439–444. 
+Kameda, J., Saruwatari, K., Tanaka, H., Tsunomori, F., 2004. Mechanisms of hydrogen 
+generation during the mechanochemical treatment of biotite within D2O media. 
+Earth Planets Space 56, 1241 –1245. https://doi.org/10.1186/BF03353346 . 
+Katz, B.J., 2011. Microbial processes and natural gas accumulations. Open Geol. J. 5, 
+75–83. 
+Kawagucci, S., Toki, T., Ishibashi, J., Takai, K., Ito, M., Oomori, T., Gamo, T., 2010. 
+Isotopic variation of molecular hydrogen in 20•-375•C hydrothermal fluids as 
+detected by a new analytical method. J. Geophys. Res. 115, G03021. https://doi. 
+org/10.1029/2009JG001203 . 
+Kelemen, P.B., Matter, J., 2008. In situ carbonation of peridotite for CO2 storage. 
+Proceed. Nat. Acad. Sci. 105, 17295 –17300 . 
+Kelley, D.S., Früh-Green, G.L., 1999. Abiogenic methane in deep-seated mid-ocean ridge 
+environments; insights from stable isotope analyses. J. Geophys. Res. B 104, 
+10,439 –10,460 . 
+Kenney, J.F., Kutcherov, V.A., Bendeliani, N.A., Alekseev, V.A., 2002. The evolution of 
+multicomponent systems at high pressures: VI. The thermodynamic stability of the 
+hydrogen-carbon system: the genesis of hydrocarbons and the origin of petroleum. 
+Proc. National Acad. Sci. 99, 10976 –10981 . 
+King, G.E., 2012. Hydraulic fracturing 101: what every representative, environmentalist, 
+regulator, reporter, investor, University researcher, neighbor and engineer should 
+know about estimating frac risk and improving frac performance in unconventional 
+gas and oil wells. In: Paper presented at the SPE Hydraulic Fracturing Technology 
+Conference, The Woodlands, Texas, USA, February 2012. https://doi.org/10.2118/ 
+152596-MS . 
+Kingsley, R.H., Schilling, J.-G., Dixon, J.E., Swart, P., Poreda, R., Simons, K., 2002. D/H 
+ratios in basalt glasses from the Salas y Gomez mantle plume interacting with the 
+East Pacific Rise: Water from old D-rich recycled crust or primordial water from the 
+lower mantle? Geochem. Geophys. Geosyst. 3, 1–26. https://doi.org/10.1029/ 
+2001GC000199 . Kita, I., Matsuo, S., Wakita, H., Nakamura, Y., 1980. D/H ratios of H2 in soil gases as an 
+indicator of fault movements. Geochem. J. 14, 317–320. 
+Kita, I., Matsuo, S., Wakita, H., 1982. H2 generation by reaction between H2O and 
+crushed rock: an experimental study on H2 degassing from the active fault zone. 
+J. Geophys. Res. 87, 10789 –10795. https://doi.org/10.1029/JB087iB13p10789 . 
+Kiyosu, Y., 1983. Hydrogen isotopic compositions of hydrogen and methane from some 
+volcanic areas in northeastern Japan. Earth Planet. Sci. Lett. 62, 41–52. https://doi. 
+org/10.1016/0012-821X(83)90069-9 . 
+Klein, F., Bach, W., McCollom, T.M., 2013. Compositional controls on hydrogen 
+generation during serpentinization of ultramafic rocks. Lithos 178, 55–69. 
+Klein, F., Tarnas, J.D., Bach, W., 2020. Abiotic sources of molecular hydrogen on Earth. 
+Elements 16, 19–24. https://doi.org/10.2138/gselements.16.1.19 . 
+Komabayashi, T., 2021. Hydrogen dances in the deep mantle. Nature Geosc. 14, 
+112–117. 
+Konn, C., Donval, J.P., Guyader, V., Germain, Y., Alix, A.-S., Roussel, E., Rouxel, O., 
+2022. Extending the dataset of fluid geochemistry of the Menez Gwen, Lucky Strike, 
+Rainbow, TAG and Snake Pit hydrothermal vent fields: Investigation of temporal 
+stability and organic contribution. Deep Sea Res. Part I: Ocean. Res. Papers 179, 
+103630. https://doi.org/10.1016/j.dsr.2021.103630 . 
+Kraychuk, M.S., 1976. About hydrogen gas in the Gagarin prospect. Oil-Gas Geol. 
+Geophys. 19, 1–10. 
+Krichevsky, M.I., Friedman, I., Newell, M.F., Sisler, F.D., 1961. Deuterium fractionation 
+during molecular hydrogen formation in a marine pseudomonad. J. Biol. Chem. 236, 
+2520 –2525. https://doi.org/10.1016/S0021-9258(18)64032-3 . 
+Kutcherov, V.G., Krayushkin, V.A., 2010. Deep-seated abiogenic origin of petroleum: 
+from geological assessment to physical theory. Rev. Geophys. 48, RG1001 . 
+Kyser, T.K., O’Neil, J.R., 1984. Hydrogen isotope systematics of submarine basalts. 
+Geochim. Cosmochim. Acta 48, 2123 –2133 . 
+Lang, S.Q., Brazelton, W.J., 2020. Habitability of the marine serpentinites subsurface: a 
+case study of the Lost City hydrothermal field. Phil. Trans. R. Soc. A 378, 20180429. 
+https://doi.org/10.1098/rsta.2018.042 . 
+Larin, V.N., 1993. Hydridic Earth: the New Geology of our Primordially Hydrogen-Rich 
+Planet. Polar Publishing, Alberta, Canada .  
+Larin, V.N., 1995. Our Earth (Origin, Composition, Structure and Development of 
+Initially Hydridic Earth). Agar, Moscow (in Russian) .  
+Larin, N.V., Zgonnik, V., Rodina, S., Deville, E., Prinzhofer, A., Larin, V.N., 2015. Natural 
+molecular hydrogen seepage associated with surficial, rounded depressions on the 
+European craton in Russia. Nat. Resour. Res. 24, 369–383. https://doi.org/10.1007/ 
+s11053-014-9257-5 . 
+Larter, S., Silva, R.C., Marcano, N., Snowdon, L.R., Villarreal-Barajas, J.E., Sonei, R., 
+Paredes Guti˘errez, L.C., Huang, H., Stopford, A., Oldenburg, T.B.P., Zhao, J., 
+Weerawardhena, P., Nightingale, M., Mayer, B., Pedersen, J.H., di Primio, R., 2019. 
+The dating of petroleum fluid residence time in subsurface reservoirs. Part 1: A 
+radiolysis-based geochemical toolbox. Geochim. Cosmochim. Acta 261, 305–326. 
+Lash, G.G., Lash, E.P., 2014. Early history of the natural gas industry, Fredonia, New 
+York. In: Search and Discovery Article #70000. Available at: https://www.search 
+anddiscovery.com/pdfz/documents/2014/70168lash/ndx_lash.pdf.html (accessed 
+15 December 2021).  
+Lavrushin, V.Yu, Aydarkozhina, A.S., Pokrovsky, B.G., Prasolov, E.M., Potapov, E.G., 
+Ermakov, A.V., 2020. Nitrogen and carbon isotope composition of gases in high- 
+pCO 2 waters in the North Caucasus. Geochem. Int. 58, 1262 –1277. https://doi.org/ 
+10.1134/S0016702920110087 . 
+Lazar, C., Cooperdock, E.H.G., Seymour, B.H.T., 2021. A continental forearc serpentinite 
+diapir with deep origins: elemental signatures of a mantle wedge protolith and slab- 
+derived fluids at New Idria, California. Lithos 398–399, 106252. https://doi.org/10 
+.1016/j.lithos.2021.106252 . 
+Lecher, A., Chuang, P., Singleton, M., Paytan, A., 2017. Source of methane to an Arctic 
+lake in Alaska: an isotopic investigation. J. Geophys. Res. Biogeosci. 122, 753–766. 
+Lefeuvre, N., Truche, L., Donz ˘e, F.V., Ducoux, M., Barr˘e, G., Fakoury, R.A., Calassou, S., 
+Gaucher, E.C., 2021. Native H2 exploration in the Western Pyrenean Foothills. 
+Geochem. Geophys. Geosyst. 22, 8. 
+Lehmann, L., Baerns, M., 1992. Mechanistic aspects of the oxidative coupling of methane 
+over a NaOH/CaO catalyst. Catal. Today 13, 265–272. https://doi.org/10.1016/ 
+0920-5861(92)80150-L . 
+Leila, M., L˘evy, D., Battani, A., Piccardi, L., ¯Segvi ˘c, B., Badurina, L., Pasquet, G., 
+Combaudon, V., Moretti, I., 2021. Origin of continuous hydrogen flux in gas 
+manifestations at the Larderello geothermal field, Central Italy. Chem. Geol. 120564 
+https://doi.org/10.1016/j.chemgeo.2021.120564 . 
+Leila, M., Loiseau, K., Moretti, I., 2022. Controls on generation and accumulation of 
+blended gases (CH 4/H2/He) in the Neoproterozoic Amadeus Basin, Australia. Mar. 
+Pet. Geol. 140, 105643 https://doi.org/10.1016/j.marpetgeo.2022.105643 . 
+Levshounova, S.P., 1991. Hydrogen in petroleum geochemistry. Terra Nova 3, 579–585. 
+Lewan, M.D., Ulmishek, G.F., Harrison, W., Schreiner, F., 1991. Gamma-Co-60- 
+irradiation of organic matter in the phosphoria retort shale. Geochim. Cosmochim. 
+Acta 55, 1051 –1063 . 
+Li Vigni, L., Daskalopoulou, K., Calabrese, S., Parello, F., D’Alessandro, W., 2021. 
+Geochemical characterisation of the alkaline and hyperalkaline groundwater in the 
+Othrys Ophiolite Massif, central Greece. Ital. J. Geosci. 140, 42–56. 
+Li, L., Cartigny, P., Ader, M., 2009. Kinetic nitrogen isotope fractionation associated with 
+thermal decomposition of NH3: experimental results and potential applications to 
+trace the origin of N2 in natural gas and hydrothermal systems. Geochim. 
+Cosmochim. Acta 73, 6282 –6297. https://doi.org/10.1016/j.gca.2009.07.016 . 
+Li, X., Krooss, B.M., Weniger, P., Littke, R., 2015. Liberation of molecular hydrogen (H2) 
+and methane (CH 4) during non-isothermal pyrolysis of shales and coals: Systematics 
+and quantification. Int. J. Coal Geol. 137, 152–164. https://doi.org/10.1016/j. 
+coal.2014.11.011 . A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+24Li, X., Krooss, B.M., Weniger, P., Littke, R., 2017. Molecular hydrogen (H2) and light 
+hydrocarbon gases generation from marine and lacustrine source rocks during 
+closed-system laboratory pyrolysis experiments. J. Analyt. Appl. Pyrol. 126, 
+275–287. https://doi.org/10.1016/j.jaap.2017.05.019 . 
+Lilley, M.D., Butterfleld, D.A., Olson, E.J., Lupton, J.E., Macko, S.A., McDuff, R.E., 1993. 
+Anomalous CH4 and NH4concentrations at an unsedimented mid-ocean-ridge 
+hydrothermal system. Nature 364, 45–47. 
+Lin, L.-H., Hall, J., Lippmann-Pipke, J., Ward, J.A., Sherwood Lollar, B., de Flaun, M., 
+Rothmel, M., Moser, D., Gihring, T.M., 2005a. Radiolytic H2 in continental crust: 
+nuclear power for deep subsurface microbial communities. Geochem. Geophys. 
+Geosyst. 6, Q07003. https://doi.org/10.1029/2004GC000907 . 
+Lin, L.-H., Slater, G.F., Sherwood Lollar, B., Lacrampe-Couloume, G., Onstott, T.C., 
+2005b. The yield and isotopic composition of radiolytic H2, a potential energy source 
+for the deep subsurface biosphere. Geochim. Cosmochim. Acta 69, 893–903. https:// 
+doi.org/10.1016/j.gca.2004.07.032 . 
+Link, W.K., 1952. Significance of oil and gas seeps in world oil exploration. AAPG Bull. 
+36, 1505 –1540 . 
+Liu, C., Liu, J., Sun, P., Zhang, L., Li, H., Zheng, S., Ge, Y., 2013. Geochemical features of 
+natural gas in the Qaidam Basin, NW China. J. Pet. Sci. Eng. 110, 85–93. 
+Liu, S., Tan, F., Huo, T., Tang, S., Zhao, W., Chao, H., 2020. Origin of the hydrate bound 
+gases in the Juhugeng Sag, Muli Basin, Tibetan Plateau. Int. J. Coal Sci. Technol. 7, 
+43–57. https://doi.org/10.1007/s40789-019-00283-2 . 
+Loewen, M.W., Graham, D.W., Bindeman, I.N., Lupton, J.E., Garcia, M.O., 2019. 
+Hydrogen isotopes in high 3He/4He submarine basalts: primordial vs. recycled water 
+and the veil of mantle enrichment. Earth Planet. Sci. Lett. 508, 62–73. https://doi. 
+org/10.1016/j.epsl.2018.12.012 . 
+Loffler, M., Schrader, M., Lüders, K., Werban, U., Hornbruch, G., Dahmke, A., Vogt, C., 
+Richnow, H.H., 2022. Stable hydrogen isotope fractionation of hydrogen in a field 
+injection experiment: simulation of a gaseous H2 leakage. ACS Earth Space Chem. 6, 
+631–641. https://doi.org/10.1021/acsearthspacechem.1c00254 . 
+Lu, Z., Zhu, Y., Zhang, Y., Wen, H., Li, Y., Liu, C., 2011. Gas hydrate occurrences in the 
+Qilian Mountain permafrost, Qinghai Province, China. Cold Reg. Sci. Technol. 66, 
+93–104. 
+Lunsford, J.H., 1990. The catalytic conversion of methane to higher hydrocarbons. Catal. 
+Today 6, 235–259. https://doi.org/10.1016/0920-5861(90)85004-8 . 
+Luo, Y.-H., Sternberg, L., Suda, S., Kumazawa, S., Mitsui, A., 1991. Extremely low D/H 
+ratios of photoproduced hydrogen by cyanobacteria. Plant Cell Physiol. 32, 
+897–900. 
+Luong, L.D., Obzhirov, A.I., Hoang, N., Shakirov, R.B., Anh, L.D., Syrbu, N.S., Tuan, D. 
+M., Tao, N.V., Huong, T.T., Cuong, D.H., Kholmogorov, A.O., Binh, P.V., 
+Mishukov, O.V., Eskova, A.I., 2021. Distribution of gases in bottom sediments of the 
+Southwestern Sub-Basin South China Sea (Bien Dong). Russ. J. Pacif. Geol. 15, 
+144–154. 
+Lyon, G., Hulston, J., 1984. Carbon and hydrogen isotopic compositions of New Zealand 
+geothermal gases. Geochim. Cosmochim. Acta 48, 1161 –1171. https://doi.org/ 
+10.1016/0016-7037(84)90052-8 . 
+Magoon, L.B., Dow, W.G., 1994. The petroleum system. In: Magoon, L.B., Dow, W.G. 
+(Eds.), The Petroleum System - From Source to Trap, AAPG Memoir, 60, pp. 3–24. 
+Mao, H.-K., Hu, Q., Yang, L., Liu, J., Kim, D.Y., Meng, Y., Zhang, L., Prakapenka, V.B., 
+Yang, W., Mao, W.L., 2017. When water meets iron at Earth ’s core –mantle 
+boundary. Nation. Sci. Rev. 4, 870–878. https://doi.org/10.1093/nsr/nwx109 . 
+Mariner, R.H., Venezky, D.Y., Hurwitz, S., 2006. Chemical and isotopic database of water 
+and gas from hydrothermal systems with an emphasis for the western United States. 
+In: United States Geological Survey, Data Series, 169. Available online at. https 
+://pubs.usgs.gov/ds/2005/169/ . 
+Marques, J.M., Etiope, G., Neves, M.O., Carreira, P.M., Rocha, C., Vance, S.D., 
+Christensen, L., Miller, A.Z., Suzuki, S., 2018. Linking serpentinization, 
+hyperalkaline mineral waters and abiotic methane production in continental 
+peridotites: an integrated hydrogeological-bio-geochemical model from the Cabeço 
+de Vide CH4-rich aquifer (Portugal). Appl. Geochem. 96, 287–301. https://doi.org/ 
+10.1016/j.apgeochem.2018.07.011 . 
+Marty, B., Gunnlaugsson, E., Jambon, A., Oskarsson, N., Ozima, M., Pineau, F., 
+Torssander, P., 1991. Gas geochemistry of geothermal fluids, the Hengill area, 
+southwest rift zone of Iceland. Chem. Geol. 91, 207–225. 
+Mayhew, L., Ellison, E., McCollom, T., Trainor, T.P., Templeton, A.S., 2013. Hydrogen 
+generation from low-temperature water –rock reactions. Nat. Geosci. 6, 478–484. 
+https://doi.org/10.1038/ngeo1825 . 
+McCarthy Jr., J.H., Cunningham, K.I., Roberts, A.A., Dietrich, J.A., 1986. Soil gas studies 
+around hydrogen-rich natural gas wells in northern Kansas. In: United States 
+Department of the Interior Geological Survey, Report 86-461, 21 p.  
+McCollom, T.M., Seewald, J.S., 2006. Carbon isotope composition of organic compounds 
+produced by abiotic synthesis under hydrothermal conditions. Earth Planet. Sci. Lett. 
+243, 74–84. 
+McCollom, T.M., Seewald, J.S., 2013. Serpentinites, hydrogen, and life. Elements 9, 
+129–134. 
+McCollom, T.M., Klein, F., Ramba, M., 2022. Hydrogen generation from serpentinization 
+of iron-rich olivine on Mars, icy moons, and other planetary bodies. Icarus 372, 
+114754. https://doi.org/10.1016/j.icarus.2021.114754 . 
+McDermott, J.M., Sylva, S.P., Ono, S., German, C.R., Seewald, J.S., 2018. Geochemistry 
+of fluids from Earth ’s deepest ridge-crest hot-springs: Piccard hydrothermal field, 
+Mid-Cayman Rise. Geochim. Cosmochim. Acta 228, 95–118. 
+McDowell, B.P., Milkov, A.V., Anderson, D.S., 2017. The helium system: a modification 
+of the petroleum system for inert gases. In: Search and Discovery Article #42098. 
+Available at. https://www.searchanddiscovery.com/pdfz/documents/2017/42 
+098mcdowell/ndx_mcdowell.pdf.html (accessed 15 December 2021).  Meincke, W., 1967. Zur herkunft des wasserstoffs in tiefenproben. Z. Angew. Geol. 13, 
+346–348 (in German) .  
+Melton, C.E., Giardini, A.A., 1974. The composition and significance of gas released from 
+natural diamonds from Africa and Brazil. Am. Mineral. 59, 775–782. 
+M˘enez, B., 2020. Abiotic hydrogen and methane: fuels for life. Elements 16, 39–46. 
+Meng, Q., Sun, Y., Tong, J., Fu, Q., Zhu, J., Zhu, D., Jin, Z., 2015. Distribution and 
+geochemical characteristics of hydrogen in natural gases from the Jiyang Depression, 
+Eastern China. Acta Geol. Sin. 89, 1616 –1624 . 
+Merlivat, L., Pineau, F., Javoy, M., 1987. Hydrothermal vent waters at 13•N on the East 
+Pacific Rise: isotopic composition and gas concentration. Earth Planet. Sci. Lett. 84, 
+100–108. 
+Mermelstein, L.D., Zeikus, J.G., 1998. Anaerobic nonmethanogenic extremophiles. In: 
+Horikoshi, K., Grant, W.D. (Eds.), Extremophiles: Microbial Life in Extreme 
+Environment. Wiley-Liss, New York, pp. 255–285. 
+Messer, B., Oprea, V., Beaulieu, K., Wright, A., 2008. Role of nascent hydrogen in 
+refinery corrosion. In: Paper presented at the CORROSION 2008, New Orleans, 
+Louisiana, March 2008. Paper Number NACE-08549 . 
+Milesi, V., Guyot, F., Brunet, F., Richard, L., Recham, N., Benedetti, M., Dairou, J., 
+Prinzhofer, A., 2015. Formation of CO2, H2 and condensed carbon from siderite 
+dissolution in the 200-300•C range and at 50 MPa. Geochim. Cosmochim. Acta 154, 
+201–211. https://doi.org/10.1016/j.gca.2015.01.015 . 
+Milesi, V., Prinzhofer, A., Guyot, F., Benedetti, M., Rodrigues, R., 2016. Contribution of 
+siderite –water interaction for the unconventional generation of hydrocarbon gases in 
+the Solim ~oes basin, north-west Brazil. Mar. Pet. Geol. 71, 168–182. https://doi.org/ 
+10.1016/j.marpetgeo.2015.12.022 . 
+Milkov, A.V., 2004. Global estimates of hydrate-bound gas in marine sediments: how 
+much is really out there? Earth Sci. Rev. 66, 183–197. https://doi.org/10.1016/j. 
+earscirev.2003.11.002 . 
+Milkov, A.V., 2005. Molecular and stable isotope composition of natural gas hydrates: a 
+revised global dataset and basic interpretations in the context of geological settings. 
+Org. Geochem. 36, 681–702. 
+Milkov, A.V., 2010. Methanogenic biodegradation of petroleum in the West Siberian 
+basin (Russia): significance for formation of giant Cenomanian gas pools. AAPG Bull. 
+94, 1485 –1541 . 
+Milkov, A.V., 2011. Worldwide distribution and significance of secondary microbial 
+methane formed during petroleum biodegradation in conventional reservoirs. Org. 
+Geochem. 42, 184–207. 
+Milkov, A.V., 2018. Secondary microbial gas. In: Wilkes, H. (Ed.), Hydrocarbons, Oils 
+and Lipids: Diversity, Origin, Chemistry and Fate. Handbook of Hydrocarbon and 
+Lipid Microbiology. Springer, Cham, pp. 1–10. https://doi.org/10.1007/978-3-319- 
+54529-5_22-1 . 
+Milkov, A.V., 2021. New approaches to distinguish shale-sourced and coal-sourced gases 
+in petroleum systems. Org. Geochem. 158, 104271 https://doi.org/10.1016/j. 
+orggeochem.2021.104271 . 
+Milkov, A.V., Etiope, G., 2018. Revised genetic diagrams for natural gases based on a 
+global dataset of F20,000 samples. Org. Geochem. 125, 109–120. https://doi.org/ 
+10.1016/j.orggeochem.2018.09.002 . 
+Milkov, A.V., Navidi, W.C., 2020. Randomness, serendipity and luck in petroleum 
+exploration. AAPG Bull. 104, 145–176. 
+Milkov, A.V., Claypool, G.E., Lee, Y.-J., Torres, M.E., Borowski, W.S., Tomaru, H., 
+Sassen, R., Long, P.E., ODP Leg 204 Scientific Party, 2004. Ethane enrichment and 
+propane depletion in subsurface gases indicate gas hydrate occurrence in marine 
+sediments at southern Hydrate Ridge offshore Oregon. Org. Geochem. 35, 
+1067 –1080 . 
+Milkov, A.V., Goebel, E., Dzou, L., Fisher, D.A., Kutch, A., McCaslin, N., Bergman, D., 
+2007. Compartmentalization and time-lapse geochemical reservoir surveillance of 
+the Horn Mountain oil field, deep-water Gulf of Mexico. AAPG Bull. 91, 847–876. 
+Milkov, A.V., Faiz, M., Etiope, G., 2020a. Geochemistry of shale gases from around the 
+world: Composition, origins, isotope reversals and rollovers, and implications for the 
+exploration of shale plays. Org. Geochem. 143, 103997 https://doi.org/10.1016/j. 
+orggeochem.2020.103997 . 
+Milkov, A.V., Schwietzke, S., Allen, G., Sherwood, O.A., Etiope, G., 2020b. Using global 
+isotopic data to constrain the role of shale gas production in recent increases in 
+atmospheric methane. Sci. Rep. 10, 4199. https://doi.org/10.1038/s41598-020- 
+61035-w . 
+Miller, H.M., Mayhew, L.E., Ellison, E.T., Kelemen, P., Kubo, M., Templeton, A.S., 2017. 
+Low temperature hydrogen production during experimental hydration of partially- 
+serpentinized dunite. Geochim. Cosmochim. Acta 209, 161–183. 
+Moeck, I.S., 2014. Catalog of geothermal play types based on geologic controls. Renew. 
+Sustain. Energy Rev. 37, 867–882. 
+Molchanov, V., 1981. Generation of Hydrogen in Lithogenesis. Nauka, Novosibirsk (in 
+Russian) .  
+Monnin, C., Qu˘em˘eneur, M., Price, R., Jeanpert, J., Maurizot, P., Boulart, C., Donval, J. 
+P., Pelletier, B., 2021. The chemistry of hyperalkaline springs in serpentinizing 
+environments: 1. the composition of free gases in New Caledonia compared to other 
+springs worldwide. J. Geophys. Res. Biogeosci. 126 e2021JG006243 .  
+Moody, J.B., 1976. Serpentinization: a review. Lithos 9, 125–138. 
+Morita, R.Y., 2000. Is H2 the universal energy source for long-term survival? Microb. 
+Ecol. 38, 307–320. 
+Mørkved, P.T., Thiessen, O., Johansen, H., Dugstad, A., 2009. H2 in well casings at the 
+Troll A platform: is corrosion a major gas source?. In: Abstracts the 24th 
+International Meeting on Organic Geochemistry, September 6-11, 2009, Bremen, 
+Germany, p. 472. 
+Morrill, P.L., Kuenen, J.G., Johnson, O.J., Suzuki, S., Rietze, A., Sessions, A.L., Fogel, M. 
+L., Nealson, K.H., 2013. Geochemistry and geobiology of a present-day A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+25serpentinization site in California: The Cedars. Geochim. Cosmochim. Acta 109, 
+222–240. https://doi.org/10.1016/j.gca.2013.01.043 . 
+Murray, J., Clement, A., Frita, B., Schmittbuhl, J., Boardmann, V., Fleury, J.M., 2020. 
+Abiotic hydrogen generation from biotite-rich granite: a case study of the Soultz- 
+sous-Forets geothermal site. France. Appl. Geochem. 119, 104631 https://doi.org/ 
+10.1016/j.apgeochem.2020.104631 . 
+Nandi, R., Sengupta, S., 1998. Microbial production of hydrogen: an overview. Crit. Rev. 
+Microbiol. 24, 61–84. 
+Naumenko-D ˘ezes, M., Kloppmann, W., Blessing, M., Bondu, R., Gaucher, E.C., Mayer, B., 
+2022. Natural gas of radiolytic origin: an overlooked component of shale gas. Proc. 
+Natl. Acad. Sci. 119, e2114720119 https://doi.org/10.1073/pnas.2114720119 . 
+Neal, C., Stranger, G., 1983. Hydrogen generation from mantle source rocks in Oman. 
+Earth Planet. Sci. Lett. 66, 315–320. https://doi.org/10.1016/0012-821X(83)90144- 
+9. 
+Nisbet, E.G., Sleep, N.H., 2001. The habitat and nature of early life. Nature 409, 
+1083 –1091 . 
+Nivin, V.A., 2019. Occurrence forms, composition, distribution, origin and potential 
+hazard of natural hydrogen –hydrocarbon gases in ore deposits of the Khibiny and 
+Lovozero Massifs: a review. Minerals 9, 535. https://doi.org/10.3390/min9090535 . 
+Nothaft, D.B., Templeton, A.S., Boyd, E.S., Matter, J.M., Stute, M., Paukert Vankeuren, A. 
+N., The Oman Drilling Project Science Team, 2021. Aqueous geochemical and 
+microbial variation across discrete depth intervals in a peridotite aquifer assessed 
+using a packer system in the Samail Ophiolite, Oman. J. Geophys. Res. Biogeosci. 
+126 https://doi.org/10.1029/2021JG006319 e2021JG006319.  
+Nuttall, W.J., Bakenne, A.T., 2020. Fossil Fuel Hydrogen: Technical, Economic and 
+Environmental Potential. Springer, 138 p.  
+Ohara, Y., Reagan, M.K., Fujikura, K., Watanabe, H., Michibayashi, K., Ishii, T., Stern, R. 
+J., Pujana, I., Martinez, F., Girard, G., Ribeiro, J., Brounce, M., Komori, N., Kino, M., 
+2012. A serpentinite-hosted ecosystem in the Southern Mariana Forearc. Proc. Natl. 
+Acad. Sci. 109, 2831 –2835 . 
+Ostertag-Henning, C., Scheeder, G., 2009. The role of molecular hydrogen for the process 
+of thermochemical sulfate reduction. In: Abstracts the 24th International Meeting on 
+Organic Geochemistry, September 6-11, 2009, Bremen, Germany, p. 473. 
+Oze, C., Sharma, M., 2005. Have olivine, will gas: serpentinization and the abiogenic 
+production of methane on Mars. Geophys. Res. Lett. 32, L10203 . 
+Oze, C., Sharma, M., 2007. Serpentinization and the inorganic synthesis of H2 in 
+planetary surfaces. Icarus 186, 557–561. 
+Parnell, J., Blamey, N., 2017a. Global hydrogen reservoirs in basement and basins. 
+Geochem. Trans. 18, 1–8. https://doi.org/10.1186/s12932-017-0041-4 . 
+Parnell, J., Blamey, N., 2017b. Hydrogen from radiolysis of aqueous fluid inclusions 
+during diagenesis. Minerals 7, 130. https://doi.org/10.3390/min7080130 . 
+Pastina, B., LaVerne, J., 2001. Effect of molecular hydrogen on hydrogen peroxide in 
+water radiolysis. J. Phys. Chem. A 105, 9316 –9322 . 
+Pepper, A.S., Corvi, P.J., 1995. Simple kinetic models of petroleum formation. Part III: 
+modelling an open system. Mar. Pet. Geol. 12, 417–452. 
+Perevozchikov, G.V., 2011. Hydrogen in depths of Kyzylkums. Prosp. Protect. Miner. 
+Resourc. 2, 35–39 (in Russian) .  
+Pester, N.J., Conrad, M.E., Knauss, K.G., DePaolo, D.J., 2018. Kinetics of D/H isotope 
+fractionation between molecular hydrogen and water. Geochim. Cosmochim. Acta 
+242, 191–212. https://doi.org/10.1016/j.gca.2018.09.015 . 
+Peters, K.E., Walters, C.C., Moldowan, J.M., 2005. The Biomarker Guide. Cambridge 
+University Press, Cambridge, U.K.  
+Petersen, H.I., Hillock, P., Milner, S., Pendlebury, M., Scarlett, D., 2019. Monitoring gas 
+distribution and origin in the Culzean field, UK Central North Sea, using data from a 
+continuous isotope logging tool and IsoTube and test samples. J. Pet. Geol. 42, 
+435–450. 
+Pieterse, G., Krol, M.C., Batenburg, A.M., Steele, L.P., Krummel, P.B., Langenfelds, R.L., 
+Rockmann, T., 2011. Global modelling of H2 mixing ratios and isotopic compositions 
+with the TM5 model. Atmos. Chem. Phys. 11, 7001 –7026. https://doi.org/10.5194/ 
+acp-11-7001-2011 . 
+Potter, J., Konnerup-Madsen, J., 2003. A review of the occurrence and origin of 
+abiogenic hydrocarbons in igneous rocks. In: Petford, N., McCaffrey, K.J.W. (Eds.), 
+Hydrocarbons in Crystalline Rocks, 214. Geological Society of London Special 
+Publication, pp. 151–173. 
+Potter, J., Salvi, S., Longstaffe, F.J., 2013. Abiogenic hydrocarbon isotopic signatures in 
+granitic rocks: Identifying pathways of formation. Lithos 182-183, 114–124. https:// 
+doi.org/10.1016/j.lithos.2013.10.001 . 
+Power, I.M., Wilson, S.A., Dipple, G.M., 2013. Serpentinite carbonation for CO2 
+sequestration. Elements 9, 115–121. https://doi.org/10.2113/gselements.9.2.115 . 
+Pratt, W.E., 1934. Hydrogenation and the origin of oil. In: Wrather, W.E., Lahee, F.H. 
+(Eds.), Problems of Petroleum Geology, AAPG Special Publication, 6, pp. 235–245. 
+Preiner, M., Xavier, J.C., Sousa, F.L., Zimorski, V., Neubeck, A., Lang, S.Q., Greenwell, H. 
+C., Kleinermanns, K., Tüysüz, H., McCollom, T.M., Holm, N.G., Martin, W.F., 2018. 
+Serpentinization: connecting geochemistry, ancient metabolism and industrial 
+hydrogenation. Life 8, 41. https://doi.org/10.3390/life8040041 . 
+Prinzhofer, A., Tahara Ciss˘e, C.S., Diallo, A.B., 2018. Discovery of a large accumulation 
+of natural hydrogen in Bourakebougou (Mali). Int. J. Hydrog. Energy 43, 
+19315 –19326 . 
+Price, H., Jaegl ˘e, L., Rice, A., Quay, P., Novelli, P.C., Gammon, R., 2007. Global budget of 
+molecular hydrogen and its deuterium content: constraints from ground station, 
+cruise, and aircraft observations. J. Geophys. Res. 112, D22108. https://doi.org/ 
+10.1029/2006JD008152 . 
+Prinzhofer, A., Moretti, I., Françolin, J., Pacheco, C., D’Agostino, A., Werly, J., Rupin, F., 
+2019. Natural hydrogen continuous emission from sedimentary basins: the example 
+of a Brazilian H2-emitting structure. Int. J. Hydrog. Energy 44, 5676 –5685. https:// 
+doi.org/10.1016/j.ijhydene.2019.01.119 . Proskurowski, G., Lilley, M.D., Olson, E.J., 2008a. Stable isotopic evidence in support of 
+active microbial methane cycling in low-temperature diffuse flow vents at 9•50∕N 
+East Pacific Rise. Geochim. Cosmochim. Acta 72, 2005 –2023. https://doi.org/ 
+10.1016/j.gca.2008.01.025 . 
+Proskurowski, G., Lilley, M.D., Seewald, J.S., Früh-Green, G.L., Olson, E.J., Lupton, J.E., 
+Sylva, S.P., Kelley, D.S., 2008b. Abiogenic hydrocarbon production at Lost City 
+hydrothermal field. Science 319, 604–607. 
+Pudovskis, V., 1959. Meda No. 1 Geological Completion Report. Available online at. 
+https://wapims.dmp.wa.gov.au/WAPIMS/Search/WellDetails# . 
+Rezaee, R., 2021. Assessment of natural hydrogen systems in Western Australia. Int. J. 
+Hydrog. Energy 46, 33068 –33077. https://doi.org/10.1016/j. 
+ijhydene.2021.07.149 . 
+Ricci, A., Kleine, B.I., Fiebig, J., Gunnarsson-Robin, J., Kamunya, K.M., Mountain, B., 
+Stef˘ansson, A., 2022. Equilibrium and kinetic controls on molecular hydrogen 
+abundance and hydrogen isotope fractionation in hydrothermal fluids. Earth Planet. 
+Sci. Lett. 579, 117338 https://doi.org/10.1016/j.epsl.2021.117338 . 
+Richet, P., Bottinga, Y., Javoy, M., 1977. A review of hydrogen, carbon, nitrogen, 
+oxygen, sulphur, and chlorine stable isotope fractionation among gaseous molecules. 
+Annu. Rev. Earth Planet. Sci. 5, 65–110. 
+Roling, W.F.M., Head, I.M., Larter, S.R., 2003. The microbiology of hydrocarbon 
+degradation in subsurface petroleum reservoirs: perspectives and prospects. Res. 
+Microbiol. 154, 321–328. 
+Rӧper, M., 1983. Fischer-Tropsch synthesis. In: Keim, W. (Ed.), Catalysis in C1 chemistry. 
+D. Reidel, Dordrecht, Holland, pp. 41–88. 
+Rusakov, O., 2020. A global inventory of concentration measurements of free and 
+dissolved in underground waters molecular hydrogen in the Earth ’s crust on land. 
+Geofizich. Zhurn. 42, 59–99 (in Russian). 10.24028/gzh.0203-3100.v42i6.2020 
+.222284 . 
+Russell, M.J., Hall, A.J., Martin, W., 2010. Serpentinization as a source of energy at the 
+origin of life. Geobiology 8, 355–437. 
+Sabatier, P., Senderens, J.B., 1902. New synthesis of methane. Compt. Rend. 134, 
+514–516. 
+Sader, J.A., Harrison, A.L., McClenaghan, M.B., Hamilton, S.M., Clark, I.D., Sherwood 
+Lollar, B., Leybourne, M.I., 2021. Generation of high-pH groundwaters and H2 gas by 
+groundwater –kimberlite interaction, northeastern Ontario, Canada. The Canad. 
+Mineral. 59, 1261 –1276. https://doi.org/10.3749/canmin.2000048 . 
+Sano, Y., Urabe, A., Wakita, H., Chiba, H., Sakai, H., 1985. Chemical and isotopic 
+compositions of gases in geothermal fluids in Iceland. Geochem. J. 19, 135–148. 
+Saruwatari, K., Kamed, J., Tanaka, H., 2004. Generation of hydrogen ions and hydrogen 
+gas in quartz-water crushing experiments: an example of chemical processes in 
+active faults. Phys. Chem. Miner. 31, 176–182. 
+Sassen, R., Sweet, S.T., DeFreitas, D.A., Milkov, A.V., 2000. Exclusion of 2-methylbutane 
+(isopentane) during crystallization of structure II gas hydrate in sea-floor sediment, 
+Gulf of Mexico. Org. Geochem. 31, 1257 –1262 . 
+Sauvage, J.F., Flinders, A., Spivack, A.J., Pockalny, R., Dunlea, A.G., Anderson, C.H., 
+Smith, D.C., Murray, R.W., D’Hondt, S., 2021. The contribution of water radiolysis to 
+marine sedimentary life. Nat. Commun. 12, 1297. https://doi.org/10.1038/s41467- 
+021-21218-z . 
+Schimmelmann, A., Sauer, P.E., 2017. Hydrogen isotopes. In: White, W.M. (Ed.), 
+Encyclopedia of Geochemistry. Springer. https://doi.org/10.1007/978-3-319- 
+39193-9_326-1 . 
+Schrenk, M.O., Brazelton, W.J., Lang, S.Q., 2013. Serpentinization, carbon, and deep life. 
+Rev. Mineral. Geochem. 75, 575–606. https://doi.org/10.2138/rmg.2013.75.18 . 
+Schulz, H., 1999. Short history and present trends of Fischer –Tropsch synthesis. Appl. 
+Catal. A Gen. 186, 3–12. 
+Schwartz, E., Fritsch, J., Friedrich, B., 2013. H2-metabolizing prokaryotes. In: 
+Dworkin, M., Falkow, S., Rosenberg, E., Schleifer, K.H., Stackebrandt, E. (Eds.), The 
+Prokaryotes. Springer, New York, NY, pp. 119–199. https://doi.org/10.1007/0-387- 
+30742-7_17 . 
+Seewald, J.S., 2001. Aqueous geochemistry of low molecular weight hydrocarbons at 
+elevated temperatures and pressures: constraints from mineral buffered laboratory 
+experiments. Geochim. Cosmochim. Acta 65, 1641 –1664. https://doi.org/10.1016/ 
+S0016-7037(01)00544-0 . 
+Sherwood Lollar, B., Voglesonger, K., Lin, L.-H., Lacrampe-Couloume, G., Telling, J., 
+Abrajano, T.A., Onstott, T.C., Pratt, L.M., 2007. Hydrogeologic controls on episodic 
+H2 release from precambrian fractured rocks - energy for deep subsurface life on 
+Earth and Mars. Astrobiology 7, 971–986. 
+Sherwood Lollar, B., Onstott, T., Lacrampe-Couloume, G., Ballentine, C.J., 2014. The 
+contribution of the Precambrian continental lithosphere to global H2 production. 
+Nature 516, 379–382. https://doi.org/10.1038/nature14017 . 
+Sherwood, S.C., Dixit, V., Salomez, C., 2018. The global warming potential of near- 
+surface emitted water vapour. Environ. Res. Lett. 13, 104006 https://doi.org/ 
+10.1088/1748-9326/aae018 . 
+Sigvaldson, G.E., Elisson, G., 1968. Collection and analysis of volcanic gases at Surtsey, 
+Iceland. Geochim. Cosmochim. Acta 32, 797–805. 
+Silva, R.C., Snowdon, L.R., Huang, H., Nightingale, M., Becker, V., Taylor, S., Mayer, B., 
+Pedersen, J.H., di Primio, R., Larter, S., 2019. Radiolysis as a source of 13C depleted 
+natural gases in the geosphere. Org. Geochem. 138, 103911 https://doi.org/ 
+10.1016/j.orggeochem.2019.103911 . 
+Simon, L., L˘ecuyer, C., Martineau, F., Robert, F., 2011. Experimental study of D/H 
+fractionation between water and hydrogen gas during the oxidation of Fe-bearing 
+silicates at high temperatures (600 •C-1200 •C). Centr. Europ. Geol. 54, 81–93. 
+https://doi.org/10.1556/CEuGeol.54.2011.1 –2.8. 
+Sipma, J., Henstra, A.M., Parshina, S.N., Lens, P.N.L., Lettinga, G., Stams, A.J.M., 2006. 
+Microbial CO conversions with applications in synthesis gas purification and bio- 
+desulfurization. Crit. Rev. Biotechnol. 26, 41–65. A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+26Skelton, A., Whitmarsh, R., Arghe, F., Crill, P., Koyi, H., 2005. Constraining the rate and 
+extent of mantle serpentinization from seismic and petrological data: implications 
+for chemosynthesis and tectonic processes. Geofluids 5, 153–164. 
+Sleep, N.H., Meibom, A., Fridriksson, Th., Coleman, R.G., Bird, D.K., 2004. H2-rich fluids 
+from serpentinization: geochemical and biotic implications. Proc. Natl. Acad. Sci. 
+101, 12818 –12823. https://doi.org/10.1073/pnas.0405289101 . 
+Smith, N.J.P., 2002. It’s time for explorationists to take hydrogen more seriously. First 
+Break 20 (4), 246–253. 
+Smith, N.J.P., Shephard, T.J., Styles, M.T., Williams, G.M., 2005. Hydrogen exploration: 
+a review of global hydrogen accumulations and implications for prospective areas in 
+NW Europe. In: Dor˘e, A.G., Vining, B.A. (Eds.), Petroleum Geology: North-West 
+Europe and Global Perspectives. Proceedings of the 6th Petroleum Geology 
+Conference, Geological Society, London, Petroleum Geology Conference Series, 6, 
+pp. 349–358. https://doi.org/10.1144/0060349 . 
+Snodgrass, J.E., Milkov, A.V., 2020. Web-based machine learning tool that determines 
+the origin of natural gases. Comput. Geosci. 145, 104595 . 
+Song, H., Ou, X., Han, B., Deng, H., Zhang, W., Tian, C., Cai, C., Lu, A., Lin, Z., Chai, L., 
+2021. An overlooked natural hydrogen evolution pathway: Ni2boosting H2O 
+reduction by Fe(OH) 2 oxidation during low-temperature serpentinization. Angew. 
+Chem. Int. Ed. 60, 24054 . 
+Spinks, J.W.T., Woods, R.J., 1990. An Introduction to Radiation Chemistry. John Wiley, 
+New York.  
+Stevens, T.O., McKinley, J.P., 1995. Lithoautotrophic microbial ecosystems in deep 
+basalt aquifers. Science 270, 450–454. 
+Sturchio, N.C., Abrajano Jr., T.A., Murowchick, J.B., Muehlenbachs, K., 1989. 
+Serpentinization of the Acoje massif, Zambales ophiolite, Philippines: hydrogen and 
+oxygen isotope geochemistry. Tectonophysics 168, 101–107. 
+Suda, K., Ueno, Y., Yoshizaki, M., Nakamura, H., Kurokawa, K., Nishiyama, E., 
+Yoshino, K., Hongoh, Y., Kawachi, K., Omori, S., Yamada, K., Yoshida, N., 
+Maruyama, S., 2014. Origin of methane in serpentinite-hosted hydrothermal 
+systems: The CH4–H2–H2O hydrogen isotope systematics of the Hakuba Happo hot 
+spring. Earth Planet. Sci. Lett. 386, 112–125. https://doi.org/10.1016/j. 
+epsl.2013.11.001 . 
+Suda, K., Gilbert, A., Yamada, K., Yoshida, N., Ueno, Y., 2017. Compound- and position- 
+specific carbon isotopic signatures of abiogenic hydrocarbons from on–land 
+serpentinite –hosted Hakuba Happo hot spring in Japan. Geochim. Cosmochim. Acta 
+206, 201–215. 
+Sugisaki, R., Ido, M., Takeda, H., Isobe, Y., Hayashi, Y., Nakamura, N., Satake, H., 
+Mizutani, Y., 1983. Origin of hydrogen and carbon dioxide in fault gases and its 
+relation to fault activity. The J. Geol. 91, 239–258. https://doi.org/10.1086/ 
+628769 . 
+Suzuki, N., Saito, H., Hoshino, T., 2017. Hydrogen gas of organic origin in shales and 
+metapelites. Int. J. Coal Geol. 173, 227–236. https://doi.org/10.1016/j. 
+coal.2017.02.014 . 
+Szatmari, P., 1989. Petroleum formation by Fisher-Tropsch synthesis in plate tectonics. 
+AAPG Bull. 73, 989–998. 
+Szponar, N., Brazelton, W.J., Schrenk, M.O., Bower, D.M., Steele, A., Morrill, P.L., 2013. 
+Geochemistry of a continental site of serpentinization, the Tablelands Ophiolite, 
+Gros Morne National Park: a Mars analogue. Icarus 224, 286–296. https://doi.org/ 
+10.1016/j.icarus.2012.07.004 . 
+Takai, K., Gamo, T., Tsunogai, U., Nakayama, N., Hirayama, H., Nealson, K.H., 
+Horikoshi, K., 2004. Geochemical and microbiological evidence for a hydrogen- 
+based, hyperthermophilic subsurface lithoautotrophic microbial ecosystem 
+(HyperSLiME) beneath an active deep-sea hydrothermal field. Extremophiles 8, 
+269–282. https://doi.org/10.1007/s00792-004-0386-3 . 
+Taylor, B.E., Eichelberger, J.C., Westrich, H.R., 1983. Hydrogen isotopic evidence of 
+rhyolitic magma degassing during shallow intrusion and eruption. Nature 306, 
+541–545. 
+Thayer, T.P., 1966. Serpentinization considered as a constant-volume metasomatic 
+process. Am. Mineral. 51, 685–710. 
+Thiel, J., Byrne, J.M., Kappler, A., Schink, B., Pester, M., 2019. Pyrite formation from FeS 
+and H2S is mediated through microbial redox activity. Proc. Natl. Acad. Sci. 116, 
+6897 –6902. https://doi.org/10.1073/pnas.1814412116 . 
+Thiessen, O., Mørkved, P.T., Johansen, H., van Grass, G.W., 2009. Uncommon gases with 
+high hydrogen concentrations found in well annuli on Troll A platform. In: Abstracts 
+the 24th International Meeting on Organic Geochemistry (IMOG 2009), September 
+6-11, 2009, Bremen, Germany, p. 92. 
+Timmerberg, S., Kaltschmitt, M., Finkbeiner, M., 2020. Hydrogen and hydrogen-derived 
+fuels through methane decomposition of natural gas - GHG emissions and costs. 
+Energy Convers. Manag. 7, 100043 https://doi.org/10.1016/j.ecmx.2020.100043 . 
+Tissot, B.P., Welte, D.H., 1984. Petroleum Formation and Occurrence. Springer-Verlag, 
+Berlin .  
+Toulhoat, H., Zgonnik, V., 2022. Chemical differentiation of planets: a core issue. The 
+Astrophys. J. 924, 83. https://doi.org/10.3847/1538-4357/ac300b . 
+Truche, L., Bazarkina, E.F., 2019. Natural hydrogen the fuel of the 21st century. In: E3S 
+Web of Conferences 98, 03006, WRI-16 . 
+Truche, L., Joubert, G., Dargent, M., Martz, P., Cathelineau, M., Rigaudier, T., Quirt, D., 
+2018. Clay minerals trap hydrogen in the Earth ’s crust: evidence from the Cigar Lake 
+uranium deposit, Athabasca. Earth Planet. Sci. Lett. 493, 186–197. https://doi.org/ 
+10.1016/j.epsl.2018.04.038 . 
+Truche, L., McCollom, T.M., Martinez, I., 2020. Hydrogen and abiotic hydrocarbons: 
+molecules that change the world. Elements 16, 13–18. https://doi.org/10.2138/ 
+gselements.16.1.13 . 
+Tsunogae, T., Dubessy, J., 2009. Ethane- and hydrogen-bearing carbonic fluid inclusions 
+in a high-grade metamorphic rock. J. Mineral. Petrol. Sci. 104, 324–329. https://doi. 
+org/10.2465/jmps.090622f . Tut Haklıdır, F.S., S¸engün, R., Aydın, H., 2021. Characterization and comparison of 
+geothermal fluids geochemistry within the Kızıldere Geothermal Field in Turkey: 
+new findings with power capacity expanding studies. Geothermics 94, 102110. 
+https://doi.org/10.1016/j.geothermics.2021.102110 . 
+UK OGA, 2021. Oil and Gas Authority Open Data. Available at: http://data-ogauthority. 
+opendata.arcgis.com/datasets?keyword Geochemistry (accessed 15 December 
+2021).  
+Vacquand, C., Deville, E., Beaumont, V., Guyot, F., Sissmann, O., Pillot, D., Arcilla, C., 
+Prinzhofer, A., 2018. Reduced gas seepages in ophiolitic complexes: evidences for 
+multiple origins of the H2-CH 4-N2 gas mixtures. Geochim. Cosmochim. Acta 223, 
+437–461. 
+Vovk, I.F., 1987. Radiolytic salt enrichment and brines in the crystalline basement of the 
+East European Platform. In: Fritz, P., Frape, S.K. (Eds.), Saline Water and Gases in 
+Crystalline Rocks, Geological Association of Canada Special Paper, 33, pp. 197–210. 
+Voytov, G.I., 1992. Chemical and carbon-isotope fluctuations in free gases (gas jets) in 
+the Khibiny. Geochem. Int. 29, 14–24. 
+Wagner, T., Watanabe, T., Shima, S., 2018. Hydrogenotrophic methanogenesis. In: 
+Stams, A., Sousa, D. (Eds.), Biogenesis of Hydrocarbons. Handbook of Hydrocarbon 
+and Lipid Microbiology. Springer, Cham. https://doi.org/10.1007/978-3-319- 
+53114-4_3-1 .  
+Wakita, H., Nakamura, Y., Kita, I., Fujii, N., Notsu, K., 1980. Hydrogen release: new 
+indicator of fault activity. Science 210, 188–190. 
+Walshe, J.L., 2006. Degassing of hydrogen from the Earth ’s core and related phenomena 
+of system Earth. Geochim. Cosmochim. Acta 70, A684. https://doi.org/10.1016/j. 
+gca.2006.06.1490 . 
+Wang, X.F., Liu, W.H., Xu, Y.C., Zheng, J.J., Zhang, D.W., 2006. Thermal simulation 
+experimental study on the effect of water on the formation of gaseous hydrocarbons 
+in organic matters. Prog. Nat. Sci. 16, 1275 –1281 . 
+Wang, X., Zeng, Z., Chen, J., 2009. Serpentinization of peridotites from the southern 
+Mariana forearc. Prog. Nat. Sci. 19, 1287 –1295. https://doi.org/10.1016/j. 
+pnsc.2009.04.004 . 
+Wang, W., Wang, S., Ma, X., Gong, J., 2011. Recent advances in catalytic hydrogenation 
+of carbon dioxide. Chem. Soc. Rev. 40, 3703 –3727 . 
+Wang, W., Liu, C., Liu, W., Zhang, D., 2018. Factors influencing hydrogen yield in water 
+radiolysis and implications for hydrocarbon generation: a review. Arab. J. Geosci. 
+11, 542. https://doi.org/10.1007/s12517-018-3903-x . 
+Wang, W., Liu, C., Zhang, D., Liu, W., Chen, L., Liu, W., 2019. Radioactive genesis of 
+hydrogen gas under geological conditions: an experimental study. Acta Geol. Sin. 93, 
+1125 –1134 . 
+Wang, H., Zhao, W., Cai, Y., Ye, Y., Wang, X., Bi, L., Zhang, S., 2020. Irradiation caused 
+gas generation from organic matter: evidence from the neutron irradiation 
+experiment. In: IOP Conf. Ser. Earth Environ. Sci, 569, p. 012090. https://doi.org/ 
+10.1088/1755-1315/569/1/012090 . 
+Wang, W., Liu, C., Liu, W., Wang, X., Guo, P., Wang, J., Wang, Z., Li, Z., Zhang, D., 2022. 
+Dominant products and reactions during organic matter radiolysis: Implications for 
+hydrocarbon generation of uranium-rich shales. Mar. Pet. Geol. 137, 105497 
+https://doi.org/10.1016/j.marpetgeo.2021.105497 . 
+Ward, L.K., 1933. Inflammable gasses occluded in the Pre-Paleozoic rocks of South 
+Australia. Trans. Proc. R. Soc. S. Aust. 57, 42–47. 
+Warwick, N.J., Bekki, S., Nisbet, E.G., Pyle, J.A., 2004. Impact of a hydrogen economy on 
+the stratosphere and troposphere studied in a 2-D model. Geophys. Res. Lett. 31, 
+L05107. https://doi.org/10.1029/2003GL019224 . 
+Warwick, N., Griffiths, P., Keeble, J., Archibald, A., Pyle, J., Shine, K., 2022. Atmospheric 
+Implications of Increased Hydrogen Use. Available at: www.gov.uk/gover 
+nment/publications/atmospheric-implications-of-increased-hydrogen-use (accessed 
+on May 1, 2022).  
+Weatherbee, G.D., Bartholomew, C.H., 1984. Hydrogenation of CO2 on group VIII metals 
+- IV. Specific activities and selectivities of silica-supported Co, Fe, and Ru. J. Catal. 
+87, 352–362. 
+Welhan, J.A., 1981. Carbon and Hydrogen Gases in Hydrothermal Systems: the Search 
+for a Mantle Source. PhD Dissertation. University of California, 194 p.  
+Wenger, L.M., Pottorf, R.J., Macleod, G., Otten, G., Dreyfus, S., Justwan, H.K., 2009. Drill 
+bit metamorphism: recognition and impact on show evaluation. In: Paper presented 
+at the SPE Annual Technical Conference and Exhibition, New Orleans, Louisiana, 
+October 2009. Paper Number: SPE-125218-MS. https://doi.org/10.2118/125218- 
+MS. 
+Wersin, P., Birgersson, M., Olsson, S., Karnland, O., Snellman, M., 2008. Impact of 
+corrosion-derived iron on the bentonite buffer within the KBS-3H disposal concept. 
+The Olkiluoto site as case study. In: POSIVA 2007-11 and SKB R-08-34. Posiva Oy, 
+Olkiluoto, Finland and Swedish Nuclear Fuel and Waste Management Co (SKB), 
+Stockholm, Sweden . 
+Wiersberg, T., Erzinger, J., 2008. On the origin and spatial distribution of gas at 
+seismogenic depths of the San Andreas Fault from drill mud gas analysis. Appl. 
+Geochem. 23, 1675 –1690. https://doi.org/10.1016/j.apgeochem.2008.01.012 . 
+Wood, B.L., 1972. Metamorphosed ultramafites and associated formations near Milford 
+Sound, New Zealand. New Zeal. J. Geol. Geophys. 15, 88–128. https://doi.org/ 
+10.1080/00288306.1972.10423948 . 
+Wordsworth, R., Pierrehumbert, R., 2013. Hydrogen-nitrogen greenhouse warming in 
+Earth early atmosphere. Science 339, 64–67. https://doi.org/10.1126/ 
+science.1225759 . 
+World Energy Council, 2019. New hydrogen economy - hope or hype? World Energy 
+Council, 42 p. Available at: https://www.worldenergy.org/assets/downloads 
+/WEInnovation-Insights-Brief-New-Hydrogen-Economy-Hype-or-Hope.pdf (accessed 
+15 December 2021).  A.V. Milkov                                                                                                                                                                                                                                      
+Earth-Science Reviews 230 (2022) 104063
+27Worman, S.L., Pratson, L.F., Karson, J.A., Klein, E.M., 2016. Global rate and distribution 
+of H2 gas produced by serpentinization within oceanic lithosphere. Geophys. Res. 
+Lett. 43, 6435 –6443. https://doi.org/10.1002/2016GL069066 . 
+Worman, S.L., Pratson, L.F., Karson, J.A., Schlesinger, W.H., 2020. Abiotic hydrogen (H2) 
+sources and sinks near the Mid-Ocean Ridge (MOR) with implications for the 
+subseafloor biosphere. Proc. Natl. Acad. Sci. 117, 13283 –13293. https://doi.org/ 
+10.1073/pnas.2002619117 . 
+Yamazaki, H., Shida, S., 1960. Radiolysis and bond stability of squalene. J. Chem. Phys. 
+32, 950–951. 
+Yang, X., Keppler, H., Li, Y., 2016. Molecular hydrogen in mantle minerals. Geochem. 
+Perspect. Lett. 2, 160–168. https://doi.org/10.7185/geochemlet.1616 . 
+Ye, X., Tao, M., Yu, C., Zhang, M., 2007. Helium and neon isotopic compositions in the 
+ophiolites from the Yarlung Zangbo River, southwestern China: the information from 
+deep mantle. Sci. China Ser. D 50, 801–802. 
+Yedinak, E.M., 2022. The curious case of geologic hydrogen: assessing its potential as a 
+near-term clean energy source. Joule 6, 1–6. https://doi.org/10.1016/j. 
+joule.2022.01.005 . 
+Yuce, G., Italiano, F., D’Alessandro, W., Yalcin, T.H., Yasin, D.U., Gulbay, A.H., 
+Ozyurt, N.N., Rojay, B., Karabacak, V., Bellomo, S., Brusca, L., Yang, T., Fu, C.C., 
+Lai, C.W., Ozacar, A., Walia, V., 2014. Origin and interactions of fluids circulating 
+over the Amik Basin (Hatay, Turkey) and relationships with the hydrologic, geologic 
+and tectonic settings. Chem. Geol. 388, 23–39. https://doi.org/10.1016/j. 
+chemgeo.2014.09.006 . Zgonnik, V., 2020. The occurrence and geoscience of natural hydrogen: a comprehensive 
+review. Earth Sci. Rev. 203, 103140 https://doi.org/10.1016/j. 
+earscirev.2020.103140 . 
+Zgonnik, V., Beaumont, V., Larin, N., Pillot, D., Deville, E., 2019. Diffused flow of 
+molecular hydrogen through the Western Hajar mountains, Northern Oman. Arab. J. 
+Geosci. 12 (71) https://doi.org/10.1007/s12517-019-4242-2 . 
+Zhang, M., Tang, Q., Cao, C., Li, W., Wang, H., Li, Z., Yu, M., Feng, P., 2017. The origin of 
+Permian Pobei ultramafic complex in the northeastern Tarim craton, western China: 
+Evidences from chemical and C-He-Ne-Ar isotopic compositions of volatiles. Chem. 
+Geol. 469, 85–96. https://doi.org/10.1016/j.chemgeo.2017.06.006 . 
+Zhu, D., Liu, Q., Jin, Z., Meng, Q., Hu, W., 2017. Effects of deep fluids on hydrocarbon 
+generation and accumulation in Chinese petroliferous basins. Acta Geol. Sin. 91, 
+301–319. https://doi.org/10.1111/1755-6724.13079 . 
+Zimmer, M., 1993. Zur geochemie von gasen in formationsfluiden, bohrspülungen und 
+krustengesteinen – ergebnisse aus der kontinentalen tiefbohrung. PhD thesis. Justus- 
+Liebig-Universit at Gießen. 
+Zimmer, M., Erzingeer, J., 1995. On the geochemistry of gases in formation and drilling 
+fluids - results from KTB. Sci. Drill. 5, 101–109. 
+Zinger, A.S., 1962. Molecular hydrogen in gas dissolved in waters of oil-gas fields, Lower 
+Volga region. Geochemistry 10, 1015 –1023 . 
+ZoBell, C.E., 1947. Microbial transformation of molecular hydrogen in marine sediments, 
+with particular reference to petroleum. AAPG Bull. 31, 1709 –1751 . A.V. Milkov                                                                                                                                                                                                                                      
