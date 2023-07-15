@@ -1,0 +1,36 @@
+{
+  "$id": "file:///Users/wbaker/flow-working/Protagonist/h2_knowledge_json/flow.yaml?ptr=/collections/Protagonist~1h2_knowledge_json~1decarbx_hydrogen/readSchema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_meta": {
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "offset": {
+          "type": "integer"
+        },
+        "uuid": {
+          "format": "uuid",
+          "type": "string"
+        }
+      },
+      "required": [
+        "file",
+        "offset"
+      ],
+      "type": "object"
+    },
+    "input": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "input",
+    "_meta"
+  ],
+  "type": "object"
+}

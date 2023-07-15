@@ -1,0 +1,43 @@
+{
+  "endpoint": {
+    "connector": {
+      "image": "ghcr.io/estuary/materialize-pinecone:v1",
+      "config": {
+        "embeddingModel": "sentence-t5-large",
+        "environment": "asia-southeast1-gcp-free",
+        "index": "hydrogen",
+        "openAiApiKey_sops": "ENC[AES256_GCM,data:gl5AmalH6VvY4zsN1qSRjNP2wgCvkoAdzspRbf6bCsPEqQhO+wifsU3o3p5dlrF2hwqG,iv:KBBcmfh3cpwd74G+0wty7vVjdJP6KyXIhVtsjPGapc4=,tag:g1BdBdRWXCdP8kHzmjmmug==,type:str]",
+        "pineconeApiKey_sops": "ENC[AES256_GCM,data:Xy8J7XvqshAgFBbhIEbon2cnysuEFPLPQsg2bOY8w7SdehWy,iv:QqwntdCY+lo6J9L4oYbKJJYD43UQuc1/UIgYyaug42w=,tag:g6viogyhDDli7O3Dp/MP+g==,type:str]",
+        "sops": {
+          "kms": null,
+          "gcp_kms": [
+            {
+              "resource_id": "projects/helpful-kingdom-273219/locations/us-central1/keyRings/catalog-sops/cryptoKeys/config-encryptor",
+              "created_at": "2023-07-10T02:47:53Z",
+              "enc": "CiQABM8p+33FjLteMv7iD19X3mKcDu9/QJScy61JqmHoBPHUbP4SSQDKhcRj5eXzW/xcJOrdWqYScb5T9b/KpW9Y7qeqLFwuq+ywpsdZ3p/snjJ0fBur9HYPFvPU8+bVQCFE3qLYssck27bfRwmzC/g="
+            }
+          ],
+          "azure_kv": null,
+          "hc_vault": null,
+          "age": null,
+          "lastmodified": "2023-07-10T02:47:53Z",
+          "mac": "ENC[AES256_GCM,data:crtkVLNsPNRCdSviP9MzY5IhHvoJASDsXN/TiqaytrJj9BtkECciddoHsoaqP2eFV3bBC894ky12Nch2a3ACCAxpdm+GIVPgwlabe3nQ+ETKNUOrlO0in+2hNfR4AaMhJdOE6XHEpsGT0bE+buUX87cU+pmx5gf42x4QwflvXrU=,iv:2ywplfnFjRQc/eXk54wjWNvOp3COtqg2GBklwl3AIg8=,tag:jkcI6rDcUIGvpcIgfJEVog==,type:str]",
+          "pgp": null,
+          "encrypted_suffix": "_sops",
+          "version": "3.7.3"
+        }
+      }
+    }
+  },
+  "bindings": [
+    {
+      "resource": {
+        "namespace": "decarbx_hydrogen"
+      },
+      "source": "Protagonist/h2_knowledge_json/decarbx_hydrogen",
+      "fields": {
+        "recommended": true
+      }
+    }
+  ]
+}
