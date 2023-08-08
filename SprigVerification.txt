@@ -8,7 +8,7 @@ Nicholas Blandino - a7881e5a3b
 Arun Pallathadka - Yes (anderson optimization)
 Francis Flannery - ?
 Evan Samuel - ?
-Victoria Deery - ?
+Victoria Deery - Y - 8f9f5b509e
 Victoria Otrubina - ?
 Bryce Betz - ?
 Tai Diaz - ?
