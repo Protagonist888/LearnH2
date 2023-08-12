@@ -12,3 +12,20 @@ Victoria Deery - Y - 8f9f5b509e
 Victoria Otrubina - ?
 Bryce Betz - ?
 Tai Diaz - ?
+Tory Francisco - Y - d6cfec17da
+
+37f6f08f43 - who?
+d76c8bdde2 - INCOMPLETE response
+dada02ca0d - who?
+a7881e5a3b - who?
+e823d86c1f - INCOMPLETE response
+69d60606c2 - INCOMPLETE response
+8f9f5b509e - DONE
+bc24c65ad3c - POOR response but complete
+d6cfec17da - DONE
+1b492ce5a4 - DONE
+de61db26ce - DONE
+b482ff33f0 - INCOMPLETE response
+f77dd6cb3e - DONE
+7d173b158d - DONE
+9210020584 - DONE
