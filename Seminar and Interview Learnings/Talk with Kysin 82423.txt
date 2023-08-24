@@ -1,0 +1,42 @@
+Talk with Kysin 8/24/23
+
+Companies have general disclosures
+
+When you settle on ESG strategy, first setup a context. The context review in the area you operate.
+
+Social - people inside and outside the fence and along the value chain. Data privacy. Diversity and inclusion. How people are treated.
+
+Standards coming out of Europe are "overwhelming". Have to do a materiality assessment. Determine your materiality.
+
+Society and environmental issues.
+
+GRI is outward looking.
+
+SASB is more company bottom line focused and inward looking.
+
+Can't look outside or inside the fence. Have to do both. Require double materiality assessment.
+
+How companies choose framework is based on what their customer is.
+
+MPRL dove into bulding strategy from scratch. Policies around water. Focused on implementation.
+
+People in US are all about reporting. Some produce nice ESG reports. Data collection and reporting systems not well built. HR system is not developed to collect the right data.
+
+What about regulation? SEC regulations may become effective in 2025.
+
+Data for pharmaceuticals is focused on discharge into water.
+
+First step is a gap analysis. What do we need to report on? Where are we now?
+
+Second point is collecting the right data.
+
+Workiva - used for internal data collection.
+
+External data - manually pull from ESG reports. Also look at Bloomberg, MSCI, and DJI.
+
+Bloomberg information is wrong alot.
+
+Consistent reporting of internal data.
+
+Most trying to manage data reporting systems.
+
